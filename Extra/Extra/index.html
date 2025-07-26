@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Movies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+      color: white;
+      font-family: 'Inter', Arial, sans-serif;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Animated background elements */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 80%, rgba(119, 198, 255, 0.1) 0%, transparent 50%);
+      animation: backgroundShift 20s ease-in-out infinite;
+      z-index: -1;
+    }
+
+    @keyframes backgroundShift {
+      0%, 100% { transform: scale(1) rotate(0deg); }
+      50% { transform: scale(1.1) rotate(2deg); }
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background: rgba(255, 255, 255, 0.02);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      margin-bottom: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-shrink: 0;
+    }
+
+    h1 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 700;
+      margin: 0;
+      background: linear-gradient(135deg, #fff 0%, #a78bfa 50%, #ec4899 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: 0 0 40px rgba(167, 139, 250, 0.3);
+      animation: titleGlow 3s ease-in-out infinite alternate;
+      white-space: nowrap;
+    }
+
+    .subtitle {
+      display: none;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex: 1;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .search-container {
+      position: relative;
+      max-width: 250px;
+      width: 100%;
+      min-width: 200px;
+    }
+
+    .filter-container {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .filter-label {
+      font-size: 11px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.7);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      white-space: nowrap;
+      display: none;
+    }
+
+    .filter-select {
+      padding: 8px 12px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 15px;
+      color: white !important;
+      font-size: 12px;
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      min-width: 90px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 8px center;
+      background-size: 12px;
+      padding-right: 30px;
+    }
+
+    .filter-select:focus {
+      outline: none;
+      border-color: rgba(167, 139, 250, 0.6);
+      box-shadow: 0 0 15px rgba(167, 139, 250, 0.3);
+      background: rgba(255, 255, 255, 0.15);
+      color: white !important;
+    }
+
+    .filter-select option {
+      background: #1a1a2e !important;
+      color: #ffffff !important;
+      padding: 8px 12px;
+      border: none;
+      font-size: 12px;
+    }
+
+    .filter-select option:hover {
+      background: #2d2d4a !important;
+      color: #ffffff !important;
+    }
+
+    .filter-select option:checked,
+    .filter-select option:selected {
+      background: linear-gradient(135deg, #a78bfa, #ec4899) !important;
+      color: #ffffff !important;
+      font-weight: 500;
+    }
+
+    /* Firefox specific */
+    .filter-select:-moz-focusring {
+      color: transparent;
+      text-shadow: 0 0 0 white;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 8px 35px 8px 15px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      color: white;
+      font-size: 14px;
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+    }
+
+    .search-icon {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.6;
+      font-size: 14px;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .results-count {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: 300;
+      white-space: nowrap;
+      margin: 0;
+    }
+
+    .active-filters {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 30px 10px;
+    }
+
+    .filter-tag {
+      background: linear-gradient(135deg, rgba(167, 139, 250, 0.2), rgba(236, 72, 153, 0.2));
+      border: 1px solid rgba(167, 139, 250, 0.4);
+      color: white;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      backdrop-filter: blur(10px);
+      animation: filterTagAppear 0.3s ease;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 30px;
+      padding: 0 40px 60px;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .movie {
+      position: relative;
+      cursor: pointer;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      animation: fadeInUp 0.6s ease-out forwards;
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    .movie:nth-child(odd) { animation-delay: 0.1s; }
+    .movie:nth-child(even) { animation-delay: 0.2s; }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .movie:hover {
+      transform: translateY(-15px) scale(1.02);
+      box-shadow: 
+        0 25px 50px rgba(0, 0, 0, 0.4),
+        0 0 30px rgba(167, 139, 250, 0.2);
+      border-color: rgba(167, 139, 250, 0.4);
+    }
+
+    .movie-poster-container {
+      position: relative;
+      aspect-ratio: 2/3;
+      overflow: hidden;
+    }
+
+    .movie img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 0.4s ease;
+    }
+
+    .movie:hover img {
+      transform: scale(1.1);
+      filter: brightness(1.2) contrast(1.1);
+    }
+
+    .movie-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(0, 0, 0, 0.3) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+      );
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .movie:hover .movie-overlay {
+      opacity: 1;
+    }
+
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      width: 70px;
+      height: 70px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      color: #333;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    .movie:hover .play-button {
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    .movie-info {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+    }
+
+    .movie-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0 0 8px 0;
+      line-height: 1.3;
+      color: #fff;
+    }
+
+    .movie-year {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: 400;
+    }
+
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 200px;
+      font-size: 18px;
+      opacity: 0.8;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid rgba(255, 255, 255, 0.3);
+      border-top: 3px solid #a78bfa;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-right: 15px;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+
+
+    .no-results {
+      text-align: center;
+      padding: 60px 20px;
+      opacity: 0.7;
+    }
+
+    .no-results-icon {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      opacity: 0.5;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      header {
+        padding: 10px 20px;
+        gap: 15px;
+      }
+      
+      .controls {
+        gap: 10px;
+      }
+      
+      .filter-select {
+        min-width: 80px;
+        font-size: 11px;
+        padding-right: 25px;
+        background-size: 10px;
+        background-position: right 6px center;
+      }
+      
+      .filter-select option {
+        font-size: 11px;
+        padding: 6px 10px;
+      }
+      
+      .search-container {
+        max-width: 200px;
+        min-width: 150px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        padding: 10px 15px;
+        gap: 10px;
+      }
+      
+      .header-left {
+        align-self: stretch;
+        justify-content: center;
+      }
+      
+      .controls {
+        width: 100%;
+        justify-content: center;
+        gap: 8px;
+      }
+      
+      .filter-container {
+        gap: 8px;
+      }
+      
+      .filter-select {
+        min-width: 70px;
+        padding: 6px 8px;
+        font-size: 10px;
+      }
+      
+      .search-container {
+        max-width: 150px;
+        min-width: 120px;
+      }
+      
+      .search-input {
+        padding: 6px 30px 6px 10px;
+        font-size: 12px;
+      }
+      
+      .header-right {
+        align-self: stretch;
+        justify-content: center;
+      }
+      
+      h1 {
+        font-size: 1.2rem;
+      }
+      
+      .grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 20px;
+        padding: 0 20px 40px;
+      }
+      
+      header {
+        padding: 30px 20px;
+      }
+
+      .controls {
+        padding: 0 20px;
+      }
+
+      .close-btn {
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+      }
+
+      #videoModal video {
+        width: 95%;
+      }
+    }
+
+    /* Scrollbar Styling */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(135deg, #a78bfa, #ec4899);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(135deg, #8b5cf6, #f472b6);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>🎬 Movies</h1>
+  </div>
+  
+  <div class="controls">
+    <div class="filter-group">
+      <div class="search-container">
+        <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+        <span class="search-icon">🔍</span>
+      </div>
+    </div>
+    
+    <div class="filter-container">
+      <div class="filter-group">
+        <select class="filter-select" id="genreFilter">
+          <option value="">All Genres</option>
+        </select>
+      </div>
+      
+      <div class="filter-group">
+        <select class="filter-select" id="yearFilter">
+          <option value="">All Years</option>
+        </select>
+      </div>
+      
+      <div class="filter-group">
+        <select class="filter-select" id="sortFilter">
+          <option value="title">A-Z</option>
+          <option value="title-desc">Z-A</option>
+          <option value="year">Year (Old)</option>
+          <option value="year-desc">Year (New)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  
+  <div class="header-right">
+    <div class="results-count" id="resultsCount"></div>
+  </div>
+</header>
+
+<div class="active-filters" id="activeFilters"></div>
+
+<div class="grid" id="movieGrid">
+  <div class="loading">
+    <div class="spinner"></div>
+    Loading your movie collection...
+  </div>
+</div>
+
+
+
+<script>
+  let allMovies = [];
+  let filteredMovies = [];
+  let currentFilters = {
+    search: '',
+    genre: '',
+    year: '',
+    sort: 'title'
+  };
+
+  // 📂 CONFIGURE YOUR M3U PLAYLISTS HERE
+  const M3U_PLAYLISTS = [
+    { url: 'https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/Extra/001.m3u', name: 'Local Movies' },
+    { url: 'https://iptv-org.github.io/iptv/categories/movies.', name: 'IPTV Movies' },
+    { url: 'https://iptv-org.github.io/iptv/categories/entertainment.', name: 'Entertainment' },
+    { url: 'https://iptv-org.github.io/iptv/categories/animation.', name: 'Animation' },
+    { url: 'https://iptv-org.github.io/iptv/categories/comedy.', name: 'Comedy' },
+  ];
+
+  async function loadAllPlaylists() {
+    console.log('Loading playlists:', M3U_PLAYLISTS);
+    allMovies = [];
+    
+    for (const playlist of M3U_PLAYLISTS) {
+      try {
+        console.log(`Loading ${playlist.name} from ${playlist.url}...`);
+        const movies = await loadM3U(playlist.url);
+        
+        // Add source info to each movie
+        const moviesWithSource = movies.map(movie => ({
+          ...movie,
+          source: playlist.name
+        }));
+        
+        allMovies = allMovies.concat(moviesWithSource);
+        console.log(`Loaded ${movies.length} movies from ${playlist.name}`);
+      } catch (error) {
+        console.warn(`Failed to load ${playlist.name}:`, error);
+      }
+    }
+    
+    // Remove duplicates based on title and year
+    const uniqueMovies = [];
+    const seen = new Set();
+    
+    allMovies.forEach(movie => {
+      const key = `${movie.title}-${movie.year}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        uniqueMovies.push(movie);
+      }
+    });
+    
+    allMovies = uniqueMovies;
+    filteredMovies = [...allMovies];
+    
+    console.log(`Total unique movies loaded: ${allMovies.length}`);
+    
+    populateFilters();
+    updateResultsCount();
+    createMovieGrid(filteredMovies);
+  }
+
+  // Enhanced genre detection with extensive keyword database
+  function detectGenre(title) {
+    const titleLower = title.toLowerCase();
+    
+    // More comprehensive genre detection with popular movie patterns
+    const genrePatterns = {
+      'Action': [
+        // Action keywords
+        'action', 'fight', 'combat', 'war', 'battle', 'mission', 'commando', 'strike', 'force', 'ops', 'soldier',
+        'assault', 'revenge', 'kill', 'assassin', 'agent', 'spy', 'hunter', 'warrior', 'gladiator', 'terminator',
+        'rambo', 'die hard', 'expendables', 'fast', 'furious', 'bourne', 'john wick', 'taken', 'punisher',
+        'shooter', 'sniper', 'gun', 'blade', 'sword', 'ninja', 'martial', 'kung fu', 'karate', 'fight club',
+        // Popular action franchises/words
+        'predator', 'alien vs', 'transformers', 'gi joe', 'robocop', 'demolition', 'commando', 'mercenaries',
+        'special forces', 'black hawk', 'navy seals', 'marine', 'military', 'battalion', 'squad', 'unit'
+      ],
+      
+      'Comedy': [
+        'comedy', 'funny', 'laugh', 'humor', 'comic', 'hilarious', 'silly', 'stupid', 'dumb', 'crazy',
+        'american pie', 'hangover', 'superbad', 'anchorman', 'dumb and dumber', 'meet the', 'scary movie',
+        'white chicks', 'daddy day care', 'big mama', 'madea', 'austin powers', 'zoolander', 'dodgeball',
+        'wedding crashers', 'step brothers', 'talladega', 'blades of glory', 'elf', 'old school',
+        'knocked up', 'pineapple express', 'tropic thunder', 'borat', 'bruno', 'jackass', 'clerks'
+      ],
+      
+      'Horror': [
+        'horror', 'scary', 'terror', 'ghost', 'demon', 'evil', 'dark', 'nightmare', 'dead', 'zombie', 'vampire',
+        'saw', 'scream', 'friday the 13th', 'halloween', 'nightmare on elm', 'texas chainsaw', 'exorcist',
+        'paranormal activity', 'conjuring', 'insidious', 'sinister', 'annabelle', 'chucky', 'hellraiser',
+        'final destination', 'grudge', 'ring', 'blair witch', 'resident evil', 'silent hill', 'dead space',
+        'possession', 'haunted', 'cursed', 'witch', 'monster', 'beast', 'creature', 'blood', 'gore', 'slasher'
+      ],
+      
+      'Romance': [
+        'love', 'romance', 'heart', 'romantic', 'wedding', 'marry', 'kiss', 'date', 'valentine', 'proposal',
+        'titanic', 'notebook', 'dear john', 'walk to remember', 'last song', 'safe haven', 'lucky one',
+        'when harry met sally', 'sleepless in seattle', 'youve got mail', 'pretty woman', 'ghost',
+        'dirty dancing', 'love actually', 'bridget jones', 'sex and the city', 'how to lose a guy',
+        'wedding planner', 'maid of honor', 'bride wars', 'something borrowed', 'the proposal'
+      ],
+      
+      'Sci-Fi': [
+        'space', 'alien', 'future', 'robot', 'cyber', 'star', 'galaxy', 'planet', 'sci-fi', 'fiction', 'matrix', 'android',
+        'star wars', 'star trek', 'blade runner', 'terminator', 'aliens', 'predator', 'robocop', 'total recall',
+        'minority report', 'i robot', 'transformers', 'x-men', 'fantastic four', 'iron man', 'thor', 'captain america',
+        'avengers', 'guardians', 'interstellar', 'gravity', 'apollo', 'mars', 'jupiter', 'prometheus', 'avatar',
+        'district 9', 'elysium', 'oblivion', 'edge of tomorrow', 'pacific rim', 'godzilla', 'cloverfield'
+      ],
+      
+      'Thriller': [
+        'thriller', 'suspense', 'mystery', 'crime', 'detective', 'murder', 'killer', 'police', 'investigate',
+        'se7en', 'silence of the lambs', 'zodiac', 'gone girl', 'shutter island', 'prisoners', 'nocturnal animals',
+        'the girl with', 'jack reacher', 'mission impossible', 'bourne', 'casino royale', 'skyfall', 'spectre',
+        'heat', 'collateral', 'training day', 'departed', 'goodfellas', 'scarface', 'godfather', 'mob', 'mafia',
+        'psycho', 'vertigo', 'north by northwest', 'rear window', 'dial m for murder', 'rope'
+      ],
+      
+      'Drama': [
+        'drama', 'life', 'story', 'family', 'emotional', 'tears', 'tragedy', 'struggle', 'based on true',
+        'forrest gump', 'shawshank redemption', 'green mile', 'beautiful mind', 'rain man', 'philadelphia',
+        'pursuit of happyness', 'seven pounds', 'i am legend', 'cast away', 'saving private ryan',
+        'schindlers list', 'pianist', 'boy in striped pajamas', 'life is beautiful', 'gladiator',
+        'braveheart', 'patriot', 'last samurai', 'blood diamond', 'hotel rwanda', 'crash', 'precious'
+      ],
+      
+      'Fantasy': [
+        'magic', 'wizard', 'fantasy', 'dragon', 'kingdom', 'quest', 'adventure', 'legend', 'myth', 'fairy tale',
+        'harry potter', 'lord of the rings', 'hobbit', 'narnia', 'pirates of the caribbean', 'princess bride',
+        'willow', 'labyrinth', 'dark crystal', 'never ending story', 'legend', 'excalibur', 'merlin',
+        'game of thrones', 'dungeons and dragons', 'conan', 'beowulf', 'king arthur', 'robin hood',
+        'shrek', 'how to train your dragon', 'frozen', 'tangled', 'beauty and the beast', 'little mermaid'
+      ],
+      
+      'Animation': [
+        'animated', 'cartoon', 'animation', 'pixar', 'disney', 'dreamworks', 'studio ghibli', 'anime',
+        'toy story', 'finding nemo', 'incredibles', 'monsters inc', 'cars', 'up', 'wall-e', 'ratatouille',
+        'shrek', 'madagascar', 'kung fu panda', 'how to train your dragon', 'despicable me', 'minions',
+        'frozen', 'moana', 'zootopia', 'big hero 6', 'wreck it ralph', 'tangled', 'brave', 'coco',
+        'spirited away', 'princess mononoke', 'totoro', 'akira', 'ghost in the shell'
+      ],
+      
+      'Western': [
+        'western', 'cowboy', 'sheriff', 'outlaw', 'gunslinger', 'saloon', 'frontier', 'wild west',
+        'django', 'unforgiven', 'tombstone', 'wyatt earp', 'butch cassidy', 'magnificent seven',
+        'good bad ugly', 'fistful of dollars', 'pale rider', 'young guns', 'blazing saddles',
+        'true grit', 'dances with wolves', '3:10 to yuma', 'hell or high water'
+      ],
+      
+      'Crime': [
+        'crime', 'gangster', 'mob', 'mafia', 'heist', 'robbery', 'casino', 'drug', 'cartel', 'con',
+        'godfather', 'goodfellas', 'scarface', 'casino', 'departed', 'heat', 'reservoir dogs',
+        'pulp fiction', 'kill bill', 'django unchained', 'inglourious basterds', 'oceans',
+        'italian job', 'fast and furious', 'gone in 60 seconds', 'baby driver', 'drive'
+      ],
+      
+      'Documentary': [
+        'documentary', 'doc', 'real', 'true story', 'based on true', 'history', 'nature', 'wildlife',
+        'march of the penguins', 'an inconvenient truth', 'fahrenheit', 'bowling for columbine',
+        'super size me', 'food inc', 'blackfish', 'free willy', 'planet earth', 'blue planet'
+      ]
+    };
+
+    // Check each genre for matches
+    for (const [genre, keywords] of Object.entries(genrePatterns)) {
+      for (const keyword of keywords) {
+        if (titleLower.includes(keyword)) {
+          return genre;
+        }
+      }
+    }
+
+    // Additional pattern matching for years in title (often indicates remakes/sequels)
+    if (/\b(19|20)\d{2}\b/.test(titleLower)) {
+      // If it has a year and contains certain words, likely drama/thriller
+      if (titleLower.includes('story') || titleLower.includes('true') || titleLower.includes('based')) {
+        return 'Drama';
+      }
+    }
+
+    // Check for sequel patterns
+    if (/\b(ii|iii|iv|v|vi|2|3|4|5|6|7|8|9|part|chapter)\b/.test(titleLower)) {
+      // Sequels often follow same genre as originals, but default to action if unsure
+      if (titleLower.includes('saw') || titleLower.includes('final destination')) return 'Horror';
+      if (titleLower.includes('shrek') || titleLower.includes('toy story')) return 'Animation';
+      return 'Action'; // Most sequels tend to be action
+    }
+
+    return 'Other';
+  }
+
+  function getYearRange(year) {
+    if (!year) return 'Unknown';
+    const y = parseInt(year);
+    if (y >= 2020) return '2020s';
+    if (y >= 2010) return '2010s';
+    if (y >= 2000) return '2000s';
+    if (y >= 1990) return '1990s';
+    if (y >= 1980) return '1980s';
+    if (y >= 1970) return '1970s';
+    return 'Classic';
+  }
+
+  async function loadM3U(url) {
+    try {
+      const res = await fetch(url);
+      const text = await res.text();
+      const lines = text.split('\n').map(l => l.trim()).filter(l => l !== '');
+
+      const entries = [];
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].startsWith('#EXTINF')) {
+          const info = lines[i];
+          const path = lines[i + 1];
+          const titleMatch = info.match(/,(.*)$/);
+          const logoMatch = info.match(/tvg-logo="(.*?)"/);
+          
+          // Extract year from title if present
+          const fullTitle = titleMatch ? titleMatch[1] : 'Untitled';
+          const yearMatch = fullTitle.match(/\((\d{4})\)$/);
+          const title = yearMatch ? fullTitle.replace(/\s*\(\d{4}\)$/, '') : fullTitle;
+          const year = yearMatch ? yearMatch[1] : '';
+
+          const movie = {
+            title: title,
+            year: year,
+            yearRange: getYearRange(year),
+            fullTitle: fullTitle,
+            genre: detectGenre(title),
+            logo: logoMatch ? logoMatch[1] : 'https://via.placeholder.com/300x450/1a1a2e/a78bfa?text=No+Cover',
+            path: path
+          };
+
+          entries.push(movie);
+          i++; // Skip next line
+        }
+      }
+      return entries;
+    } catch (error) {
+      console.error('Error loading M3U:', error);
+      return [];
+    }
+  }
+
+  function populateFilters() {
+    const genres = [...new Set(allMovies.map(m => m.genre))].sort();
+    const yearRanges = [...new Set(allMovies.map(m => m.yearRange))].sort().reverse();
+
+    const genreSelect = document.getElementById('genreFilter');
+    const yearSelect = document.getElementById('yearFilter');
+
+    // Populate genre filter
+    genreSelect.innerHTML = '<option value="">All Genres</option>';
+    genres.forEach(genre => {
+      const option = document.createElement('option');
+      option.value = genre;
+      option.textContent = genre;
+      genreSelect.appendChild(option);
+    });
+
+    // Populate year filter
+    yearSelect.innerHTML = '<option value="">All Years</option>';
+    yearRanges.forEach(range => {
+      const option = document.createElement('option');
+      option.value = range;
+      option.textContent = range;
+      yearSelect.appendChild(option);
+    });
+  }
+
+  function updateActiveFilters() {
+    const activeFiltersDiv = document.getElementById('activeFilters');
+    const filters = [];
+
+    if (currentFilters.search) {
+      filters.push({ type: 'search', value: currentFilters.search, label: `Search: "${currentFilters.search}"` });
+    }
+    if (currentFilters.genre) {
+      filters.push({ type: 'genre', value: currentFilters.genre, label: `Genre: ${currentFilters.genre}` });
+    }
+    if (currentFilters.year) {
+      filters.push({ type: 'year', value: currentFilters.year, label: `Year: ${currentFilters.year}` });
+    }
+
+    activeFiltersDiv.innerHTML = '';
+    filters.forEach(filter => {
+      const tag = document.createElement('div');
+      tag.className = 'filter-tag';
+      tag.innerHTML = `
+        ${filter.label}
+        <span class="remove" onclick="removeFilter('${filter.type}')">&times;</span>
+      `;
+      activeFiltersDiv.appendChild(tag);
+    });
+  }
+
+  function removeFilter(type) {
+    currentFilters[type] = '';
+    
+    // Update UI elements
+    if (type === 'search') {
+      document.getElementById('searchInput').value = '';
+    } else if (type === 'genre') {
+      document.getElementById('genreFilter').value = '';
+    } else if (type === 'year') {
+      document.getElementById('yearFilter').value = '';
+    }
+    
+    applyFilters();
+  }
+
+  function sortMovies(movies, sortType) {
+    const sorted = [...movies];
+    
+    switch (sortType) {
+      case 'title':
+        return sorted.sort((a, b) => a.title.localeCompare(b.title));
+      case 'title-desc':
+        return sorted.sort((a, b) => b.title.localeCompare(a.title));
+      case 'year':
+        return sorted.sort((a, b) => (parseInt(a.year) || 0) - (parseInt(b.year) || 0));
+      case 'year-desc':
+        return sorted.sort((a, b) => (parseInt(b.year) || 0) - (parseInt(a.year) || 0));
+      default:
+        return sorted;
+    }
+  }
+
+  function applyFilters() {
+    let filtered = [...allMovies];
+
+    // Apply search filter
+    if (currentFilters.search.trim()) {
+      const term = currentFilters.search.toLowerCase();
+      filtered = filtered.filter(movie => 
+        movie.title.toLowerCase().includes(term) ||
+        movie.year.includes(term) ||
+        movie.fullTitle.toLowerCase().includes(term) ||
+        movie.genre.toLowerCase().includes(term)
+      );
+    }
+
+    // Apply genre filter
+    if (currentFilters.genre) {
+      filtered = filtered.filter(movie => movie.genre === currentFilters.genre);
+    }
+
+    // Apply year filter
+    if (currentFilters.year) {
+      filtered = filtered.filter(movie => movie.yearRange === currentFilters.year);
+    }
+
+    // Apply sorting
+    filtered = sortMovies(filtered, currentFilters.sort);
+
+    filteredMovies = filtered;
+    updateActiveFilters();
+    updateResultsCount();
+    createMovieGrid(filteredMovies);
+  }
+
+  function updateResultsCount() {
+    const count = filteredMovies.length;
+    const total = allMovies.length;
+    const resultsDiv = document.getElementById('resultsCount');
+    
+    if (count === total) {
+      resultsDiv.textContent = `Showing all ${total} movies`;
+    } else {
+      resultsDiv.textContent = `Showing ${count} of ${total} movies`;
+    }
+  }
+
+  function createMovieGrid(movies) {
+    const grid = document.getElementById('movieGrid');
+    
+    if (movies.length === 0) {
+      grid.innerHTML = `
+        <div class="no-results">
+          <div class="no-results-icon">🎭</div>
+          <h3>No movies found</h3>
+          <p>Try adjusting your filters or search terms.</p>
+        </div>
+      `;
+      return;
+    }
+
+    grid.innerHTML = '';
+    movies.forEach((movie, index) => {
+      const div = document.createElement('div');
+      div.className = 'movie';
+      div.style.animationDelay = `${index * 0.05}s`;
+      
+      div.innerHTML = `
+        <div class="movie-poster-container">
+          <img src="${movie.logo}" alt="${movie.title}" onerror="this.src='https://via.placeholder.com/300x450/1a1a2e/a78bfa?text=${encodeURIComponent(movie.title)}'">
+          <div class="movie-overlay"></div>
+          <div class="play-button">▶</div>
+        </div>
+        <div class="movie-info">
+          <div class="movie-title">${movie.title}</div>
+          <div class="movie-year">
+            ${movie.year ? `${movie.year} • ` : ''}${movie.genre}${movie.source ? ` • ${movie.source}` : ''}
+          </div>
+        </div>
+      `;
+      
+      div.onclick = () => playMovie(movie);
+      grid.appendChild(div);
+    });
+  }
+
+  function playMovie(movie) {
+    // Build URL parameters for the player
+    const params = new URLSearchParams({
+      src: movie.path,
+      title: movie.title,
+      year: movie.year || '',
+      genre: movie.genre || '',
+      poster: movie.logo || '',
+      source: movie.source || ''
+    });
+    
+    // Open player in same tab
+    window.location.href = `player.html?${params.toString()}`;
+  }
+
+  // Event listeners
+  window.addEventListener('keydown', e => {
+    // Removed video modal key handlers since we're using external player
+  });
+
+  document.getElementById('searchInput').addEventListener('input', (e) => {
+    currentFilters.search = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById('genreFilter').addEventListener('change', (e) => {
+    currentFilters.genre = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById('yearFilter').addEventListener('change', (e) => {
+    currentFilters.year = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById('sortFilter').addEventListener('change', (e) => {
+    currentFilters.sort = e.target.value;
+    applyFilters();
+  });
+
+  // Load movies - Initialize all playlists
+  loadAllPlaylists()
+    .catch(err => {
+      document.getElementById('movieGrid').innerHTML = `
+        <div class="no-results">
+          <div class="no-results-icon">⚠️</div>
+          <h3>Failed to load movie collection</h3>
+          <p>Please check that your M3U files are available.</p>
+        </div>
+      `;
+      console.error('Load error:', err);
+    });
+</script>
+
+</body>
+</html>
