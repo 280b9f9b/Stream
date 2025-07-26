@@ -1,172 +1,225 @@
 #EXTM3U
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="17 Again (2009)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NTI1Mzg3N15BMl5BanBnXkFtZTcwMjYwNjAzMg@@._V1_FMjpg_UX1000_.jpg" ,17 Again (2009)
+
+#EXTINF:-1 group-title="Comedy, Drama, Fantasy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NTI1Mzg3N15BMl5BanBnXkFtZTcwMjYwNjAzMg@@._V1_FMjpg_UX1000_.jpg",17 Again (2009)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/17.Again.2009.1080p.BrRip.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="2 Fast 2 Furious (2003)" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTQzYzEwNWMtOTAwYy00YWYwLWE1NTEtZTkxOGQxZTM0M2VhXkEyXkFqcGc@._V1_.jpg" ,2 Fast 2 Furious (2003)
+#EXTINF:-1 group-title="Action, Crime, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTQzYzEwNWMtOTAwYy00YWYwLWE1NTEtZTkxOGQxZTM0M2VhXkEyXkFqcGc@._V1_.jpg",2 Fast 2 Furious (2003)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/2.Fast.2.Furious.2003.1080p.BrRip.x264.YIFY%20HI.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="2012 (2009)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY0MjEyODQzMF5BMl5BanBnXkFtZTcwMTczMjQ4Mg@@._V1_FMjpg_UX1000_.jpg" ,2012 (2009)
+#EXTINF:-1 group-title="Action, Adventure, Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY0MjEyODQzMF5BMl5BanBnXkFtZTcwMTczMjQ4Mg@@._V1_FMjpg_UX1000_.jpg",2012 (2009)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/2012.2009.BluRay.1080p.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="300 (2007)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_FMjpg_UX1000_.jpg" ,300 (2007)
+#EXTINF:-1 group-title="Action, Drama, Fantasy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_FMjpg_UX1000_.jpg",300 (2007)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/300.2006.BluRay.1080p.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="50 First Dates (2004)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAwMzc4MDgxNF5BMl5BanBnXkFtZTYwNjUwMzE3._V1_FMjpg_UX1000_.jpg" ,50 First Dates (2004)
+#EXTINF:-1 group-title="Comedy, Drama, Romance" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAwMzc4MDgxNF5BMl5BanBnXkFtZTYwNjUwMzE3._V1_FMjpg_UX1000_.jpg",50 First Dates (2004)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/50.First.Dates.2004.1080p.BrRip.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="8 Mile (2002)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFhZDhjMDAtZWJlZS00ZWUyLWFlZGMtYTcwZjFlODcyMGE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,8 Mile (2002)
+#EXTINF:-1 group-title="Drama, Music" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFhZDhjMDAtZWJlZS00ZWUyLWFlZGMtYTcwZjFlODcyMGE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",8 Mile (2002)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/8.Mile.2002.1080p.BluRay.1400MB.DD2.0.x264-GalaxyRG.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="A Minecraft Movie (2025)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/66/A_Minecraft_Movie_poster.jpg" ,A Minecraft Movie (2025)
+#EXTINF:-1 group-title="Animation, Adventure, Family" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/66/A_Minecraft_Movie_poster.jpg",A Minecraft Movie (2025)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/A.Minecraft.Movie.2025.DS4K.1080p.AMZN.WEBRip.AV1.Opus.5.1-RAV1NE.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="A Nightmare on Elm Street (1984)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTZmN2VlMWMtMTdlMi00NDBhLWIyODMtODEwMzM0ODMwMWYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,A Nightmare on Elm Street (1984)
+#EXTINF:-1 group-title="Horror" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTZmN2VlMWMtMTdlMi00NDBhLWIyODMtODEwMzM0ODMwMWYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",A Nightmare on Elm Street (1984)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/A.Nightmare.On.Elm.Street.1984.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Above the Rim (1994)" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15525_p_v10_aa.jpg" ,Above the Rim (1994)
+#EXTINF:-1 group-title="Drama, Sport" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15525_p_v10_aa.jpg",Above the Rim (1994)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Above.The.Rim.1994.1080p.WEBRip.x264-[YTS.AM].mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="All About the Benjamins (2002)" tvg-logo="https://m.media-amazon.com/images/M/MV5BODhjNjRiMTAtNWMxMy00MTY1LWE1ZjQtNmUzNjlhY2JiMjU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,All About the Benjamins (2002)
+#EXTINF:-1 group-title="Action, Comedy, Crime" tvg-logo="https://m.media-amazon.com/images/M/MV5BODhjNjRiMTAtNWMxMy00MTY1LWE1ZjQtNmUzNjlhY2JiMjU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",All About the Benjamins (2002)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/All.About.The.Benjamins.2002.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="American Assassin (2017)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjM0MjY4MTk5NV5BMl5BanBnXkFtZTgwNDE2NTQyMzI@._V1_.jpg" ,American Assassin (2017)
+
+
+
+
+
+#EXTINF:-1 group-title="Action, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjM0MjY4MTk5NV5BMl5BanBnXkFtZTgwNDE2NTQyMzI@._V1_.jpg",American Assassin (2017)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/American.Assassin.2017.1080p.BRRip.MkvCage.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="American Hustle (2013)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGQ2NzEwZGEtYjk1MC00NWFmLTgyYTgtZmRhMTRmOTBlN2U5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,American Hustle (2013)
+#EXTINF:-1 group-title="Crime, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGQ2NzEwZGEtYjk1MC00NWFmLTgyYTgtZmRhMTRmOTBlN2U5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",American Hustle (2013)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/American.Hustle.2013.1080p.BluRay.Hindi.Eng.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="American Pie (1999)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg3ODY5ODI1NF5BMl5BanBnXkFtZTgwMTkxNTYxMTE@._V1_FMjpg_UX1000_.jpg" ,American Pie (1999)
+#EXTINF:-1 group-title="Comedy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg3ODY5ODI1NF5BMl5BanBnXkFtZTgwMTkxNTYxMTE@._V1_FMjpg_UX1000_.jpg",American Pie (1999)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/American.Pie.1999.1080p.BluRay.x264.anoXmous_.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Anger Management (2003)" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjFmNjIyNmQtMDhmNS00NDNmLTk3YTQtM2YzMmJiMTI3MDMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Anger Management (2003)
+#EXTINF:-1 group-title="Comedy, Drama, Romance" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjFmNjIyNmQtMDhmNS00NDNmLTk3YTQtM2YzMmJiMTI3MDMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Anger Management (2003)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Anger.Management.2003.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Aqua Teen Hunger Force Colon Movie Film for Theaters (2007)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc0OTQwNzYyNF5BMl5BanBnXkFtZTcwMDc5NTM0MQ@@._V1_FMjpg_UX1000_.jpg" ,Aqua Teen Hunger Force Colon Movie Film for Theaters (2007)
+#EXTINF:-1 group-title="Animation, Comedy, Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc0OTQwNzYyNF5BMl5BanBnXkFtZTcwMDc5NTM0MQ@@._V1_FMjpg_UX1000_.jpg",Aqua Teen Hunger Force Colon Movie Film for Theaters (2007)
 http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Network%20Shows/Aqua%20Teen%20Hunger%20Force/Movies/Aqua%20Teen%20Hunger%20Force%20Colon%20Movie%20Film%20for%20Theaters%20.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Are We There Yet? (2005)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDllNWNiZDYtMGUzNC00ZGFiLTgzNWQtNjk4YTFkNmM5OWFmXkEyXkFqcGc@._V1_.jpg" ,Are We There Yet? (2005)
+#EXTINF:-1 group-title="Adventure, Comedy, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDllNWNiZDYtMGUzNC00ZGFiLTgzNWQtNjk4YTFkNmM5OWFmXkEyXkFqcGc@._V1_.jpg",Are We There Yet? (2005)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Are.We.There.Yet.2005.1080p.BluRay.x264.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="ATL (2006)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/42/ATL_theatrical_poster.jpg" ,ATL (2006)
+#EXTINF:-1 group-title="Drama, Music, Romance" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/42/ATL_theatrical_poster.jpg",ATL (2006)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/ATL.2006.1080p.BluRay.x264-[YTS.AM].mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Baby Boy (2001)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDBkMTliY2EtMzBmNC00ODc2LWI5YzQtMTYxYTBhM2M1ODA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Baby Boy (2001)
+#EXTINF:-1 group-title="Crime, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDBkMTliY2EtMzBmNC00ODc2LWI5YzQtMTYxYTBhM2M1ODA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Baby Boy (2001)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Baby.Boy.2001.1080p.WEBRip.x264-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Bad Boys (1995)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWNjZWEwNDMtMWE1ZC00MTgwLTk2YzAtYmE0NTkwOWVhMDI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Bad Boys (1995)
+#EXTINF:-1 group-title="Action, Comedy, Crime" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWNjZWEwNDMtMWE1ZC00MTgwLTk2YzAtYmE0NTkwOWVhMDI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Bad Boys (1995)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Bad%20Boys%201995%20(1080p%20x265%2010bit%20Joy).mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Bad Boys II (2003)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTVkM2YxODItOGNlMy00NWExLWI2NTgtODEzMmM5NThiM2E2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Bad Boys II (2003)
+#EXTINF:-1 group-title="Action, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTVkM2YxODItOGNlMy00NWExLWI2NTgtODEzMmM5NThiM2E2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Bad Boys II (2003)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Bad.Boys.II.2003.1080.BluRay.X264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Barbershop (2002)" tvg-logo="https://m.media-amazon.com/images/M/MV5BODc2MjQxMjctMzAzNS00OWRiLTkyNTAtYTA3MmRiYzdkNzA2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Barbershop (2002)
+
+
+
+
+#EXTINF:-1 group-title="Comedy, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BODc2MjQxMjctMzAzNS00OWRiLTkyNTAtYTA3MmRiYzdkNzA2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Barbershop (2002)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Barbershop.2002.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Barbershop 2: Back in Business (2004)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk4MTA2ODQ4MF5BMl5BanBnXkFtZTYwOTY1Njc3._V1_FMjpg_UX1000_.jpg" ,Barbershop 2: Back in Business (2004)
+#EXTINF:-1 group-title="Comedy, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk4MTA2ODQ4MF5BMl5BanBnXkFtZTYwOTY1Njc3._V1_FMjpg_UX1000_.jpg",Barbershop 2: Back in Business (2004)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Barbershop.2.Back.in.Business.2004.1080p.BluRay.H264.AAC.RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Beauty Shop (2005)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjE0NGVjYmItYTkyYy00NTcxLWFmOTItZmVlYTVjZjczOWQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Beauty Shop (2005)
+#EXTINF:-1 group-title="Comedy" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjE0NGVjYmItYTkyYy00NTcxLWFmOTItZmVlYTVjZjczOWQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Beauty Shop (2005)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Beauty.Shop.2005.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Bee Movie (2007)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE1MDYxOTA4MF5BMl5BanBnXkFtZTcwMDE0MDUzMw@@._V1_FMjpg_UX1000_.jpg" ,Bee Movie (2007)
+#EXTINF:-1 group-title="Animation, Comedy, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE1MDYxOTA4MF5BMl5BanBnXkFtZTcwMDE0MDUzMw@@._V1_FMjpg_UX1000_.jpg",Bee Movie (2007)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Bee Movie 2007 1080p BluRay x265 HEVC 10bit AAC 5.1-LordVako.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Belly (1998)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzVjYjVlYWEtYzg5Ny00NGI1LTgyYmMtOTU4YWM5ZDgxMjE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Belly (1998)
+#EXTINF:-1 group-title="Crime, Drama, Music" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzVjYjVlYWEtYzg5Ny00NGI1LTgyYmMtOTU4YWM5ZDgxMjE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Belly (1998)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Belly.1998.1080p.BluRay.x264-%5BYTS.AM%5D.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Beowulf (2007)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTUzMjM0MTc3MF5BMl5BanBnXkFtZTcwNzU0ODMyMw@@._V1_.jpg" ,Beowulf (2007)
+#EXTINF:-1 group-title="Action, Adventure, Fantasy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTUzMjM0MTc3MF5BMl5BanBnXkFtZTcwNzU0ODMyMw@@._V1_.jpg",Beowulf (2007)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Beowulf.2007.1080p.BrRip.x264.Deceit.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Big Daddy (1999)" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGQwMzAyMjEtYjNiNi00NWQwLThiNjQtY2Q2ZWQ5ZGIzMDI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Big Daddy (1999)
+#EXTINF:-1 group-title="Comedy, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGQwMzAyMjEtYjNiNi00NWQwLThiNjQtY2Q2ZWQ5ZGIzMDI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Big Daddy (1999)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Big.Daddy.1999.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Billy & Mandy's Big Boogey Adventure (2007)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDMxMDVkYzMtY2IyNS00NmIyLTkzYmEtNzhmOTBlM2NhNjUyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Billy & Mandy's Big Boogey Adventure (2007)
+#EXTINF:-1 group-title="Animation, Comedy, Adventure" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDMxMDVkYzMtY2IyNS00NmIyLTkzYmEtNzhmOTBlM2NhNjUyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Billy & Mandy's Big Boogey Adventure (2007)
 http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Network%20Shows/The%20Grim%20Adventures%20of%20Billy%20%26%20Mandy/Movies/Billy%20%26%20Mandy's%20Big%20Boogey%20Adventure.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Billy Madison (1995)" tvg-logo="https://m.media-amazon.com/images/M/MV5BY2Y2ODczY2YtZTQ4NS00NWQxLTlhZWMtZWY4M2IyMmJhZGI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Billy Madison (1995)
+#EXTINF:-1 group-title="Comedy" tvg-logo="https://m.media-amazon.com/images/M/MV5BY2Y2ODczY2YtZTQ4NS00NWQxLTlhZWMtZWY4M2IyMmJhZGI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Billy Madison (1995)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Billy.Madison.1995.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Bleach the Movie: The DiamondDust Rebellion (2007)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3MzY1OTUyOV5BMl5BanBnXkFtZTcwMzMwOTE3Mg@@._V1_.jpg" ,Bleach the Movie: The DiamondDust Rebellion (2007)
+#EXTINF:-1 group-title="Animation, Action, Fantasy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3MzY1OTUyOV5BMl5BanBnXkFtZTcwMzMwOTE3Mg@@._V1_.jpg",Bleach the Movie: The DiamondDust Rebellion (2007)
 http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Network%20Shows/Bleach%20(2004)/Movies/Bleach%20-%20The%20DiamondDust%20Rebellion%20-%20Memento%20Mori%20(Movie).mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Boyz n the Hood (1991)" tvg-logo="https://m.media-amazon.com/images/M/MV5BYzZhNDcyYTctOWU1My00ZmUzLWFmNmItZTIwY2JkNjVkZTdmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Boyz n the Hood (1991)
+
+
+
+
+
+
+#EXTINF:-1 group-title="Crime, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BYzZhNDcyYTctOWU1My00ZmUzLWFmNmItZTIwY2JkNjVkZTdmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Boyz n the Hood (1991)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Boyz.n.The.Hood.1991.1080p.BRrip.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Bride of Chucky (1998)" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTk2OGE5MjktYjcyYS00M2QxLWE4YTYtYmNjYmE0M2I3ZDMxXkEyXkFqcGc@._V1_.jpg" ,Bride of Chucky (1998)
+#EXTINF:-1 group-title="Comedy, Horror" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTk2OGE5MjktYjcyYS00M2QxLWE4YTYtYmNjYmE0M2I3ZDMxXkEyXkFqcGc@._V1_.jpg",Bride of Chucky (1998)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Bride.of.Chucky.1998.1080p.BluRay.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Brighton Beach Memoirs (1986)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTc2ZmYxMTItN2QxZS00NmExLWI1NGEtY2NiMzZjODUyOTczXkEyXkFqcGc@._V1_.jpg" ,Brighton Beach Memoirs (1986)
+#EXTINF:-1 group-title="Comedy, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTc2ZmYxMTItN2QxZS00NmExLWI1NGEtY2NiMzZjODUyOTczXkEyXkFqcGc@._V1_.jpg",Brighton Beach Memoirs (1986)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Brighton.Beach.Memoirs.1986.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Candyman (1992)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMmZhN2NhOTEtMmVhZC00NWM5LWE4ODgtZGUwMDQxOGViNjY4XkEyXkFqcGc@._V1_.jpg" ,Candyman (1992)
+#EXTINF:-1 group-title="Horror, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BMmZhN2NhOTEtMmVhZC00NWM5LWE4ODgtZGUwMDQxOGViNjY4XkEyXkFqcGc@._V1_.jpg",Candyman (1992)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Candyman.1992.1080p.BluRay.x264-%5BYTS.AM%5D.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Candyman (2021)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFjMTQwMGYtNjNmNC00NjMyLWJjNWYtOGRhMmVkNGY1N2U5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Candyman (2021)
+#EXTINF:-1 group-title="Horror, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFjMTQwMGYtNjNmNC00NjMyLWJjNWYtOGRhMmVkNGY1N2U5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Candyman (2021)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Candyman.2021.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Casino (1995)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDRlZWZjZjYtYzY2NS00ZWVjLTkwYzAtZTA2ZDAzMGRiYmYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Casino (1995)
+#EXTINF:-1 group-title="Crime, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDRlZWZjZjYtYzY2NS00ZWVjLTkwYzAtZTA2ZDAzMGRiYmYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Casino (1995)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Casino%201995%201080p%20BluRay%20x264%20ACC%20-%20Ozlem.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Catch Me If You Can (2002)" tvg-logo="https://m.media-amazon.com/images/I/51KxwW3bfQL._SX300_SY300_QL70_FMwebp_.jpg" ,Catch Me If You Can (2002)
+#EXTINF:-1 group-title="Biography, Crime, Drama" tvg-logo="https://m.media-amazon.com/images/I/51KxwW3bfQL._SX300_SY300_QL70_FMwebp_.jpg",Catch Me If You Can (2002)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Catch Me If You Can (2002) [BluRay 1080p 10bit DD5.1 x265].mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Cheaper by the Dozen (2003)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg0NzYxMjY0Ml5BMl5BanBnXkFtZTcwOTU0NDczMw@@._V1_FMjpg_UX1000_.jpg" ,Cheaper by the Dozen (2003)
+#EXTINF:-1 group-title="Comedy, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg0NzYxMjY0Ml5BMl5BanBnXkFtZTcwOTU0NDczMw@@._V1_FMjpg_UX1000_.jpg",Cheaper by the Dozen (2003)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Cheaper.by.the.Dozen.2003.1080p.AMZN.WEBRip.DDP.5.1.H.265-EDGE2020.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Cheaper by the Dozen 2 (2005)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMmIyNTIzZDItN2E5NS00ZjhmLWJlNDktMTcxNjdmZjhjYzA3XkEyXkFqcGc@._V1_.jpg" ,Cheaper by the Dozen 2 (2005)
+#EXTINF:-1 group-title="Comedy, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BMmIyNTIzZDItN2E5NS00ZjhmLWJlNDktMTcxNjdmZjhjYzA3XkEyXkFqcGc@._V1_.jpg",Cheaper by the Dozen 2 (2005)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Cheaper.by.the.Dozen.2.2005.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Chicken Little (2005)" tvg-logo="https://m.media-amazon.com/images/M/MV5BYmY0YmNjZDgtM2E1YS00YzFkLWI1YzMtYTE2ZTYyYTFhYjUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Chicken Little (2005)
+#EXTINF:-1 group-title="Animation, Adventure, Comedy" tvg-logo="https://m.media-amazon.com/images/M/MV5BYmY0YmNjZDgtM2E1YS00YzFkLWI1YzMtYTE2ZTYyYTFhYjUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Chicken Little (2005)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Chicken.Little.2005.1080p.BluRay.x264-%5BYTS.LT%5D.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Click (2006)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTA1MTUxNDY4NzReQTJeQWpwZ15BbWU2MDE3ODAxNw@@._V1_.jpg" ,Click (2006)
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="Comedy, Drama, Fantasy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTA1MTUxNDY4NzReQTJeQWpwZ15BbWU2MDE3ODAxNw@@._V1_.jpg",Click (2006)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Click.2006.1080p.BluRay.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Cloudy with a Chance of Meatballs (2009)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg0MjAwNDI5MV5BMl5BanBnXkFtZTcwODkyMzg2Mg@@._V1_.jpg" ,Cloudy with a Chance of Meatballs (2009)
+#EXTINF:-1 group-title="Animation, Comedy, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg0MjAwNDI5MV5BMl5BanBnXkFtZTcwODkyMzg2Mg@@._V1_.jpg",Cloudy with a Chance of Meatballs (2009)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Cloudy.With.A.Chance.Of.Meatballs.2009.1080p.BluRay.x264-%5BYTS.AG%5D.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Cloudy with a Chance of Meatballs 2 (2013)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYzNDM0MDI1NF5BMl5BanBnXkFtZTcwNzQ5NzYxOQ@@._V1_FMjpg_UX1000_.jpg" ,Cloudy with a Chance of Meatballs 2 (2013)
+#EXTINF:-1 group-title="Animation, Adventure, Comedy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYzNDM0MDI1NF5BMl5BanBnXkFtZTcwNzQ5NzYxOQ@@._V1_FMjpg_UX1000_.jpg",Cloudy with a Chance of Meatballs 2 (2013)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Cloudy.with.a.Chance.of.Meatballs.2.2013.1080p.BluRay.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Coach Carter (2005)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjk0M2Y4ZTUtNzA3MS00MWYwLThmYjktMmYzNzVkYzQ3NmFlXkEyXkFqcGc@._V1_.jpg" ,Coach Carter (2005)
+#EXTINF:-1 group-title="Biography, Drama, Sport" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjk0M2Y4ZTUtNzA3MS00MWYwLThmYjktMmYzNzVkYzQ3NmFlXkEyXkFqcGc@._V1_.jpg",Coach Carter (2005)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Coach.Carter.2005.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Coco (2017)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDIyM2E2NTAtMzlhNy00ZGUxLWI1NjgtZDY5MzhiMDc5NGU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Coco (2017)
+#EXTINF:-1 group-title="Animation, Adventure, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDIyM2E2NTAtMzlhNy00ZGUxLWI1NjgtZDY5MzhiMDc5NGU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Coco (2017)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Coco.2017.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Curious George (2006)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTJjNDNlMmUtNzkxNi00ZDMwLThlMjItNDIyZGY5Y2U4MTk3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Curious George (2006)
+#EXTINF:-1 group-title="Animation, Comedy, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTJjNDNlMmUtNzkxNi00ZDMwLThlMjItNDIyZGY5Y2U4MTk3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Curious George (2006)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Curious George 2006 (1080p x265 10bit Tigole).mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Daddy Day Care (2003)" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWViY2MxMmQtMzEzNi00MTFmLTg5MDMtZjMyYjBiNDAxNWUyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Daddy Day Care (2003)
+#EXTINF:-1 group-title="Comedy, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWViY2MxMmQtMzEzNi00MTFmLTg5MDMtZjMyYjBiNDAxNWUyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Daddy Day Care (2003)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Daddy.Day.Care.2003.1080p.WEBRip.x265-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Dead Presidents (1995)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTUzZTczZGItNjY4My00YTIyLTgyODYtNjFmNDY2ZWJlNTlmXkEyXkFqcGc@._V1_.jpg" ,Dead Presidents (1995)
+#EXTINF:-1 group-title="Action, Crime, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTUzZTczZGItNjY4My00YTIyLTgyODYtNjFmNDY2ZWJlNTlmXkEyXkFqcGc@._V1_.jpg",Dead Presidents (1995)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Dead.Presidents.1995.PROPER.1080p.WEBRip.x264-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Deadpool & Wolverine (2024)" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Deadpool & Wolverine (2024)
+#EXTINF:-1 group-title="Action, Adventure, Comedy" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Deadpool & Wolverine (2024)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Deadpool.and.Wolverine.2024.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Django Unchained (2012)" tvg-logo="https://th.bing.com/th/id/R.efc0a757d7d29cc4b73116b67e458df8?rik=BgxkT3B3vZi6zw&riu=http%3a%2f%2fthefilmstage.com%2fwp-content%2fuploads%2f2012%2f10%2fdjango_unchained_1.jpeg&ehk=O%2bnwTCay3522D2wWSHXIqebUX1rXDSjFYbNs%2b0R6EM0%3d&risl=&pid=ImgRaw&r=0" ,Django Unchained (2012)
+#EXTINF:-1 group-title="Drama, Western" tvg-logo="https://th.bing.com/th/id/R.efc0a757d7d29cc4b73116b67e458df8?rik=BgxkT3B3vZi6zw&riu=http%3a%2f%2fthefilmstage.com%2fwp-content%2fuploads%2f2012%2f10%2fdjango_unchained_1.jpeg&ehk=O%2bnwTCay3522D2wWSHXIqebUX1rXDSjFYbNs%2b0R6EM0%3d&risl=&pid=ImgRaw&r=0",Django Unchained (2012)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Django.Unchained.2012.NORDiC.1080p.BDRip.AV1.DD5.1-DKV.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996)" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGM0NTAyMWEtNDBjNi00MjkwLWFhM2UtNDExNmVmMzEzNzExXkEyXkFqcGc@._V1_.jpg" ,Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996)
+
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="Comedy, Crime" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGM0NTAyMWEtNDBjNi00MjkwLWFhM2UtNDExNmVmMzEzNzExXkEyXkFqcGc@._V1_.jpg",Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/dont.be.a.menace.1996.1080p.bluray.dd5.1.hevc.x265.rmteam.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Dope (2015)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3MjYyNTk0Nl5BMl5BanBnXkFtZTgwODc1NzQ1NTE@._V1_.jpg" ,Dope (2015)
+#EXTINF:-1 group-title="Comedy, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3MjYyNTk0Nl5BMl5BanBnXkFtZTgwODc1NzQ1NTE@._V1_.jpg",Dope (2015)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Dope 2015 1080p BluRay AV1 Opus 5.1 [981].mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Dragon Ball Z: Broly – The Legendary Super Saiyan (1993)" tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/3db235e96c667c5052adb546214a8e11b710bb60321539b1ead6782bba3a97f7.jpg" ,Dragon Ball Z: Broly – The Legendary Super Saiyan (1993)
+#EXTINF:-1 group-title="Animation, Action, Adventure" tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/3db235e96c667c5052adb546214a8e11b710bb60321539b1ead6782bba3a97f7.jpg",Dragon Ball Z: Broly – The Legendary Super Saiyan (1993)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Dragon.Ball.Z.Broly.The.Legendary.Super.Saiyan.1993.720p.BluRay.x264-CiNEFiLE.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Dragon Ball Z: Dead Zone (1989)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDliM2QwMmQtNGYwZi00ZjkyLWFjMDYtOTdhZjA2Y2M0ZWJkXkEyXkFqcGc@._V1_.jpg" ,Dragon Ball Z: Dead Zone (1989)
+#EXTINF:-1 group-title="Animation, Action, Fantasy" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDliM2QwMmQtNGYwZi00ZjkyLWFjMDYtOTdhZjA2Y2M0ZWJkXkEyXkFqcGc@._V1_.jpg",Dragon Ball Z: Dead Zone (1989)
 http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Network%20Shows/Dragon%20Ball%20Z/Movies/Dragon%20Ball%20Z%20Movie%2001%20-%20Dead%20Zone%20(Ocean%20Dub).mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Dragon Ball Z: The Return of Cooler (1992)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTBlY2Q2OTgtNWEwYi00NTE3LWI1ZmYtY2Y0ZTRiZjdjMDBjXkEyXkFqcGc@._V1_.jpg" ,Dragon Ball Z: The Return of Cooler (1992)
+#EXTINF:-1 group-title="Animation, Action, Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTBlY2Q2OTgtNWEwYi00NTE3LWI1ZmYtY2Y0ZTRiZjdjMDBjXkEyXkFqcGc@._V1_.jpg",Dragon Ball Z: The Return of Cooler (1992)
 http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Network%20Shows/Dragon%20Ball%20Z/Movies/Dragonball%20Z%20Movie%20-%20The%20Return%20of%20Cooler.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Dragon Ball Z: The Tree of Might (1990)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTJiMGJlNDQtZDkwZS00MDNiLWIyMDUtYWYyMzI1MmQ0ODFhXkEyXkFqcGc@._V1_.jpg" ,Dragon Ball Z: The Tree of Might (1990)
+#EXTINF:-1 group-title="Animation, Action, Fantasy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTJiMGJlNDQtZDkwZS00MDNiLWIyMDUtYWYyMzI1MmQ0ODFhXkEyXkFqcGc@._V1_.jpg",Dragon Ball Z: The Tree of Might (1990)
 http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Network%20Shows/Dragon%20Ball%20Z/Movies/Dragon%20Ball%20Z%20Movie%2003%20-%20The%20Tree%20Of%20Might%20(Ocean%20Dub).mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Dragon Ball Z: The World's Strongest (1990)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNmIxYmM1MzUtZWFhYS00YzYyLWEyZDgtZGE2NDliNzJmNWMzXkEyXkFqcGc@._V1_.jpg" ,Dragon Ball Z: The World's Strongest (1990)
+#EXTINF:-1 group-title="Animation, Action, Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BNmIxYmM1MzUtZWFhYS00YzYyLWEyZDgtZGE2NDliNzJmNWMzXkEyXkFqcGc@._V1_.jpg",Dragon Ball Z: The World's Strongest (1990)
 http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Network%20Shows/Dragon%20Ball%20Z/Movies/Dragon%20Ball%20Z%20Movie%2002%20-%20The%20World's%20Strongest%20(Ocean%20Dub).mp4
-
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Ed Edd n Eddy's Big Picture Show (2009)" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTMxZTViMmQtOWU0Yi00YmUyLTk5YTAtMzA5NDM1NTY3ZDRhXkEyXkFqcGc@._V1_.jpg" ,Edd n Eddy's Big Picture Show (2009)
+#EXTINF:-1 group-title="Animation, Comedy, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTMxZTViMmQtOWU0Yi00YmUyLTk5YTAtMzA5NDM1NTY3ZDRhXkEyXkFqcGc@._V1_.jpg",Ed Edd n Eddy's Big Picture Show (2009)
 http://drewlive24.duckdns.org:9000/Adult%20Swim.Toonami%2C%20%26%20Cartoon%20Network%20Shows/Ed%2C%20Edd%20n%20Eddy%20(1999)/Movies/Ed%2C%20Edd%20n%20Eddy%20-%20S00%20E05%20-%20Ed%2C%20Edd%20n%20Eddy's%20Big%20Picture%20Show%20(1080p).mp4
-
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+#EXTINF:-1 group-title="Action, Adventure, Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg",Edge of Tomorrow (2014)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Edge.of.Tomorrow.2014.1080p.BluRay.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Encanto (2021)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjY0NTBmMDgtZTIxMi00MjUxLTk5NzEtNjIxZmU2MzhkMjUwXkEyXkFqcGc@._V1_.jpg" ,Encanto (2021)
+#EXTINF:-1 group-title="Animation, Comedy, Family" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjY0NTBmMDgtZTIxMi00MjUxLTk5NzEtNjIxZmU2MzhkMjUwXkEyXkFqcGc@._V1_.jpg",Encanto (2021)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Encanto.2021.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="End of Watch (2012)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjMxNjU0ODU5Ml5BMl5BanBnXkFtZTcwNjI4MzAyOA@@._V1_.jpg" ,End of Watch (2012)
+#EXTINF:-1 group-title="Action, Crime, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjMxNjU0ODU5Ml5BMl5BanBnXkFtZTcwNjI4MzAyOA@@._V1_.jpg",End of Watch (2012)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/End.of.Watch.2012.1080p.BluRay.x264.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Final Destination (2000)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE1MjlmOWYtYzdjMS00OTgwLThjMDctZWU4N2FkZjgyNTJiXkEyXkFqcGc@._V1_.jpg" ,Final Destination (2000)
+#EXTINF:-1 group-title="Horror, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE1MjlmOWYtYzdjMS00OTgwLThjMDctZWU4N2FkZjgyNTJiXkEyXkFqcGc@._V1_.jpg",Final Destination (2000)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Final.Destination.2000.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Final Destination 2 (2003)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjExMTMyODAzN15BMl5BanBnXkFtZTYwNjc5NDQ3._V1_FMjpg_UX1000_.jpg" ,Final Destination 2 (2003)
+#EXTINF:-1 group-title="Horror, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjExMTMyODAzN15BMl5BanBnXkFtZTYwNjc5NDQ3._V1_FMjpg_UX1000_.jpg",Final Destination 2 (2003)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Final.Destination.2.2003.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Final Destination 3 (2006)" tvg-logo="https://i.ebayimg.com/images/g/AmUAAOSwUEVYCpFR/s-l1200.jpg" ,Final Destination 3 (2006)
+#EXTINF:-1 group-title="Horror, Thriller" tvg-logo="https://i.ebayimg.com/images/g/AmUAAOSwUEVYCpFR/s-l1200.jpg",Final Destination 3 (2006)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Final Destination 3 2006 (1080p x265 10bit Tigole).mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Finding Nemo (2003)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5NjExNTA5OV5BMl5BanBnXkFtZTYwMTQ0ODY2._V1_.jpg" ,Finding Nemo (2003)
+
+
+
+
+
+
+#EXTINF:-1 group-title="Animation, Adventure, Comedy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5NjExNTA5OV5BMl5BanBnXkFtZTYwMTQ0ODY2._V1_.jpg",Finding Nemo (2003)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Finding Nemo 2003 1080p BluRay AV1 Opus 5.1 [981].mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Freaky Friday (1995)" tvg-logo="https://m.media-amazon.com/images/M/MV5BOGNhNDAyZWUtNmU3My00ZWRlLTkwYTgtMzZiYmNjNmM0MzVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Freaky Friday (1995)
+#EXTINF:-1 group-title="Comedy, Family, Fantasy" tvg-logo="https://m.media-amazon.com/images/M/MV5BOGNhNDAyZWUtNmU3My00ZWRlLTkwYTgtMzZiYmNjNmM0MzVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Freaky Friday (1995)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Freaky.Friday.2003.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Freddy vs. Jason (2003)" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTc4ODQ3YTAtNDJiZi00NTUzLTllOWUtYjE3NjYyNjdlNDlmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Freddy vs. Jason (2003)
+#EXTINF:-1 group-title="Horror, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTc4ODQ3YTAtNDJiZi00NTUzLTllOWUtYjE3NjYyNjdlNDlmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Freddy vs. Jason (2003)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Freddy.Vs.Jason.2003.1080p.BrRip.x264.BOKUTOX.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Freedom Writers (2007)" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDFjNWQ5MzktOThjZS00NmY5LWEwNTMtNGFhZGNhYjc3NzBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Freedom Writers (2007)
+#EXTINF:-1 group-title="Biography, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDFjNWQ5MzktOThjZS00NmY5LWEwNTMtNGFhZGNhYjc3NzBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Freedom Writers (2007)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Freedom.Writers.2007.1080p.BluRay.x264.anoXmous_.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Friday (1995)" tvg-logo="https://image.tmdb.org/t/p/original/eqD0jCDIEJ65CmyG63Jaay6bHDp.jpg" ,Friday (1995)
+#EXTINF:-1 group-title="Comedy, Drama" tvg-logo="https://image.tmdb.org/t/p/original/eqD0jCDIEJ65CmyG63Jaay6bHDp.jpg",Friday (1995)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Friday.1995.Directors.Cut.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Friday After Next (2002)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGJkNzQ4NzItZjQ5OS00ZmJjLWFlODMtNjQzZDNhNTRjOTFlXkEyXkFqcGc@._V1_.jpg" ,Friday After Next (2002)
+#EXTINF:-1 group-title="Comedy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGJkNzQ4NzItZjQ5OS00ZmJjLWFlODMtNjQzZDNhNTRjOTFlXkEyXkFqcGc@._V1_.jpg",Friday After Next (2002)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Friday After Next 2002 1080p WEBRip DDP 5 1 10bit H 265-iVy.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Friday Night Lights (2004)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTcxMDI5MTM4Ml5BMl5BanBnXkFtZTcwNjA4MDcyMQ@@._V1_.jpg" ,Friday Night Lights (2004)
+#EXTINF:-1 group-title="Drama, Sport" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTcxMDI5MTM4Ml5BMl5BanBnXkFtZTcwNjA4MDcyMQ@@._V1_.jpg",Friday Night Lights (2004)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Friday.Night.Lights.2004.1080p.BluRay.x265-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Get Out (2017)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg" ,Get Out (2017)
+#EXTINF:-1 group-title="Horror, Mystery, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg",Get Out (2017)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Get%20Out%202017%20(1080p%20x265%2010bit%20S91%20Joy).mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Get Rich or Die Tryin' (2005)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI4NTE0MTU2N15BMl5BanBnXkFtZTYwNzQ1OTc2._V1_FMjpg_UX1000_.jpg" ,Get Rich or Die Tryin' (2005)
+#EXTINF:-1 group-title="Biography, Crime, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI4NTE0MTU2N15BMl5BanBnXkFtZTYwNzQ1OTc2._V1_FMjpg_UX1000_.jpg",Get Rich or Die Tryin' (2005)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Get.Rich.Or.Die.Tryin.2005.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Ghost Ship (1992)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGM0OGExOGYtMGU0Zi00ZmIzLTljMjMtYzQxZWQ3OTdlNTMyXkEyXkFqcGc@._V1_.jpg" ,Ghost Ship (1992)
+#EXTINF:-1 group-title="Horror, Mystery" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGM0OGExOGYtMGU0Zi00ZmIzLTljMjMtYzQxZWQ3OTdlNTMyXkEyXkFqcGc@._V1_.jpg",Ghost Ship (1992)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Ghost.Ship.2002.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Gladiator (2000)" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Gladiator (2000)
+#EXTINF:-1 group-title="Action, Adventure, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Gladiator (2000)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Gladiator%202000%20Extended%20Cut%20Remastered%20BluRay%201080p%20HEVC%20x265%205.1%20BONE.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Gladiator II (2024)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWYzZTM5ZGQtOGE5My00NmM2LWFlMDEtMGNjYjdmOWM1MzA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Gladiator II (2024)
+#EXTINF:-1 group-title="Action, Drama, History" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWYzZTM5ZGQtOGE5My00NmM2LWFlMDEtMGNjYjdmOWM1MzA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Gladiator II (2024)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Gladiator.II.2024.1080p.BluRay.x264.AAC5.1-LAMA.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Godzilla vs. Kong (2021)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjZlYjUwZjItZmQ1ZS00NDU2LWFhNWMtMGRmMmZiMzliY2NhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Godzilla vs. Kong (2021)
+#EXTINF:-1 group-title="Action, Sci-Fi, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjZlYjUwZjItZmQ1ZS00NDU2LWFhNWMtMGRmMmZiMzliY2NhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Godzilla vs. Kong (2021)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Godzilla.vs.Kong.2021.1080p.BluRay.1400MB.DD2.0.x264-GalaxyRG.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Godzilla x Kong: The New Empire (2024)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY0N2MzODctY2ExYy00OWYxLTkyNDItMTVhZGIxZjliZjU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Godzilla x Kong: The New Empire (2024)
+#EXTINF:-1 group-title="Action, Adventure, Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY0N2MzODctY2ExYy00OWYxLTkyNDItMTVhZGIxZjliZjU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Godzilla x Kong: The New Empire (2024)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Godzilla.x.Kong.The.New.Empire.2024.REPACK2.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="GoodFellas (1990)" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_.jpg" ,GoodFellas (1990)
+#EXTINF:-1 group-title="Biography, Crime, Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_.jpg",GoodFellas (1990)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Goodfellas.1990.REMASTERED.1080p.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Grown Ups (2010)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0ODYwNzU5Nl5BMl5BanBnXkFtZTcwNTI1MTgxMw@@._V1_FMjpg_UX1000_.jpg" ,Grown Ups (2010)
+#EXTINF:-1 group-title="Comedy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0ODYwNzU5Nl5BMl5BanBnXkFtZTcwNTI1MTgxMw@@._V1_FMjpg_UX1000_.jpg",Grown Ups (2010)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Grown.Ups.2010.1080p.BrRip.x264.BOKUTOX.YIFY.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Half Baked (1998)" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTYyMDI1MzMtMzk3MC00MDA5LTgwZTgtZjYxZjc0ZmUwNGMxXkEyXkFqcGc@._V1_.jpg" ,Half Baked (1998)
+#EXTINF:-1 group-title="Comedy, Crime" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTYyMDI1MzMtMzk3MC00MDA5LTgwZTgtZjYxZjc0ZmUwNGMxXkEyXkFqcGc@._V1_.jpg",Half Baked (1998)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Half.Baked.1998.1080p.BluRay.H264.AAC-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Halloween (1978)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzZiNTdiYTgtYjNkMS00MmJmLWEwZGQtNmY0NGJkMGE0YmYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Halloween (1978)
+#EXTINF:-1 group-title="Horror, Thriller" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzZiNTdiYTgtYjNkMS00MmJmLWEwZGQtNmY0NGJkMGE0YmYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Halloween (1978)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Halloween.1978.REMASTERED.1080p.BluRay.x265-RARBG.mp4
-#EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Hancock (2008)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTgyMzc4ODU3NV5BMl5BanBnXkFtZTcwNjk5Mzc1MQ@@._V1_.jpg" ,Hancock (2008)
+#EXTINF:-1 group-title="Action, Fantasy, Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTgyMzc4ODU3NV5BMl5BanBnXkFtZTcwNjk5Mzc1MQ@@._V1_.jpg",Hancock (2008)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Hancock%20(2008)%20%5B1080p%20x265%2010bit%20FS54%20Joy%5D.mkv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Happy Gilmore (1996)" tvg-logo="https://a.ltrbxd.com/resized/film-poster/4/6/9/8/7/46987-happy-gilmore-0-1000-0-1500-crop.jpg?v=09dc9d06bd" ,Happy Gilmore (1996)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Happy.Gilmore.1996.1080p.BluRay.H264.AAC-RARBG.mp4
@@ -209,6 +262,11 @@ http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Hustlers.2019.1080p.BluRay.1
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/I%20Am%20Legend%202007%201080p%20BluRay%20DDP%205%201%2010bit%20H%20265-iVy.mkv
 #EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Inception (2010)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg" ,Inception (2010)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Inception.2010.1080p.BluRay.DDP5.1.x265.10bit-GalaxyRG265.mkv
+
+
+
+
+
 #EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Ice Age (2002)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDBlYzU2OGMtOGJjNi00ZGZjLWIwNjMtYzdiZjkwYWNjZDljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Ice Age (2002)
 http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Ice%20Age%202002%201080p%20BluRay%20x264%20AAC%20-%20Ozlem.mp4
 #EXTINF:-1 group-title="DrewLive VOD" tvg-id="Movie.Dummy.us" tvg-name="Ice Age: The Meltdown (2006)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAwODg3OTAxMl5BMl5BanBnXkFtZTcwMjg2NjYyMw@@._V1_.jpg" ,Ice Age: The Meltdown (2006)
