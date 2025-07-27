@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Universal Movie Player</title>
+  <title>Native HLS Video Player</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     
@@ -57,7 +57,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.8);
       backdrop-filter: blur(20px);
       padding: 15px 20px;
       border-radius: 15px;
@@ -142,7 +142,7 @@
       position: absolute;
       bottom: 20px;
       left: 20px;
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.8);
       backdrop-filter: blur(20px);
       padding: 10px 15px;
       border-radius: 10px;
@@ -155,6 +155,42 @@
 
     .player-container:hover .player-status {
       opacity: 1;
+    }
+
+    .buffer-status {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(20px);
+      padding: 10px 15px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.8);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .player-container:hover .buffer-status {
+      opacity: 1;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 2px;
+      margin-top: 5px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #a78bfa, #ec4899);
+      width: 0%;
+      transition: width 0.3s ease;
+      border-radius: 2px;
     }
 
     .error-message {
@@ -242,11 +278,15 @@
         border-radius: 0;
       }
 
-      .player-status {
+      .player-status, .buffer-status {
         bottom: 10px;
         left: 10px;
         right: 10px;
         text-align: center;
+      }
+      
+      .buffer-status {
+        bottom: 50px;
       }
     }
 
@@ -265,9 +305,6 @@
   </style>
 </head>
 <body>
-  <!-- Load HLS.js for streaming support -->
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  
   <div class="player-container" id="playerContainer">
     <div class="player-controls">
       <div class="movie-info">
@@ -281,45 +318,62 @@
       <div class="control-buttons">
         <button class="btn" onclick="toggleFullscreen()">⛶ Fullscreen</button>
         <button class="btn" onclick="togglePictureInPicture()">📱 PiP</button>
-        <button class="btn" onclick="switchPlayer()">🔄 Switch Player</button>
+        <button class="btn" onclick="retryLoad()">🔄 Retry</button>
+        <button class="btn" onclick="downloadVideo()">⬇ Download</button>
         <a href="index.html" class="btn btn-primary">← Back to Collection</a>
       </div>
     </div>
 
     <div class="player-status" id="playerStatus">
-      <span id="currentPlayer">Loading...</span>
+      <span id="currentPlayer">Native HLS Player</span>
+      <div class="progress-bar" id="loadProgress">
+        <div class="progress-fill" id="loadFill"></div>
+      </div>
+    </div>
+
+    <div class="buffer-status" id="bufferStatus">
+      <span id="bufferInfo">Buffer: 0s</span>
+      <div class="progress-bar" id="bufferProgress">
+        <div class="progress-fill" id="bufferFill"></div>
+      </div>
     </div>
 
     <div class="video-wrapper">
       <div class="loading" id="loadingIndicator">
         <div class="spinner"></div>
-        <p>Loading video...</p>
-        <div class="loading-status" id="loadingStatus">Initializing player...</div>
+        <p>Loading HLS stream...</p>
+        <div class="loading-status" id="loadingStatus">Initializing native HLS player...</div>
       </div>
       
       <video 
         id="moviePlayer" 
         controls 
-        preload="auto"
+        preload="metadata"
+        playsinline
         style="display: none;"
         onloadstart="onVideoLoadStart()"
         oncanplay="onVideoCanPlay()"
         onerror="onVideoError()"
         onloadeddata="onVideoLoaded()"
+        onprogress="updateBufferProgress()"
+        ontimeupdate="updatePlayProgress()"
+        onloadedmetadata="onMetadataLoaded()"
+        onwaiting="onVideoWaiting()"
+        onplaying="onVideoPlaying()"
       >
-        Your browser does not support the video tag.
+        Your browser does not support HLS video playback.
       </video>
 
       <div class="error-message" id="errorMessage" style="display: none;">
         <div class="error-icon">⚠️</div>
-        <h3>Video Load Error</h3>
-        <p id="errorText">Unable to load the video. Please check the source or try again.</p>
+        <h3>HLS Playback Error</h3>
+        <p id="errorText">Unable to load the HLS stream. This may be due to CORS restrictions or unsupported format.</p>
         <div style="margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
           <button class="btn btn-primary" onclick="retryLoad()">🔄 Retry</button>
-          <button class="btn" onclick="switchPlayer()">🔄 Try Different Player</button>
           <button class="btn" onclick="openInNewTab()">🔗 Open Direct Link</button>
           <button class="btn" onclick="copyToClipboard()">📋 Copy URL</button>
           <button class="btn" onclick="openInVLC()">📺 Open in VLC</button>
+          <button class="btn" onclick="openInMPV()">🎬 Open in MPV</button>
         </div>
       </div>
     </div>
@@ -328,9 +382,8 @@
   <script>
     // Global variables
     let currentVideoSrc = '';
+    let loadStartTime = 0;
     let retryCount = 0;
-    let currentPlayerMode = 'auto';
-    let hls = null;
     const maxRetries = 3;
 
     // Get URL parameters
@@ -343,7 +396,8 @@
     function updateLoadingStatus(message) {
       const statusEl = document.getElementById('loadingStatus');
       if (statusEl) {
-        statusEl.textContent = message;
+        const elapsed = loadStartTime ? `(${((Date.now() - loadStartTime) / 1000).toFixed(1)}s)` : '';
+        statusEl.textContent = `${message} ${elapsed}`;
       }
       console.log('Status:', message);
     }
@@ -358,6 +412,8 @@
 
     // Initialize player
     function initializePlayer() {
+      loadStartTime = Date.now();
+      
       const videoSrc = getUrlParameter('src');
       const title = getUrlParameter('title') || 'Unknown Movie';
       const year = getUrlParameter('year') || '';
@@ -365,7 +421,7 @@
       const poster = getUrlParameter('poster') || '';
       const source = getUrlParameter('source') || '';
 
-      console.log('Initializing player with:', { videoSrc, title, year, genre, source });
+      console.log('Native HLS player initializing:', { videoSrc, title, year, genre, source });
 
       if (!videoSrc) {
         showError('No video source provided', 'Please return to the movie collection and try again.');
@@ -381,225 +437,113 @@
       if (year) metaText += year;
       if (genre) metaText += (metaText ? ' • ' : '') + genre;
       if (source) metaText += (metaText ? ' • ' : '') + source;
+      metaText += (metaText ? ' • ' : '') + 'Native HLS';
       document.getElementById('movieMeta').textContent = metaText;
 
       // Set poster
       const posterImg = document.getElementById('moviePoster');
+      const fallbackUrl = `https://via.placeholder.com/50x75/1a1a2e/a78bfa?text=${encodeURIComponent(title.substring(0, 3))}`;
+      
       if (poster && poster !== 'null' && poster !== '') {
         posterImg.src = poster;
         posterImg.onerror = () => {
-          posterImg.src = `https://via.placeholder.com/50x75/1a1a2e/a78bfa?text=${encodeURIComponent(title.substring(0, 3))}`;
+          posterImg.src = fallbackUrl;
         };
       } else {
-        posterImg.src = `https://via.placeholder.com/50x75/1a1a2e/a78bfa?text=${encodeURIComponent(title.substring(0, 3))}`;
+        posterImg.src = fallbackUrl;
       }
 
-      // Start loading video
-      loadVideoUniversal(videoSrc);
+      // Start loading video with native HLS
+      loadHLSVideo(videoSrc);
 
       // Update document title
-      document.title = `Playing: ${title}`;
+      document.title = `Playing: ${title} (HLS)`;
     }
 
-    // Universal video loader
-    function loadVideoUniversal(src) {
-      console.log('Loading video with mode:', currentPlayerMode, 'URL:', src);
-      updateLoadingStatus(`Trying ${currentPlayerMode} player...`);
-      
-      // Clean up any existing players
-      cleanupPlayer();
-      
-      // Detect stream type
-      const isHLS = src.includes('.m3u8') || src.includes('playlist') || src.includes('hls');
-      const isRTMP = src.startsWith('rtmp://');
-      
-      if (currentPlayerMode === 'auto') {
-        if (isHLS) {
-          loadWithHLS(src);
-        } else if (isRTMP) {
-          showError('RTMP Not Supported', 'RTMP streams require external players like VLC. Use the "Open in VLC" button.');
-        } else {
-          loadWithNative(src);
-        }
-      } else if (currentPlayerMode === 'hls') {
-        loadWithHLS(src);
-      } else if (currentPlayerMode === 'native') {
-        loadWithNative(src);
-      } else if (currentPlayerMode === 'proxy') {
-        loadWithProxy(src);
-      }
-    }
-
-    // Clean up existing players
-    function cleanupPlayer() {
-      if (hls) {
-        hls.destroy();
-        hls = null;
-      }
+    // Load HLS video using native video tag
+    function loadHLSVideo(src) {
+      console.log('Loading HLS with native video tag:', src);
+      updateLoadingStatus('Loading HLS stream...');
+      updatePlayerStatus('Native HLS Player - Loading');
       
       const video = document.getElementById('moviePlayer');
+      
+      // Reset video element
       video.src = '';
       video.load();
       
-      // Remove any existing source elements
-      const sources = video.querySelectorAll('source');
-      sources.forEach(source => source.remove());
-    }
-
-    // Load with HLS.js
-    function loadWithHLS(src) {
-      updateLoadingStatus('Loading with HLS.js player...');
-      updatePlayerStatus('HLS.js Streaming Player');
-      
-      const video = document.getElementById('moviePlayer');
-      
-      // Check if HLS.js is available
-      if (typeof Hls === 'undefined') {
-        console.log('HLS.js not loaded, falling back to native');
-        currentPlayerMode = 'native';
-        loadVideoUniversal(src);
-        return;
-      }
-
-      if (Hls.isSupported()) {
-        hls = new Hls({
-          debug: false,
-          enableWorker: true,
-          lowLatencyMode: false,
-          backBufferLength: 90,
-          maxBufferLength: 30,
-          maxMaxBufferLength: 600,
-          maxBufferSize: 60 * 1000 * 1000,
-          maxBufferHole: 0.5,
-          fragLoadingTimeOut: 20000,
-          manifestLoadingTimeOut: 10000,
-          levelLoadingTimeOut: 10000
-        });
-
-        hls.loadSource(src);
-        hls.attachMedia(video);
-
-        hls.on(Hls.Events.MANIFEST_PARSED, function() {
-          console.log('HLS manifest parsed successfully');
-          updateLoadingStatus('Stream ready, starting playback...');
-        });
-
-        hls.on(Hls.Events.ERROR, function(event, data) {
-          console.error('HLS Error:', data.type, data.details, data);
-          
-          if (data.fatal) {
-            switch(data.type) {
-              case Hls.ErrorTypes.NETWORK_ERROR:
-                console.log('Network error, trying to recover...');
-                updateLoadingStatus('Network error, retrying...');
-                setTimeout(() => {
-                  hls.startLoad();
-                }, 1000);
-                break;
-              case Hls.ErrorTypes.MEDIA_ERROR:
-                console.log('Media error, trying to recover...');
-                updateLoadingStatus('Media error, attempting recovery...');
-                hls.recoverMediaError();
-                break;
-              default:
-                console.log('Fatal HLS error, switching to native player');
-                currentPlayerMode = 'native';
-                setTimeout(() => loadVideoUniversal(src), 1000);
-                break;
-            }
-          }
-        });
-
-      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        // Native HLS support (Safari)
-        updateLoadingStatus('Using native HLS support...');
-        updatePlayerStatus('Native HLS Player (Safari)');
+      // Check if browser supports HLS natively
+      if (video.canPlayType('application/vnd.apple.mpegurl') || 
+          video.canPlayType('application/x-mpegURL')) {
+        console.log('Native HLS support detected');
+        updateLoadingStatus('Native HLS support found, loading stream...');
+        
+        // Set source directly
         video.src = src;
+        video.load();
+        
       } else {
-        console.log('HLS not supported, switching to native player');
-        currentPlayerMode = 'native';
-        loadVideoUniversal(src);
+        console.log('No native HLS support, trying anyway...');
+        updateLoadingStatus('Attempting HLS playback...');
+        
+        // Try anyway - some browsers might support it
+        video.src = src;
+        video.load();
+        
+        // Also try with source element
+        const source = document.createElement('source');
+        source.src = src;
+        source.type = 'application/vnd.apple.mpegurl';
+        video.appendChild(source);
+        video.load();
       }
     }
 
-    // Load with native player
-    function loadWithNative(src) {
-      updateLoadingStatus('Loading with native HTML5 player...');
-      updatePlayerStatus('Native HTML5 Player');
-      
+    // Buffer progress tracking
+    function updateBufferProgress() {
       const video = document.getElementById('moviePlayer');
+      const bufferFill = document.getElementById('bufferFill');
+      const bufferInfo = document.getElementById('bufferInfo');
       
-      // Set up video element
-      video.preload = 'auto';
-      video.autoplay = false;
-      
-      // Try without CORS first
-      video.removeAttribute('crossorigin');
-      video.src = src;
-      video.load();
-      
-      // If that fails, try with CORS
-      video.addEventListener('error', function corsRetry() {
-        if (!video.hasAttribute('crossorigin')) {
-          console.log('Trying with CORS...');
-          video.setAttribute('crossorigin', 'anonymous');
-          video.src = src;
-          video.load();
-        }
-        video.removeEventListener('error', corsRetry);
-      }, { once: true });
-    }
-
-    // Load with proxy method
-    function loadWithProxy(src) {
-      updateLoadingStatus('Loading with proxy method...');
-      updatePlayerStatus('Proxy Player (CORS bypass)');
-      
-      const video = document.getElementById('moviePlayer');
-      
-      // Try different proxy services
-      const proxies = [
-        `https://cors-anywhere.herokuapp.com/${src}`,
-        `https://api.allorigins.win/raw?url=${encodeURIComponent(src)}`,
-        src // fallback to direct
-      ];
-      
-      let proxyIndex = 0;
-      
-      function tryNextProxy() {
-        if (proxyIndex < proxies.length) {
-          const proxyUrl = proxies[proxyIndex];
-          console.log('Trying proxy:', proxyUrl);
-          video.src = proxyUrl;
-          video.load();
-          proxyIndex++;
-        } else {
-          // All proxies failed, switch to native
-          currentPlayerMode = 'native';
-          loadVideoUniversal(src);
+      if (video.buffered.length > 0) {
+        const bufferedEnd = video.buffered.end(video.buffered.length - 1);
+        const duration = video.duration;
+        const currentTime = video.currentTime;
+        
+        if (duration > 0) {
+          const bufferPercent = (bufferedEnd / duration) * 100;
+          bufferFill.style.width = `${bufferPercent}%`;
+          
+          const bufferedAhead = bufferedEnd - currentTime;
+          bufferInfo.textContent = `Buffer: ${Math.max(0, bufferedAhead).toFixed(1)}s`;
         }
       }
-      
-      video.addEventListener('error', tryNextProxy, { once: true });
-      tryNextProxy();
     }
 
-    // Switch player mode
-    function switchPlayer() {
-      const modes = ['auto', 'native', 'hls', 'proxy'];
-      const currentIndex = modes.indexOf(currentPlayerMode);
-      const nextIndex = (currentIndex + 1) % modes.length;
-      currentPlayerMode = modes[nextIndex];
+    // Play progress tracking
+    function updatePlayProgress() {
+      const video = document.getElementById('moviePlayer');
+      const loadFill = document.getElementById('loadFill');
       
-      console.log('Switching to player mode:', currentPlayerMode);
-      retryCount = 0;
+      if (video.duration > 0) {
+        const progressPercent = (video.currentTime / video.duration) * 100;
+        loadFill.style.width = `${progressPercent}%`;
+      }
       
-      // Show which mode we're trying
-      updateLoadingStatus(`Switching to ${currentPlayerMode} player...`);
+      // Update buffer status
+      updateBufferProgress();
       
-      setTimeout(() => {
-        loadVideoUniversal(currentVideoSrc);
-      }, 500);
+      // Monitor playback health
+      if (video.readyState >= 2) {
+        const bufferedSeconds = video.buffered.length > 0 ? 
+          video.buffered.end(video.buffered.length - 1) - video.currentTime : 0;
+        
+        if (bufferedSeconds < 5 && !video.paused) {
+          updatePlayerStatus('Native HLS - Buffering...');
+        } else if (!video.paused) {
+          updatePlayerStatus(`Native HLS - Playing ${video.videoWidth}x${video.videoHeight}`);
+        }
+      }
     }
 
     // Video event handlers
@@ -608,29 +552,60 @@
       document.getElementById('loadingIndicator').style.display = 'block';
       document.getElementById('moviePlayer').style.display = 'none';
       document.getElementById('errorMessage').style.display = 'none';
+      updateLoadingStatus('Starting HLS load...');
     }
 
     function onVideoLoaded() {
       console.log('Video data loaded');
-      updateLoadingStatus('Video data loaded');
+      updateLoadingStatus('Video data loaded, preparing...');
+    }
+
+    function onMetadataLoaded() {
+      const video = document.getElementById('moviePlayer');
+      console.log('Video metadata loaded:', {
+        duration: video.duration,
+        videoWidth: video.videoWidth,
+        videoHeight: video.videoHeight,
+        readyState: video.readyState
+      });
+      updateLoadingStatus('Metadata loaded, buffering...');
+    }
+
+    function onVideoWaiting() {
+      console.log('Video waiting for data...');
+      updatePlayerStatus('Native HLS - Buffering...');
+    }
+
+    function onVideoPlaying() {
+      console.log('Video playing');
+      const video = document.getElementById('moviePlayer');
+      updatePlayerStatus(`Native HLS - Playing ${video.videoWidth}x${video.videoHeight}`);
     }
 
     function onVideoCanPlay() {
-      console.log('Video can play');
+      const loadTime = Date.now() - loadStartTime;
+      console.log(`Video ready to play in ${loadTime}ms`);
+      
       document.getElementById('loadingIndicator').style.display = 'none';
       document.getElementById('moviePlayer').style.display = 'block';
       document.getElementById('errorMessage').style.display = 'none';
       retryCount = 0;
       
-      updateLoadingStatus('Video ready!');
-      updatePlayerStatus(`${currentPlayerMode.toUpperCase()} Player - Ready`);
-      
-      // Auto-play if possible
       const video = document.getElementById('moviePlayer');
-      video.play().catch(e => {
-        console.log('Autoplay prevented:', e);
-        updatePlayerStatus(`${currentPlayerMode.toUpperCase()} Player - Click ▶ to play`);
-      });
+      updatePlayerStatus(`Native HLS - ${video.videoWidth}x${video.videoHeight} Ready`);
+      
+      console.log('HLS load completed in', loadTime + 'ms');
+      
+      // Auto-play attempt
+      const playPromise = video.play();
+      if (playPromise !== undefined) {
+        playPromise.then(() => {
+          updatePlayerStatus(`Native HLS - Playing ${video.videoWidth}x${video.videoHeight}`);
+        }).catch(e => {
+          console.log('Autoplay prevented:', e);
+          updatePlayerStatus('Native HLS - Click ▶ to play');
+        });
+      }
     }
 
     function onVideoError(e) {
@@ -641,31 +616,27 @@
       if (video.error) {
         switch (video.error.code) {
           case 1: errorDetails = 'Video loading aborted'; break;
-          case 2: errorDetails = 'Network error'; break;
-          case 3: errorDetails = 'Video decode error'; break;
-          case 4: errorDetails = 'Video source not supported'; break;
+          case 2: errorDetails = 'Network error - Check connection'; break;
+          case 3: errorDetails = 'Video decode error - Unsupported format'; break;
+          case 4: errorDetails = 'Video source not supported - Try external player'; break;
         }
       }
       
       console.error('Error details:', errorDetails, video.error);
 
-      // Try next method if we haven't exhausted retries
+      // Retry logic
       if (retryCount < maxRetries) {
         retryCount++;
-        console.log(`Trying different method (${retryCount}/${maxRetries})`);
+        console.log(`Auto-retry attempt ${retryCount}/${maxRetries}`);
         
-        // Cycle through player modes
-        const modes = ['auto', 'native', 'hls', 'proxy'];
-        const currentIndex = modes.indexOf(currentPlayerMode);
-        currentPlayerMode = modes[(currentIndex + 1) % modes.length];
-        
-        updateLoadingStatus(`Error occurred, trying ${currentPlayerMode} player...`);
+        updateLoadingStatus(`Error: ${errorDetails}. Retrying...`);
         
         setTimeout(() => {
-          loadVideoUniversal(currentVideoSrc);
-        }, 2000);
+          loadHLSVideo(currentVideoSrc);
+        }, 2000 * retryCount);
       } else {
-        showError('Playback Failed', `Unable to play video after trying ${maxRetries + 1} different methods. Error: ${errorDetails}`);
+        showError('HLS Playback Failed', 
+          `Unable to play HLS stream after ${maxRetries + 1} attempts.\n\nError: ${errorDetails}\n\nThis browser may not support HLS natively. Try Safari, or use external players like VLC.`);
       }
     }
 
@@ -681,58 +652,113 @@
     function retryLoad() {
       console.log('Manual retry requested');
       retryCount = 0;
-      currentPlayerMode = 'auto';
-      loadVideoUniversal(currentVideoSrc);
+      loadStartTime = Date.now();
+      loadHLSVideo(currentVideoSrc);
     }
 
+    // External player support
     function openInNewTab() {
       window.open(currentVideoSrc, '_blank');
     }
 
     function openInVLC() {
-      const vlcUrl = `vlc://${currentVideoSrc}`;
-      window.open(vlcUrl, '_self');
+      const vlcProtocols = [
+        `vlc://${currentVideoSrc}`,
+        `vlc-x-callback://x-callback-url/stream?url=${encodeURIComponent(currentVideoSrc)}`
+      ];
+      
+      vlcProtocols.forEach((protocol, index) => {
+        setTimeout(() => {
+          window.location.href = protocol;
+        }, index * 1000);
+      });
       
       setTimeout(() => {
-        if (confirm('VLC did not open? Copy URL to open manually in VLC:\nMedia → Open Network Stream')) {
+        if (confirm('VLC did not open automatically?\n\nCopy URL to open manually in VLC:\nMedia → Open Network Stream')) {
           copyToClipboard();
         }
       }, 3000);
     }
 
+    function openInMPV() {
+      const mpvUrl = `mpv://${currentVideoSrc}`;
+      window.location.href = mpvUrl;
+      
+      setTimeout(() => {
+        if (confirm('MPV did not open automatically?\n\nCopy URL to open manually in MPV.')) {
+          copyToClipboard();
+        }
+      }, 2000);
+    }
+
+    function downloadVideo() {
+      const link = document.createElement('a');
+      link.href = currentVideoSrc;
+      link.download = getUrlParameter('title') || 'video';
+      link.target = '_blank';
+      
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      setTimeout(() => {
+        if (confirm('Download did not start?\n\nSome HLS streams cannot be downloaded directly.\nCopy URL for external download tools?')) {
+          copyToClipboard();
+        }
+      }, 2000);
+    }
+
+    // Clipboard functionality
     function copyToClipboard() {
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(currentVideoSrc).then(() => {
-          showCopyFeedback();
+      const textToCopy = currentVideoSrc;
+      
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(textToCopy).then(() => {
+          showCopyFeedback('✅ URL Copied!');
         }).catch(() => {
-          fallbackCopy();
+          fallbackCopy(textToCopy);
         });
       } else {
-        fallbackCopy();
+        fallbackCopy(textToCopy);
       }
     }
 
-    function fallbackCopy() {
+    function fallbackCopy(text) {
       const textArea = document.createElement('textarea');
-      textArea.value = currentVideoSrc;
+      textArea.value = text;
       textArea.style.position = 'fixed';
-      textArea.style.opacity = '0';
+      textArea.style.left = '-999999px';
+      textArea.style.top = '-999999px';
       document.body.appendChild(textArea);
+      textArea.focus();
       textArea.select();
-      document.execCommand('copy');
+      
+      try {
+        document.execCommand('copy');
+        showCopyFeedback('✅ URL Copied!');
+      } catch (err) {
+        showCopyFeedback('❌ Copy failed');
+        console.error('Copy failed:', err);
+      }
+      
       document.body.removeChild(textArea);
-      showCopyFeedback();
     }
 
-    function showCopyFeedback() {
-      const btn = event.target;
-      const originalText = btn.textContent;
-      btn.textContent = '✅ Copied!';
-      btn.style.background = 'rgba(34, 197, 94, 0.3)';
-      setTimeout(() => {
-        btn.textContent = originalText;
-        btn.style.background = '';
-      }, 2000);
+    function showCopyFeedback(message) {
+      const btn = event?.target;
+      if (btn) {
+        const originalText = btn.textContent;
+        const originalBg = btn.style.background;
+        
+        btn.textContent = message;
+        btn.style.background = message.includes('✅') ? 
+          'rgba(34, 197, 94, 0.3)' : 'rgba(239, 68, 68, 0.3)';
+        
+        setTimeout(() => {
+          btn.textContent = originalText;
+          btn.style.background = originalBg;
+        }, 2000);
+      }
     }
 
     // Fullscreen functionality
@@ -740,7 +766,13 @@
       const container = document.getElementById('playerContainer');
       
       if (!document.fullscreenElement) {
-        container.requestFullscreen().catch(err => {
+        container.requestFullscreen().then(() => {
+          if (screen.orientation && screen.orientation.lock) {
+            screen.orientation.lock('landscape').catch(e => {
+              console.log('Orientation lock failed:', e);
+            });
+          }
+        }).catch(err => {
           console.log('Fullscreen error:', err);
         });
       } else {
@@ -754,8 +786,10 @@
       
       if (document.pictureInPictureElement) {
         document.exitPictureInPicture();
-      } else if (document.pictureInPictureEnabled) {
-        video.requestPictureInPicture().catch(err => {
+      } else if (document.pictureInPictureEnabled && video.readyState >= 2) {
+        video.requestPictureInPicture().then(() => {
+          updatePlayerStatus('Native HLS - Picture-in-Picture');
+        }).catch(err => {
           console.log('PiP error:', err);
         });
       }
@@ -763,6 +797,10 @@
 
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+        return;
+      }
+      
       const video = document.getElementById('moviePlayer');
       
       switch(e.code) {
@@ -782,13 +820,25 @@
           e.preventDefault();
           togglePictureInPicture();
           break;
-        case 'KeyS':
-          e.preventDefault();
-          switchPlayer();
-          break;
         case 'KeyR':
           e.preventDefault();
           retryLoad();
+          break;
+        case 'KeyD':
+          e.preventDefault();
+          downloadVideo();
+          break;
+        case 'KeyC':
+          e.preventDefault();
+          copyToClipboard();
+          break;
+        case 'KeyV':
+          e.preventDefault();
+          openInVLC();
+          break;
+        case 'KeyM':
+          e.preventDefault();
+          openInMPV();
           break;
         case 'Escape':
           if (document.fullscreenElement) {
@@ -797,11 +847,11 @@
           break;
         case 'ArrowLeft':
           e.preventDefault();
-          video.currentTime -= 10;
+          video.currentTime = Math.max(0, video.currentTime - 10);
           break;
         case 'ArrowRight':
           e.preventDefault();
-          video.currentTime += 10;
+          video.currentTime = Math.min(video.duration, video.currentTime + 10);
           break;
         case 'ArrowUp':
           e.preventDefault();
@@ -811,23 +861,219 @@
           e.preventDefault();
           video.volume = Math.max(0, video.volume - 0.1);
           break;
+        case 'KeyJ':
+          e.preventDefault();
+          video.currentTime = Math.max(0, video.currentTime - 10);
+          break;
+        case 'KeyL':
+          e.preventDefault();
+          video.currentTime = Math.min(video.duration, video.currentTime + 10);
+          break;
+        case 'KeyK':
+          e.preventDefault();
+          if (video.paused) {
+            video.play();
+          } else {
+            video.pause();
+          }
+          break;
+        case 'Digit0':
+          e.preventDefault();
+          video.currentTime = 0;
+          break;
+        case 'Digit1':
+          e.preventDefault();
+          video.currentTime = video.duration * 0.1;
+          break;
+        case 'Digit3':
+          e.preventDefault();
+          video.currentTime = video.duration * 0.3;
+          break;
+        case 'Digit4':
+          e.preventDefault();
+          video.currentTime = video.duration * 0.4;
+          break;
+        case 'Digit5':
+          e.preventDefault();
+          video.currentTime = video.duration * 0.5;
+          break;
+        case 'Digit6':
+          e.preventDefault();
+          video.currentTime = video.duration * 0.6;
+          break;
+        case 'Digit7':
+          e.preventDefault();
+          video.currentTime = video.duration * 0.7;
+          break;
+        case 'Digit8':
+          e.preventDefault();
+          video.currentTime = video.duration * 0.8;
+          break;
+        case 'Digit9':
+          e.preventDefault();
+          video.currentTime = video.duration * 0.9;
+          break;
       }
     });
+
+    // Touch gestures for mobile
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchStartTime = 0;
+
+    document.addEventListener('touchstart', (e) => {
+      if (e.touches.length === 1) {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        touchStartTime = Date.now();
+      }
+    });
+
+    document.addEventListener('touchend', (e) => {
+      if (e.changedTouches.length === 1) {
+        const touchEndX = e.changedTouches[0].clientX;
+        const touchEndY = e.changedTouches[0].clientY;
+        const touchEndTime = Date.now();
+        
+        const deltaX = touchEndX - touchStartX;
+        const deltaY = touchEndY - touchStartY;
+        const deltaTime = touchEndTime - touchStartTime;
+        
+        if (deltaTime < 500) {
+          const video = document.getElementById('moviePlayer');
+          
+          if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
+            if (deltaX > 0) {
+              video.currentTime = Math.min(video.duration, video.currentTime + 10);
+            } else {
+              video.currentTime = Math.max(0, video.currentTime - 10);
+            }
+          } else if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > 50) {
+            if (deltaY < 0) {
+              video.volume = Math.min(1, video.volume + 0.1);
+            } else {
+              video.volume = Math.max(0, video.volume - 0.1);
+            }
+          }
+        }
+      }
+    });
+
+    // Double tap to toggle play/pause
+    let lastTap = 0;
+    document.addEventListener('touchend', (e) => {
+      const currentTime = Date.now();
+      const tapLength = currentTime - lastTap;
+      
+      if (tapLength < 500 && tapLength > 0) {
+        const video = document.getElementById('moviePlayer');
+        if (video.paused) {
+          video.play();
+        } else {
+          video.pause();
+        }
+        e.preventDefault();
+      }
+      
+      lastTap = currentTime;
+    });
+
+    // Network status monitoring
+    if ('onLine' in navigator) {
+      window.addEventListener('online', () => {
+        if (document.getElementById('errorMessage').style.display !== 'none') {
+          console.log('Connection restored, retrying...');
+          retryLoad();
+        }
+      });
+      
+      window.addEventListener('offline', () => {
+        console.log('Connection lost');
+        updatePlayerStatus('Offline - Connection Lost');
+      });
+    }
+
+    // Visibility change handling
+    document.addEventListener('visibilitychange', () => {
+      const video = document.getElementById('moviePlayer');
+      if (document.hidden) {
+        if (!video.paused) {
+          video.pause();
+          video.dataset.wasPlaying = 'true';
+        }
+      } else {
+        if (video.dataset.wasPlaying === 'true') {
+          video.play();
+          delete video.dataset.wasPlaying;
+        }
+      }
+    });
+
+    // Performance monitoring
+    function startPerformanceMonitoring() {
+      setInterval(() => {
+        const video = document.getElementById('moviePlayer');
+        if (video && !video.paused && !video.ended) {
+          if (video.getVideoPlaybackQuality) {
+            const quality = video.getVideoPlaybackQuality();
+            if (quality.droppedVideoFrames > 0) {
+              console.warn('Dropped frames detected:', quality.droppedVideoFrames);
+            }
+          }
+          
+          if (video.buffered.length > 0) {
+            const bufferedAhead = video.buffered.end(video.buffered.length - 1) - video.currentTime;
+            if (bufferedAhead < 5) {
+              console.warn('Low buffer:', bufferedAhead + 's ahead');
+            }
+          }
+        }
+      }, 5000);
+    }
 
     // Cleanup on page unload
     window.addEventListener('beforeunload', () => {
-      cleanupPlayer();
+      const video = document.getElementById('moviePlayer');
+      video.src = '';
+      video.load();
     });
 
     // Initialize when page loads
-    window.addEventListener('load', initializePlayer);
+    window.addEventListener('load', () => {
+      initializePlayer();
+      startPerformanceMonitoring();
+    });
 
-    // Fallback if HLS.js doesn't load
-    setTimeout(() => {
-      if (typeof Hls === 'undefined') {
-        console.warn('HLS.js failed to load, will use native player only');
-      }
-    }, 3000);
+    // Browser HLS support detection
+    function detectHLSSupport() {
+      const video = document.createElement('video');
+      const support = {
+        native: video.canPlayType('application/vnd.apple.mpegurl') !== '' || 
+               video.canPlayType('application/x-mpegURL') !== '',
+        browser: navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome')
+      };
+      
+      console.log('HLS Support Detection:', support);
+      return support;
+    }
+
+    // Log player information
+    console.log('🎬 Native HLS Video Player Ready! 🎬');
+    console.log('Browser HLS Support:', detectHLSSupport());
+    console.log('Player Features:');
+    console.log('• Native HTML5 video tag HLS playback');
+    console.log('• Automatic retry on errors');
+    console.log('• Buffer monitoring and progress tracking');
+    console.log('• Mobile touch gestures');
+    console.log('• Keyboard shortcuts');
+    console.log('• External player integration (VLC, MPV)');
+    console.log('• Fullscreen and Picture-in-Picture support');
+    
+    console.log('Keyboard shortcuts:');
+    console.log('Space/K: Play/Pause | F: Fullscreen | P: Picture-in-Picture');
+    console.log('R: Retry | D: Download | C: Copy URL | V: VLC | M: MPV');
+    console.log('←/→: Seek 10s | ↑/↓: Volume | J/L: Seek | 0-9: Jump to %');
+
   </script>
 </body>
 </html>
