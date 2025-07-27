@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Video Player</title>
+  <title>Universal Movie Player</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     
@@ -157,6 +157,26 @@
       opacity: 1;
     }
 
+    .error-message {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background: rgba(220, 53, 69, 0.2);
+      border: 1px solid rgba(220, 53, 69, 0.4);
+      border-radius: 15px;
+      padding: 30px;
+      backdrop-filter: blur(10px);
+      max-width: 600px;
+    }
+
+    .error-icon {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      opacity: 0.7;
+    }
+
     .loading {
       position: absolute;
       top: 50%;
@@ -180,24 +200,10 @@
       100% { transform: rotate(360deg); }
     }
 
-    .error-message {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      background: rgba(220, 53, 69, 0.2);
-      border: 1px solid rgba(220, 53, 69, 0.4);
-      border-radius: 15px;
-      padding: 30px;
-      backdrop-filter: blur(10px);
-      max-width: 600px;
-    }
-
-    .error-icon {
-      font-size: 3rem;
-      margin-bottom: 15px;
-      opacity: 0.7;
+    .loading-status {
+      margin-top: 10px;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.8);
     }
 
     /* Mobile adjustments */
@@ -272,30 +278,30 @@
       <div class="control-buttons">
         <button class="btn" onclick="toggleFullscreen()">⛶ Fullscreen</button>
         <button class="btn" onclick="togglePictureInPicture()">📱 PiP</button>
+        <button class="btn" onclick="switchPlayer()">🔄 Switch Player</button>
         <button class="btn" onclick="copyToClipboard()">📋 Copy URL</button>
-        <button class="btn" onclick="openInVLC()">📺 VLC</button>
-        <a href="index.html" class="btn btn-primary">← Back</a>
+        <a href="./" class="btn btn-primary">← Back</a>
       </div>
     </div>
 
     <div class="player-status" id="playerStatus">
-      <span id="currentPlayer">HTML5 Video Player</span>
+      <span id="currentPlayer">Loading...</span>
     </div>
 
     <div class="video-wrapper">
       <div class="loading" id="loadingIndicator">
         <div class="spinner"></div>
         <p>Loading video...</p>
+        <div class="loading-status" id="loadingStatus">Initializing player...</div>
       </div>
       
       <video 
         id="moviePlayer" 
         controls 
-        autoplay
-        preload="auto"
+        preload="metadata"
         playsinline
         style="display: none;"
-        name="media"
+        crossorigin="anonymous"
       >
         Your browser does not support the video tag.
       </video>
@@ -303,23 +309,46 @@
       <div class="error-message" id="errorMessage" style="display: none;">
         <div class="error-icon">⚠️</div>
         <h3>Video Load Error</h3>
-        <p id="errorText">Unable to load the video.</p>
+        <p id="errorText">Unable to load the video. GitHub Pages has CORS restrictions.</p>
         <div style="margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
           <button class="btn btn-primary" onclick="retryLoad()">🔄 Retry</button>
-          <button class="btn" onclick="openInVLC()">📺 Open in VLC</button>
+          <button class="btn" onclick="switchPlayer()">🔄 Try Different Method</button>
+          <button class="btn" onclick="openInNewTab()">🔗 Open Direct Link</button>
           <button class="btn" onclick="copyToClipboard()">📋 Copy URL</button>
+          <button class="btn" onclick="openInVLC()">📺 Open in VLC</button>
         </div>
       </div>
     </div>
   </div>
 
   <script>
+    // Global variables
     let currentVideoSrc = '';
+    let retryCount = 0;
+    let currentPlayerMode = 'native';
+    const maxRetries = 4;
 
     // Get URL parameters
     function getUrlParameter(name) {
       const urlParams = new URLSearchParams(window.location.search);
       return urlParams.get(name);
+    }
+
+    // Update loading status
+    function updateLoadingStatus(message) {
+      const statusEl = document.getElementById('loadingStatus');
+      if (statusEl) {
+        statusEl.textContent = message;
+      }
+      console.log('Status:', message);
+    }
+
+    // Update player status
+    function updatePlayerStatus(message) {
+      const statusEl = document.getElementById('currentPlayer');
+      if (statusEl) {
+        statusEl.textContent = message;
+      }
     }
 
     // Initialize player
@@ -331,7 +360,7 @@
       const poster = getUrlParameter('poster') || '';
       const source = getUrlParameter('source') || '';
 
-      console.log('Simple player initializing:', { videoSrc, title, year, genre, source });
+      console.log('GitHub-compatible player initializing:', { videoSrc, title, year, genre, source });
 
       if (!videoSrc) {
         showError('No video source provided', 'Please return to the movie collection and try again.');
@@ -347,9 +376,21 @@
       if (year) metaText += year;
       if (genre) metaText += (metaText ? ' • ' : '') + genre;
       if (source) metaText += (metaText ? ' • ' : '') + source;
+      metaText += ' • GitHub Pages';
       document.getElementById('movieMeta').textContent = metaText;
 
-      // Set poster
+      // Set poster with better error handling
+      setupPoster(poster, title);
+
+      // Start loading video
+      loadVideoUniversal(videoSrc);
+
+      // Update document title
+      document.title = `Playing: ${title}`;
+    }
+
+    // Setup poster with fallback
+    function setupPoster(poster, title) {
       const posterImg = document.getElementById('moviePoster');
       const fallbackUrl = `https://via.placeholder.com/50x75/1a1a2e/a78bfa?text=${encodeURIComponent(title.substring(0, 3))}`;
       
@@ -361,85 +402,174 @@
       } else {
         posterImg.src = fallbackUrl;
       }
-
-      // Load video
-      loadVideo(videoSrc);
-
-      // Update document title
-      document.title = `Playing: ${title}`;
     }
 
-    // Load video using simple HTML5 approach
-    function loadVideo(src) {
-      console.log('Loading video:', src);
+    // Universal video loader - GitHub Pages optimized
+    function loadVideoUniversal(src) {
+      console.log('Loading video with mode:', currentPlayerMode, 'URL:', src);
+      updateLoadingStatus(`Trying ${currentPlayerMode} method...`);
       
       const video = document.getElementById('moviePlayer');
-      const loadingIndicator = document.getElementById('loadingIndicator');
-      const errorMessage = document.getElementById('errorMessage');
       
-      // Show loading
-      loadingIndicator.style.display = 'block';
-      video.style.display = 'none';
-      errorMessage.style.display = 'none';
-      
-      // Clear previous sources
+      // Clear previous state
       video.innerHTML = '';
+      video.removeAttribute('src');
       
-      // Detect video type and add appropriate source
-      const videoType = getVideoType(src);
+      if (currentPlayerMode === 'native') {
+        loadWithNative(src);
+      } else if (currentPlayerMode === 'cors') {
+        loadWithCORS(src);
+      } else if (currentPlayerMode === 'proxy') {
+        loadWithProxy(src);
+      } else if (currentPlayerMode === 'iframe') {
+        loadWithIframe(src);
+      }
+    }
+
+    // Load with native HTML5 player
+    function loadWithNative(src) {
+      updateLoadingStatus('Loading with native HTML5 player...');
+      updatePlayerStatus('Native HTML5 Player');
       
-      // Create source element
+      const video = document.getElementById('moviePlayer');
+      
+      // Setup video element
+      video.preload = 'metadata';
+      video.autoplay = false;
+      video.playsinline = true;
+      
+      // Create source element with proper type detection
       const source = document.createElement('source');
       source.src = src;
-      source.type = videoType;
+      source.type = getVideoType(src);
       video.appendChild(source);
       
       // Set video src as fallback
       video.src = src;
       
       // Event listeners
-      video.onloadstart = () => {
-        console.log('Video loading started');
-        document.getElementById('currentPlayer').textContent = 'Loading...';
-      };
-      
-      video.onloadeddata = () => {
-        console.log('Video data loaded');
-        document.getElementById('currentPlayer').textContent = 'Video loaded';
-      };
-      
-      video.oncanplay = () => {
-        console.log('Video can play');
-        loadingIndicator.style.display = 'none';
-        video.style.display = 'block';
-        errorMessage.style.display = 'none';
-        
-        const resolution = video.videoWidth && video.videoHeight ? 
-          ` - ${video.videoWidth}x${video.videoHeight}` : '';
-        document.getElementById('currentPlayer').textContent = `HTML5 Player${resolution}`;
-      };
-      
-      video.onerror = (e) => {
-        console.error('Video error:', e);
-        loadingIndicator.style.display = 'none';
-        video.style.display = 'none';
-        
-        let errorText = 'Unable to load video. ';
-        if (video.error) {
-          switch (video.error.code) {
-            case 1: errorText += 'Loading aborted.'; break;
-            case 2: errorText += 'Network error.'; break;
-            case 3: errorText += 'Decode error.'; break;
-            case 4: errorText += 'Source not supported.'; break;
-            default: errorText += 'Unknown error.'; break;
-          }
-        }
-        
-        showError('Playback Error', errorText);
-      };
+      video.onloadstart = onVideoLoadStart;
+      video.onloadeddata = onVideoLoaded;
+      video.oncanplay = onVideoCanPlay;
+      video.onerror = onVideoError;
       
       // Load the video
       video.load();
+    }
+
+    // Load with CORS headers
+    function loadWithCORS(src) {
+      updateLoadingStatus('Loading with CORS support...');
+      updatePlayerStatus('CORS-enabled Player');
+      
+      const video = document.getElementById('moviePlayer');
+      
+      video.crossOrigin = 'anonymous';
+      video.preload = 'metadata';
+      
+      const source = document.createElement('source');
+      source.src = src;
+      source.type = getVideoType(src);
+      video.appendChild(source);
+      
+      video.src = src;
+      
+      video.onloadstart = onVideoLoadStart;
+      video.onloadeddata = onVideoLoaded;
+      video.oncanplay = onVideoCanPlay;
+      video.onerror = onVideoError;
+      
+      video.load();
+    }
+
+    // Load with proxy services
+    function loadWithProxy(src) {
+      updateLoadingStatus('Loading with CORS proxy...');
+      updatePlayerStatus('Proxy Player');
+      
+      const video = document.getElementById('moviePlayer');
+      
+      // Try different proxy services
+      const proxies = [
+        `https://cors-anywhere.herokuapp.com/${src}`,
+        `https://api.allorigins.win/raw?url=${encodeURIComponent(src)}`,
+        `https://thingproxy.freeboard.io/fetch/${src}`,
+        `https://crossorigin.me/${src}`,
+        src // Direct fallback
+      ];
+      
+      let proxyIndex = 0;
+      
+      function tryNextProxy() {
+        if (proxyIndex < proxies.length) {
+          const proxyUrl = proxies[proxyIndex];
+          console.log(`Trying proxy ${proxyIndex + 1}/${proxies.length}:`, proxyUrl);
+          updateLoadingStatus(`Proxy ${proxyIndex + 1}/${proxies.length}...`);
+          
+          const source = document.createElement('source');
+          source.src = proxyUrl;
+          source.type = getVideoType(src);
+          video.appendChild(source);
+          
+          video.src = proxyUrl;
+          
+          video.onloadstart = onVideoLoadStart;
+          video.oncanplay = onVideoCanPlay;
+          video.onerror = () => {
+            console.log('Proxy failed, trying next...');
+            video.innerHTML = '';
+            proxyIndex++;
+            if (proxyIndex < proxies.length) {
+              setTimeout(tryNextProxy, 1000);
+            } else {
+              onVideoError();
+            }
+          };
+          
+          video.load();
+        }
+      }
+      
+      tryNextProxy();
+    }
+
+    // Load with iframe embedding
+    function loadWithIframe(src) {
+      updateLoadingStatus('Creating iframe player...');
+      updatePlayerStatus('Iframe Player');
+      
+      const videoWrapper = document.querySelector('.video-wrapper');
+      const video = document.getElementById('moviePlayer');
+      
+      // Hide video element
+      video.style.display = 'none';
+      
+      // Create iframe
+      const iframe = document.createElement('iframe');
+      iframe.id = 'videoIframe';
+      iframe.src = src;
+      iframe.style.cssText = `
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      `;
+      iframe.allow = 'autoplay; fullscreen; picture-in-picture';
+      iframe.allowfullscreen = true;
+      
+      iframe.onload = () => {
+        document.getElementById('loadingIndicator').style.display = 'none';
+        document.getElementById('errorMessage').style.display = 'none';
+        updatePlayerStatus('Iframe Player - Ready');
+      };
+      
+      iframe.onerror = () => {
+        iframe.remove();
+        onVideoError();
+      };
+      
+      videoWrapper.appendChild(iframe);
     }
 
     // Get video MIME type
@@ -464,21 +594,127 @@
       return types[extension] || 'video/mp4';
     }
 
+    // Switch player mode
+    function switchPlayer() {
+      const modes = ['native', 'cors', 'proxy', 'iframe'];
+      const currentIndex = modes.indexOf(currentPlayerMode);
+      const nextIndex = (currentIndex + 1) % modes.length;
+      currentPlayerMode = modes[nextIndex];
+      
+      console.log('Switching to player mode:', currentPlayerMode);
+      retryCount = 0;
+      
+      // Clean up any existing iframe
+      const existingIframe = document.getElementById('videoIframe');
+      if (existingIframe) {
+        existingIframe.remove();
+      }
+      
+      updateLoadingStatus(`Switching to ${currentPlayerMode} method...`);
+      
+      setTimeout(() => {
+        loadVideoUniversal(currentVideoSrc);
+      }, 500);
+    }
+
+    // Video event handlers
+    function onVideoLoadStart() {
+      console.log('Video loading started...');
+      document.getElementById('loadingIndicator').style.display = 'block';
+      document.getElementById('moviePlayer').style.display = 'none';
+      document.getElementById('errorMessage').style.display = 'none';
+    }
+
+    function onVideoLoaded() {
+      console.log('Video data loaded');
+      updateLoadingStatus('Video data loaded');
+    }
+
+    function onVideoCanPlay() {
+      console.log('Video can play');
+      document.getElementById('loadingIndicator').style.display = 'none';
+      document.getElementById('moviePlayer').style.display = 'block';
+      document.getElementById('errorMessage').style.display = 'none';
+      retryCount = 0;
+      
+      const video = document.getElementById('moviePlayer');
+      const resolution = video.videoWidth && video.videoHeight ? 
+        ` - ${video.videoWidth}x${video.videoHeight}` : '';
+      
+      updateLoadingStatus('Video ready!');
+      updatePlayerStatus(`${currentPlayerMode.toUpperCase()} Player${resolution}`);
+      
+      // Try auto-play
+      video.play().catch(e => {
+        console.log('Autoplay prevented:', e);
+        updatePlayerStatus(`${currentPlayerMode.toUpperCase()} Player - Click ▶ to play`);
+      });
+    }
+
+    function onVideoError(e) {
+      console.error('Video error occurred');
+      const video = document.getElementById('moviePlayer');
+      
+      let errorDetails = 'Unknown error';
+      if (video.error) {
+        switch (video.error.code) {
+          case 1: errorDetails = 'Video loading aborted'; break;
+          case 2: errorDetails = 'Network error - CORS or connectivity issue'; break;
+          case 3: errorDetails = 'Video decode error - Unsupported format'; break;
+          case 4: errorDetails = 'Video source not supported - Try external player'; break;
+        }
+      }
+      
+      console.error('Error details:', errorDetails, video.error);
+
+      // Try next method if we haven't exhausted retries
+      if (retryCount < maxRetries) {
+        retryCount++;
+        console.log(`Trying different method (${retryCount}/${maxRetries})`);
+        
+        // Cycle through player modes
+        const modes = ['native', 'cors', 'proxy', 'iframe'];
+        const currentIndex = modes.indexOf(currentPlayerMode);
+        currentPlayerMode = modes[(currentIndex + 1) % modes.length];
+        
+        updateLoadingStatus(`Error: ${errorDetails}. Trying ${currentPlayerMode}...`);
+        
+        setTimeout(() => {
+          loadVideoUniversal(currentVideoSrc);
+        }, 2000);
+      } else {
+        showError('Playback Failed', 
+          `Unable to play video after trying ${maxRetries + 1} different methods.\n\nError: ${errorDetails}\n\nGitHub Pages has CORS restrictions. Try:\n1. External players (VLC)\n2. Direct link\n3. Copy URL for other tools`);
+      }
+    }
+
     function showError(title, message) {
       document.getElementById('loadingIndicator').style.display = 'none';
       document.getElementById('moviePlayer').style.display = 'none';
       document.getElementById('errorMessage').style.display = 'block';
       document.getElementById('errorMessage').querySelector('h3').textContent = title;
       document.getElementById('errorText').textContent = message;
-      document.getElementById('currentPlayer').textContent = 'Error';
+      updatePlayerStatus('Error - Try external player');
     }
 
     function retryLoad() {
-      console.log('Retrying video load');
-      loadVideo(currentVideoSrc);
+      console.log('Manual retry requested');
+      retryCount = 0;
+      currentPlayerMode = 'native';
+      
+      // Clean up iframe if exists
+      const existingIframe = document.getElementById('videoIframe');
+      if (existingIframe) {
+        existingIframe.remove();
+      }
+      
+      loadVideoUniversal(currentVideoSrc);
     }
 
-    // External player support
+    function openInNewTab() {
+      window.open(currentVideoSrc, '_blank');
+    }
+
     function openInVLC() {
       const vlcUrl = `vlc://${currentVideoSrc}`;
       window.location.href = vlcUrl;
@@ -487,52 +723,42 @@
         if (confirm('VLC did not open automatically?\n\nCopy URL to open manually in VLC:\nMedia → Open Network Stream')) {
           copyToClipboard();
         }
-      }, 2000);
+      }, 3000);
     }
 
-    // Clipboard functionality
     function copyToClipboard() {
       if (navigator.clipboard && window.isSecureContext) {
         navigator.clipboard.writeText(currentVideoSrc).then(() => {
-          showCopyFeedback('✅ URL Copied!');
+          showCopyFeedback();
         }).catch(() => {
-          fallbackCopy(currentVideoSrc);
+          fallbackCopy();
         });
       } else {
-        fallbackCopy(currentVideoSrc);
+        fallbackCopy();
       }
     }
 
-    function fallbackCopy(text) {
+    function fallbackCopy() {
       const textArea = document.createElement('textarea');
-      textArea.value = text;
+      textArea.value = currentVideoSrc;
       textArea.style.position = 'fixed';
-      textArea.style.left = '-999999px';
-      textArea.style.top = '-999999px';
+      textArea.style.opacity = '0';
       document.body.appendChild(textArea);
-      textArea.focus();
       textArea.select();
-      
-      try {
-        document.execCommand('copy');
-        showCopyFeedback('✅ URL Copied!');
-      } catch (err) {
-        showCopyFeedback('❌ Copy failed');
-      }
-      
+      document.execCommand('copy');
       document.body.removeChild(textArea);
+      showCopyFeedback();
     }
 
-    function showCopyFeedback(message) {
-      const btn = event?.target;
-      if (btn) {
-        const originalText = btn.textContent;
-        btn.textContent = message;
-        
-        setTimeout(() => {
-          btn.textContent = originalText;
-        }, 2000);
-      }
+    function showCopyFeedback() {
+      const btn = event.target;
+      const originalText = btn.textContent;
+      btn.textContent = '✅ Copied!';
+      btn.style.background = 'rgba(34, 197, 94, 0.3)';
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.style.background = '';
+      }, 2000);
     }
 
     // Fullscreen functionality
@@ -554,7 +780,7 @@
       
       if (document.pictureInPictureElement) {
         document.exitPictureInPicture();
-      } else if (document.pictureInPictureEnabled) {
+      } else if (document.pictureInPictureEnabled && video.readyState >= 2) {
         video.requestPictureInPicture().catch(err => {
           console.log('PiP error:', err);
         });
@@ -585,6 +811,14 @@
         case 'KeyP':
           e.preventDefault();
           togglePictureInPicture();
+          break;
+        case 'KeyS':
+          e.preventDefault();
+          switchPlayer();
+          break;
+        case 'KeyR':
+          e.preventDefault();
+          retryLoad();
           break;
         case 'KeyC':
           e.preventDefault();
@@ -621,11 +855,12 @@
     // Initialize when page loads
     window.addEventListener('load', initializePlayer);
 
-    console.log('🎬 Simple HTML5 Video Player Ready! 🎬');
-    console.log('Based on your working example - clean and simple!');
-    console.log('Supports: MP4, WebM, OGG, AVI, MOV, and more');
-    console.log('Features: Autoplay, Controls, Fullscreen, PiP, VLC integration');
-
+    // GitHub Pages compatibility logging
+    console.log('🎬 GitHub Pages Compatible Video Player Ready! 🎬');
+    console.log('Optimized for GitHub Pages hosting with CORS handling');
+    console.log('Available methods: Native HTML5, CORS, Proxy, Iframe');
+    console.log('Note: GitHub Pages has CORS restrictions for external videos');
+    console.log('For best results, use VLC or direct links for external content');
   </script>
 </body>
 </html>
