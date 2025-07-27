@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Universal Movie Player</title>
+  <title>Movie Player</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.4.12/hls.min.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     
     * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
     }
 
     body {
@@ -18,181 +19,54 @@
       color: white;
       font-family: 'Inter', Arial, sans-serif;
       overflow: hidden;
+      position: relative;
     }
 
     .player-container {
       position: relative;
       width: 100vw;
       height: 100vh;
+      background: #000;
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
     }
 
-    .video-wrapper {
-      position: relative;
+    #videoPlayer {
       width: 100%;
       height: 100%;
+      object-fit: contain;
+      background: #000;
+    }
+
+    .loading-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+      z-index: 100;
+      transition: opacity 0.5s ease;
     }
 
-    video {
-      max-width: 100%;
-      max-height: 100%;
-      width: auto;
-      height: auto;
-      object-fit: contain;
-      border-radius: 8px;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-    }
-
-    .player-controls {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      right: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: rgba(0, 0, 0, 0.8);
-      backdrop-filter: blur(20px);
-      padding: 15px 20px;
-      border-radius: 15px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+    .loading-screen.hidden {
       opacity: 0;
-      transition: opacity 0.3s ease;
-      z-index: 10;
+      pointer-events: none;
     }
 
-    .player-container:hover .player-controls {
-      opacity: 1;
-    }
-
-    .movie-info {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .movie-poster {
-      width: 50px;
-      height: 75px;
-      border-radius: 8px;
-      object-fit: cover;
-      border: 2px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .movie-details h1 {
-      font-size: 1.5rem;
-      font-weight: 600;
-      margin-bottom: 5px;
-      background: linear-gradient(135deg, #fff 0%, #a78bfa 50%, #ec4899 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .movie-meta {
-      font-size: 0.9rem;
-      color: rgba(255, 255, 255, 0.7);
-    }
-
-    .control-buttons {
-      display: flex;
-      gap: 15px;
-      align-items: center;
-    }
-
-    .btn {
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      border-radius: 12px;
-      color: white;
-      padding: 10px 15px;
-      cursor: pointer;
-      font-size: 14px;
-      font-weight: 500;
-      transition: all 0.3s ease;
-      backdrop-filter: blur(10px);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      text-decoration: none;
-    }
-
-    .btn:hover {
-      background: rgba(255, 255, 255, 0.2);
-      transform: translateY(-2px);
-      box-shadow: 0 10px 30px rgba(167, 139, 250, 0.3);
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, rgba(167, 139, 250, 0.3), rgba(236, 72, 153, 0.3));
-      border-color: rgba(167, 139, 250, 0.6);
-    }
-
-    .btn-primary:hover {
-      background: linear-gradient(135deg, rgba(167, 139, 250, 0.4), rgba(236, 72, 153, 0.4));
-    }
-
-    .player-status {
-      position: absolute;
-      bottom: 20px;
-      left: 20px;
-      background: rgba(0, 0, 0, 0.8);
-      backdrop-filter: blur(20px);
-      padding: 10px 15px;
-      border-radius: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      font-size: 12px;
-      color: rgba(255, 255, 255, 0.8);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-
-    .player-container:hover .player-status {
-      opacity: 1;
-    }
-
-    .error-message {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      background: rgba(220, 53, 69, 0.2);
-      border: 1px solid rgba(220, 53, 69, 0.4);
-      border-radius: 15px;
-      padding: 30px;
-      backdrop-filter: blur(10px);
-      max-width: 600px;
-    }
-
-    .error-icon {
-      font-size: 3rem;
-      margin-bottom: 15px;
-      opacity: 0.7;
-    }
-
-    .loading {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-
-    .spinner {
+    .loading-spinner {
       width: 60px;
       height: 60px;
-      border: 4px solid rgba(255, 255, 255, 0.3);
+      border: 4px solid rgba(255, 255, 255, 0.1);
       border-top: 4px solid #a78bfa;
       border-radius: 50%;
       animation: spin 1s linear infinite;
-      margin: 0 auto 20px;
+      margin-bottom: 20px;
     }
 
     @keyframes spin {
@@ -200,667 +74,851 @@
       100% { transform: rotate(360deg); }
     }
 
-    .loading-status {
-      margin-top: 10px;
-      font-size: 14px;
+    .loading-text {
+      font-size: 18px;
       color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 10px;
     }
 
-    /* Mobile adjustments */
+    .movie-info {
+      text-align: center;
+      max-width: 600px;
+      padding: 0 20px;
+    }
+
+    .movie-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #fff 0%, #a78bfa 50%, #ec4899 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .movie-details {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .controls-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+      z-index: 50;
+    }
+
+    .controls-overlay.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .top-controls {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .back-button {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .back-button:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-color: rgba(167, 139, 250, 0.6);
+    }
+
+    .video-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+    }
+
+    .video-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .video-details {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .center-controls {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .play-pause-btn {
+      width: 80px;
+      height: 80px;
+      background: rgba(255, 255, 255, 0.9);
+      border: none;
+      border-radius: 50%;
+      color: #333;
+      font-size: 24px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    .play-pause-btn:hover {
+      background: rgba(255, 255, 255, 1);
+      transform: scale(1.1);
+    }
+
+    .skip-btn {
+      width: 50px;
+      height: 50px;
+      background: rgba(255, 255, 255, 0.7);
+      border: none;
+      border-radius: 50%;
+      color: #333;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    .skip-btn:hover {
+      background: rgba(255, 255, 255, 0.9);
+      transform: scale(1.1);
+    }
+
+    .bottom-controls {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    }
+
+    .progress-container {
+      margin-bottom: 15px;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 3px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .progress-filled {
+      height: 100%;
+      background: linear-gradient(90deg, #a78bfa, #ec4899);
+      width: 0%;
+      transition: width 0.1s ease;
+      border-radius: 3px;
+    }
+
+    .progress-buffered {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.2);
+      width: 0%;
+      border-radius: 3px;
+    }
+
+    .control-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .left-controls, .right-controls {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .control-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 8px;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    .control-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: scale(1.1);
+    }
+
+    .time-display {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.8);
+      min-width: 100px;
+    }
+
+    .volume-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .volume-slider {
+      width: 80px;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 2px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .volume-filled {
+      height: 100%;
+      background: linear-gradient(90deg, #a78bfa, #ec4899);
+      border-radius: 2px;
+      width: 100%;
+      transition: width 0.1s ease;
+    }
+
+    .quality-selector {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .error-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      display: none;
+    }
+
+    .error-icon {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      opacity: 0.6;
+    }
+
+    .error-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .error-message {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+      max-width: 500px;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .retry-button {
+      background: linear-gradient(135deg, #a78bfa, #ec4899);
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .retry-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(167, 139, 250, 0.3);
+    }
+
+    /* Mobile optimizations */
     @media (max-width: 768px) {
-      .player-controls {
-        top: 10px;
-        left: 10px;
-        right: 10px;
-        padding: 10px 15px;
-        flex-direction: column;
-        gap: 15px;
+      .top-controls {
+        padding: 15px;
       }
 
-      .movie-info {
-        width: 100%;
-        justify-content: center;
+      .video-title {
+        font-size: 16px;
       }
 
-      .movie-details h1 {
-        font-size: 1.2rem;
+      .video-details {
+        font-size: 11px;
       }
 
-      .control-buttons {
-        width: 100%;
-        justify-content: center;
+      .play-pause-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+      }
+
+      .skip-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+      }
+
+      .bottom-controls {
+        padding: 15px;
+      }
+
+      .control-row {
         flex-wrap: wrap;
         gap: 10px;
       }
 
-      .btn {
-        padding: 8px 12px;
-        font-size: 12px;
+      .left-controls, .right-controls {
+        gap: 10px;
       }
 
-      video {
-        border-radius: 0;
+      .volume-container {
+        display: none; /* Hide volume on mobile */
       }
 
-      .player-status {
-        bottom: 10px;
-        left: 10px;
-        right: 10px;
-        text-align: center;
+      .control-btn {
+        font-size: 16px;
+        padding: 6px;
       }
     }
 
-    /* Fullscreen styles */
-    .player-container:-webkit-full-screen {
-      background: #000;
+    /* Hide controls initially */
+    .controls-overlay {
+      cursor: none;
     }
 
-    .player-container:-moz-full-screen {
-      background: #000;
-    }
-
-    .player-container:fullscreen {
-      background: #000;
+    .player-container:hover .controls-overlay {
+      cursor: default;
     }
   </style>
 </head>
 <body>
-  <div class="player-container" id="playerContainer">
-    <div class="player-controls">
+  <div class="player-container">
+    <video id="videoPlayer" controls="false" preload="metadata"></video>
+    
+    <div class="loading-screen" id="loadingScreen">
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Loading video...</div>
       <div class="movie-info">
-        <img src="" alt="Movie Poster" class="movie-poster" id="moviePoster">
-        <div class="movie-details">
-          <h1 id="movieTitle">Loading...</h1>
-          <div class="movie-meta" id="movieMeta">Preparing video...</div>
-        </div>
-      </div>
-      
-      <div class="control-buttons">
-        <button class="btn" onclick="toggleFullscreen()">⛶ Fullscreen</button>
-        <button class="btn" onclick="togglePictureInPicture()">📱 PiP</button>
-        <button class="btn" onclick="switchPlayer()">🔄 Switch Player</button>
-        <button class="btn" onclick="copyToClipboard()">📋 Copy URL</button>
-        <a href="./" class="btn btn-primary">← Back</a>
+        <div class="movie-title" id="loadingTitle">Movie Title</div>
+        <div class="movie-details" id="loadingDetails">Preparing your movie...</div>
       </div>
     </div>
 
-    <div class="player-status" id="playerStatus">
-      <span id="currentPlayer">Loading...</span>
-    </div>
-
-    <div class="video-wrapper">
-      <div class="loading" id="loadingIndicator">
-        <div class="spinner"></div>
-        <p>Loading video...</p>
-        <div class="loading-status" id="loadingStatus">Initializing player...</div>
-      </div>
-      
-      <video 
-        id="moviePlayer" 
-        controls 
-        preload="metadata"
-        playsinline
-        style="display: none;"
-        crossorigin="anonymous"
-      >
-        Your browser does not support the video tag.
-      </video>
-
-      <div class="error-message" id="errorMessage" style="display: none;">
-        <div class="error-icon">⚠️</div>
-        <h3>Video Load Error</h3>
-        <p id="errorText">Unable to load the video. GitHub Pages has CORS restrictions.</p>
-        <div style="margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-          <button class="btn btn-primary" onclick="retryLoad()">🔄 Retry</button>
-          <button class="btn" onclick="switchPlayer()">🔄 Try Different Method</button>
-          <button class="btn" onclick="openInNewTab()">🔗 Open Direct Link</button>
-          <button class="btn" onclick="copyToClipboard()">📋 Copy URL</button>
-          <button class="btn" onclick="openInVLC()">📺 Open in VLC</button>
+    <div class="controls-overlay" id="controlsOverlay">
+      <div class="top-controls">
+        <a href="javascript:history.back()" class="back-button">
+          <span>←</span>
+          <span>Back</span>
+        </a>
+        
+        <div class="video-info">
+          <div class="video-title" id="videoTitle">Movie Title</div>
+          <div class="video-details" id="videoDetails">Genre • Year</div>
         </div>
       </div>
+
+      <div class="center-controls" id="centerControls">
+        <button class="skip-btn" id="skipBackBtn">⏪</button>
+        <button class="play-pause-btn" id="playPauseBtn">▶</button>
+        <button class="skip-btn" id="skipForwardBtn">⏩</button>
+      </div>
+
+      <div class="bottom-controls">
+        <div class="progress-container">
+          <div class="progress-bar" id="progressBar">
+            <div class="progress-buffered" id="progressBuffered"></div>
+            <div class="progress-filled" id="progressFilled"></div>
+          </div>
+        </div>
+        
+        <div class="control-row">
+          <div class="left-controls">
+            <button class="control-btn" id="muteBtn">🔊</button>
+            <div class="volume-container">
+              <div class="volume-slider" id="volumeSlider">
+                <div class="volume-filled" id="volumeFilled"></div>
+              </div>
+            </div>
+            <div class="time-display" id="timeDisplay">0:00 / 0:00</div>
+          </div>
+          
+          <div class="right-controls">
+            <select class="quality-selector" id="qualitySelector" style="display: none;">
+              <option value="auto">Auto</option>
+            </select>
+            <button class="control-btn" id="fullscreenBtn">⛶</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="error-screen" id="errorScreen">
+      <div class="error-icon">⚠️</div>
+      <div class="error-title">Playback Error</div>
+      <div class="error-message" id="errorMessage">
+        Unable to load the video. This could be due to network issues or an unsupported format.
+      </div>
+      <button class="retry-button" id="retryButton">Try Again</button>
     </div>
   </div>
 
   <script>
-    // Global variables
-    let currentVideoSrc = '';
-    let retryCount = 0;
-    let currentPlayerMode = 'native';
-    const maxRetries = 4;
-
-    // Get URL parameters
-    function getUrlParameter(name) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(name);
-    }
-
-    // Update loading status
-    function updateLoadingStatus(message) {
-      const statusEl = document.getElementById('loadingStatus');
-      if (statusEl) {
-        statusEl.textContent = message;
-      }
-      console.log('Status:', message);
-    }
-
-    // Update player status
-    function updatePlayerStatus(message) {
-      const statusEl = document.getElementById('currentPlayer');
-      if (statusEl) {
-        statusEl.textContent = message;
-      }
-    }
-
-    // Initialize player
-    function initializePlayer() {
-      const videoSrc = getUrlParameter('src');
-      const title = getUrlParameter('title') || 'Unknown Movie';
-      const year = getUrlParameter('year') || '';
-      const genre = getUrlParameter('genre') || '';
-      const poster = getUrlParameter('poster') || '';
-      const source = getUrlParameter('source') || '';
-
-      console.log('GitHub-compatible player initializing:', { videoSrc, title, year, genre, source });
-
-      if (!videoSrc) {
-        showError('No video source provided', 'Please return to the movie collection and try again.');
-        return;
+    class MoviePlayer {
+      constructor() {
+        this.video = document.getElementById('videoPlayer');
+        this.hls = null;
+        this.isPlaying = false;
+        this.controlsVisible = true;
+        this.controlsTimeout = null;
+        this.currentTime = 0;
+        this.duration = 0;
+        this.volume = 1;
+        this.isMuted = false;
+        
+        this.initializePlayer();
+        this.setupEventListeners();
+        this.loadMovieFromURL();
       }
 
-      currentVideoSrc = videoSrc;
+      initializePlayer() {
+        // Hide loading screen after a short delay if video loads quickly
+        this.video.addEventListener('loadeddata', () => {
+          setTimeout(() => {
+            document.getElementById('loadingScreen').classList.add('hidden');
+          }, 500);
+        });
 
-      // Set movie info
-      document.getElementById('movieTitle').textContent = title;
-      
-      let metaText = '';
-      if (year) metaText += year;
-      if (genre) metaText += (metaText ? ' • ' : '') + genre;
-      if (source) metaText += (metaText ? ' • ' : '') + source;
-      metaText += ' • GitHub Pages';
-      document.getElementById('movieMeta').textContent = metaText;
-
-      // Set poster with better error handling
-      setupPoster(poster, title);
-
-      // Start loading video
-      loadVideoUniversal(videoSrc);
-
-      // Update document title
-      document.title = `Playing: ${title}`;
-    }
-
-    // Setup poster with fallback
-    function setupPoster(poster, title) {
-      const posterImg = document.getElementById('moviePoster');
-      const fallbackUrl = `https://via.placeholder.com/50x75/1a1a2e/a78bfa?text=${encodeURIComponent(title.substring(0, 3))}`;
-      
-      if (poster && poster !== 'null' && poster !== '') {
-        posterImg.src = poster;
-        posterImg.onerror = () => {
-          posterImg.src = fallbackUrl;
-        };
-      } else {
-        posterImg.src = fallbackUrl;
-      }
-    }
-
-    // Universal video loader - GitHub Pages optimized
-    function loadVideoUniversal(src) {
-      console.log('Loading video with mode:', currentPlayerMode, 'URL:', src);
-      updateLoadingStatus(`Trying ${currentPlayerMode} method...`);
-      
-      const video = document.getElementById('moviePlayer');
-      
-      // Clear previous state
-      video.innerHTML = '';
-      video.removeAttribute('src');
-      
-      if (currentPlayerMode === 'native') {
-        loadWithNative(src);
-      } else if (currentPlayerMode === 'cors') {
-        loadWithCORS(src);
-      } else if (currentPlayerMode === 'proxy') {
-        loadWithProxy(src);
-      } else if (currentPlayerMode === 'iframe') {
-        loadWithIframe(src);
-      }
-    }
-
-    // Load with native HTML5 player
-    function loadWithNative(src) {
-      updateLoadingStatus('Loading with native HTML5 player...');
-      updatePlayerStatus('Native HTML5 Player');
-      
-      const video = document.getElementById('moviePlayer');
-      
-      // Setup video element
-      video.preload = 'metadata';
-      video.autoplay = false;
-      video.playsinline = true;
-      
-      // Create source element with proper type detection
-      const source = document.createElement('source');
-      source.src = src;
-      source.type = getVideoType(src);
-      video.appendChild(source);
-      
-      // Set video src as fallback
-      video.src = src;
-      
-      // Event listeners
-      video.onloadstart = onVideoLoadStart;
-      video.onloadeddata = onVideoLoaded;
-      video.oncanplay = onVideoCanPlay;
-      video.onerror = onVideoError;
-      
-      // Load the video
-      video.load();
-    }
-
-    // Load with CORS headers
-    function loadWithCORS(src) {
-      updateLoadingStatus('Loading with CORS support...');
-      updatePlayerStatus('CORS-enabled Player');
-      
-      const video = document.getElementById('moviePlayer');
-      
-      video.crossOrigin = 'anonymous';
-      video.preload = 'metadata';
-      
-      const source = document.createElement('source');
-      source.src = src;
-      source.type = getVideoType(src);
-      video.appendChild(source);
-      
-      video.src = src;
-      
-      video.onloadstart = onVideoLoadStart;
-      video.onloadeddata = onVideoLoaded;
-      video.oncanplay = onVideoCanPlay;
-      video.onerror = onVideoError;
-      
-      video.load();
-    }
-
-    // Load with proxy services
-    function loadWithProxy(src) {
-      updateLoadingStatus('Loading with CORS proxy...');
-      updatePlayerStatus('Proxy Player');
-      
-      const video = document.getElementById('moviePlayer');
-      
-      // Try different proxy services
-      const proxies = [
-        `https://cors-anywhere.herokuapp.com/${src}`,
-        `https://api.allorigins.win/raw?url=${encodeURIComponent(src)}`,
-        `https://thingproxy.freeboard.io/fetch/${src}`,
-        `https://crossorigin.me/${src}`,
-        src // Direct fallback
-      ];
-      
-      let proxyIndex = 0;
-      
-      function tryNextProxy() {
-        if (proxyIndex < proxies.length) {
-          const proxyUrl = proxies[proxyIndex];
-          console.log(`Trying proxy ${proxyIndex + 1}/${proxies.length}:`, proxyUrl);
-          updateLoadingStatus(`Proxy ${proxyIndex + 1}/${proxies.length}...`);
+        // Set up HLS.js if supported
+        if (Hls.isSupported()) {
+          this.hls = new Hls({
+            enableWorker: true,
+            lowLatencyMode: false,
+            backBufferLength: 90
+          });
           
-          const source = document.createElement('source');
-          source.src = proxyUrl;
-          source.type = getVideoType(src);
-          video.appendChild(source);
-          
-          video.src = proxyUrl;
-          
-          video.onloadstart = onVideoLoadStart;
-          video.oncanplay = onVideoCanPlay;
-          video.onerror = () => {
-            console.log('Proxy failed, trying next...');
-            video.innerHTML = '';
-            proxyIndex++;
-            if (proxyIndex < proxies.length) {
-              setTimeout(tryNextProxy, 1000);
-            } else {
-              onVideoError();
+          this.hls.on(Hls.Events.MANIFEST_PARSED, () => {
+            console.log('HLS manifest parsed');
+            this.setupQualitySelector();
+          });
+
+          this.hls.on(Hls.Events.ERROR, (event, data) => {
+            console.error('HLS error:', data);
+            if (data.fatal) {
+              this.handleError('HLS playback error: ' + data.details);
             }
-          };
-          
-          video.load();
+          });
         }
       }
-      
-      tryNextProxy();
-    }
 
-    // Load with iframe embedding
-    function loadWithIframe(src) {
-      updateLoadingStatus('Creating iframe player...');
-      updatePlayerStatus('Iframe Player');
-      
-      const videoWrapper = document.querySelector('.video-wrapper');
-      const video = document.getElementById('moviePlayer');
-      
-      // Hide video element
-      video.style.display = 'none';
-      
-      // Create iframe
-      const iframe = document.createElement('iframe');
-      iframe.id = 'videoIframe';
-      iframe.src = src;
-      iframe.style.cssText = `
-        width: 100%;
-        height: 100%;
-        border: none;
-        border-radius: 8px;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-      `;
-      iframe.allow = 'autoplay; fullscreen; picture-in-picture';
-      iframe.allowfullscreen = true;
-      
-      iframe.onload = () => {
-        document.getElementById('loadingIndicator').style.display = 'none';
-        document.getElementById('errorMessage').style.display = 'none';
-        updatePlayerStatus('Iframe Player - Ready');
-      };
-      
-      iframe.onerror = () => {
-        iframe.remove();
-        onVideoError();
-      };
-      
-      videoWrapper.appendChild(iframe);
-    }
+      loadMovieFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const src = urlParams.get('src');
+        const title = urlParams.get('title') || 'Unknown Movie';
+        const year = urlParams.get('year') || '';
+        const genre = urlParams.get('genre') || '';
+        const poster = urlParams.get('poster') || '';
+        const source = urlParams.get('source') || '';
 
-    // Get video MIME type
-    function getVideoType(url) {
-      const extension = url.split('.').pop().toLowerCase().split('?')[0];
-      
-      const types = {
-        'mp4': 'video/mp4',
-        'webm': 'video/webm',
-        'ogg': 'video/ogg',
-        'ogv': 'video/ogg',
-        'avi': 'video/x-msvideo',
-        'mov': 'video/quicktime',
-        'wmv': 'video/x-ms-wmv',
-        'flv': 'video/x-flv',
-        'mkv': 'video/x-matroska',
-        'm4v': 'video/x-m4v',
-        'm3u8': 'application/vnd.apple.mpegurl',
-        'ts': 'video/mp2t'
-      };
-      
-      return types[extension] || 'video/mp4';
-    }
+        // Update UI with movie info
+        document.getElementById('loadingTitle').textContent = title;
+        document.getElementById('videoTitle').textContent = title;
+        
+        const details = [year, genre, source].filter(Boolean).join(' • ');
+        document.getElementById('loadingDetails').textContent = details || 'Loading...';
+        document.getElementById('videoDetails').textContent = details;
 
-    // Switch player mode
-    function switchPlayer() {
-      const modes = ['native', 'cors', 'proxy', 'iframe'];
-      const currentIndex = modes.indexOf(currentPlayerMode);
-      const nextIndex = (currentIndex + 1) % modes.length;
-      currentPlayerMode = modes[nextIndex];
-      
-      console.log('Switching to player mode:', currentPlayerMode);
-      retryCount = 0;
-      
-      // Clean up any existing iframe
-      const existingIframe = document.getElementById('videoIframe');
-      if (existingIframe) {
-        existingIframe.remove();
-      }
-      
-      updateLoadingStatus(`Switching to ${currentPlayerMode} method...`);
-      
-      setTimeout(() => {
-        loadVideoUniversal(currentVideoSrc);
-      }, 500);
-    }
-
-    // Video event handlers
-    function onVideoLoadStart() {
-      console.log('Video loading started...');
-      document.getElementById('loadingIndicator').style.display = 'block';
-      document.getElementById('moviePlayer').style.display = 'none';
-      document.getElementById('errorMessage').style.display = 'none';
-    }
-
-    function onVideoLoaded() {
-      console.log('Video data loaded');
-      updateLoadingStatus('Video data loaded');
-    }
-
-    function onVideoCanPlay() {
-      console.log('Video can play');
-      document.getElementById('loadingIndicator').style.display = 'none';
-      document.getElementById('moviePlayer').style.display = 'block';
-      document.getElementById('errorMessage').style.display = 'none';
-      retryCount = 0;
-      
-      const video = document.getElementById('moviePlayer');
-      const resolution = video.videoWidth && video.videoHeight ? 
-        ` - ${video.videoWidth}x${video.videoHeight}` : '';
-      
-      updateLoadingStatus('Video ready!');
-      updatePlayerStatus(`${currentPlayerMode.toUpperCase()} Player${resolution}`);
-      
-      // Try auto-play
-      video.play().catch(e => {
-        console.log('Autoplay prevented:', e);
-        updatePlayerStatus(`${currentPlayerMode.toUpperCase()} Player - Click ▶ to play`);
-      });
-    }
-
-    function onVideoError(e) {
-      console.error('Video error occurred');
-      const video = document.getElementById('moviePlayer');
-      
-      let errorDetails = 'Unknown error';
-      if (video.error) {
-        switch (video.error.code) {
-          case 1: errorDetails = 'Video loading aborted'; break;
-          case 2: errorDetails = 'Network error - CORS or connectivity issue'; break;
-          case 3: errorDetails = 'Video decode error - Unsupported format'; break;
-          case 4: errorDetails = 'Video source not supported - Try external player'; break;
+        if (!src) {
+          this.handleError('No video source provided');
+          return;
         }
+
+        this.loadVideo(src);
       }
-      
-      console.error('Error details:', errorDetails, video.error);
 
-      // Try next method if we haven't exhausted retries
-      if (retryCount < maxRetries) {
-        retryCount++;
-        console.log(`Trying different method (${retryCount}/${maxRetries})`);
-        
-        // Cycle through player modes
-        const modes = ['native', 'cors', 'proxy', 'iframe'];
-        const currentIndex = modes.indexOf(currentPlayerMode);
-        currentPlayerMode = modes[(currentIndex + 1) % modes.length];
-        
-        updateLoadingStatus(`Error: ${errorDetails}. Trying ${currentPlayerMode}...`);
-        
-        setTimeout(() => {
-          loadVideoUniversal(currentVideoSrc);
-        }, 2000);
-      } else {
-        showError('Playback Failed', 
-          `Unable to play video after trying ${maxRetries + 1} different methods.\n\nError: ${errorDetails}\n\nGitHub Pages has CORS restrictions. Try:\n1. External players (VLC)\n2. Direct link\n3. Copy URL for other tools`);
-      }
-    }
-
-    function showError(title, message) {
-      document.getElementById('loadingIndicator').style.display = 'none';
-      document.getElementById('moviePlayer').style.display = 'none';
-      document.getElementById('errorMessage').style.display = 'block';
-      document.getElementById('errorMessage').querySelector('h3').textContent = title;
-      document.getElementById('errorText').textContent = message;
-      updatePlayerStatus('Error - Try external player');
-    }
-
-    function retryLoad() {
-      console.log('Manual retry requested');
-      retryCount = 0;
-      currentPlayerMode = 'native';
-      
-      // Clean up iframe if exists
-      const existingIframe = document.getElementById('videoIframe');
-      if (existingIframe) {
-        existingIframe.remove();
-      }
-      
-      loadVideoUniversal(currentVideoSrc);
-    }
-
-    function openInNewTab() {
-      window.open(currentVideoSrc, '_blank');
-    }
-
-    function openInVLC() {
-      const vlcUrl = `vlc://${currentVideoSrc}`;
-      window.location.href = vlcUrl;
-      
-      setTimeout(() => {
-        if (confirm('VLC did not open automatically?\n\nCopy URL to open manually in VLC:\nMedia → Open Network Stream')) {
-          copyToClipboard();
-        }
-      }, 3000);
-    }
-
-    function copyToClipboard() {
-      if (navigator.clipboard && window.isSecureContext) {
-        navigator.clipboard.writeText(currentVideoSrc).then(() => {
-          showCopyFeedback();
-        }).catch(() => {
-          fallbackCopy();
-        });
-      } else {
-        fallbackCopy();
-      }
-    }
-
-    function fallbackCopy() {
-      const textArea = document.createElement('textarea');
-      textArea.value = currentVideoSrc;
-      textArea.style.position = 'fixed';
-      textArea.style.opacity = '0';
-      document.body.appendChild(textArea);
-      textArea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textArea);
-      showCopyFeedback();
-    }
-
-    function showCopyFeedback() {
-      const btn = event.target;
-      const originalText = btn.textContent;
-      btn.textContent = '✅ Copied!';
-      btn.style.background = 'rgba(34, 197, 94, 0.3)';
-      setTimeout(() => {
-        btn.textContent = originalText;
-        btn.style.background = '';
-      }, 2000);
-    }
-
-    // Fullscreen functionality
-    function toggleFullscreen() {
-      const container = document.getElementById('playerContainer');
-      
-      if (!document.fullscreenElement) {
-        container.requestFullscreen().catch(err => {
-          console.log('Fullscreen error:', err);
-        });
-      } else {
-        document.exitFullscreen();
-      }
-    }
-
-    // Picture-in-Picture functionality
-    function togglePictureInPicture() {
-      const video = document.getElementById('moviePlayer');
-      
-      if (document.pictureInPictureElement) {
-        document.exitPictureInPicture();
-      } else if (document.pictureInPictureEnabled && video.readyState >= 2) {
-        video.requestPictureInPicture().catch(err => {
-          console.log('PiP error:', err);
-        });
-      }
-    }
-
-    // Keyboard shortcuts
-    document.addEventListener('keydown', (e) => {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
-        return;
-      }
-      
-      const video = document.getElementById('moviePlayer');
-      
-      switch(e.code) {
-        case 'Space':
-          e.preventDefault();
-          if (video.paused) {
-            video.play();
+      loadVideo(src) {
+        try {
+          // Check if it's an HLS stream (.m3u8)
+          if (src.includes('.m3u8') || src.includes('m3u8')) {
+            if (this.hls) {
+              this.hls.loadSource(src);
+              this.hls.attachMedia(this.video);
+            } else if (this.video.canPlayType('application/vnd.apple.mpegurl')) {
+              // Safari native HLS support
+              this.video.src = src;
+            } else {
+              this.handleError('HLS not supported on this browser');
+              return;
+            }
           } else {
-            video.pause();
+            // Direct video file
+            this.video.src = src;
           }
-          break;
-        case 'KeyF':
-          e.preventDefault();
-          toggleFullscreen();
-          break;
-        case 'KeyP':
-          e.preventDefault();
-          togglePictureInPicture();
-          break;
-        case 'KeyS':
-          e.preventDefault();
-          switchPlayer();
-          break;
-        case 'KeyR':
-          e.preventDefault();
-          retryLoad();
-          break;
-        case 'KeyC':
-          e.preventDefault();
-          copyToClipboard();
-          break;
-        case 'KeyV':
-          e.preventDefault();
-          openInVLC();
-          break;
-        case 'Escape':
-          if (document.fullscreenElement) {
-            document.exitFullscreen();
-          }
-          break;
-        case 'ArrowLeft':
-          e.preventDefault();
-          video.currentTime = Math.max(0, video.currentTime - 10);
-          break;
-        case 'ArrowRight':
-          e.preventDefault();
-          video.currentTime = Math.min(video.duration, video.currentTime + 10);
-          break;
-        case 'ArrowUp':
-          e.preventDefault();
-          video.volume = Math.min(1, video.volume + 0.1);
-          break;
-        case 'ArrowDown':
-          e.preventDefault();
-          video.volume = Math.max(0, video.volume - 0.1);
-          break;
+
+          // Set up video event listeners
+          this.video.addEventListener('loadstart', () => {
+            console.log('Video loading started');
+          });
+
+          this.video.addEventListener('canplay', () => {
+            console.log('Video can start playing');
+            document.getElementById('loadingScreen').classList.add('hidden');
+          });
+
+          this.video.addEventListener('error', (e) => {
+            console.error('Video error:', e);
+            this.handleError('Failed to load video');
+          });
+
+        } catch (error) {
+          console.error('Load error:', error);
+          this.handleError('Failed to initialize video player');
+        }
       }
+
+      setupQualitySelector() {
+        if (!this.hls || !this.hls.levels) return;
+
+        const qualitySelector = document.getElementById('qualitySelector');
+        const levels = this.hls.levels;
+
+        if (levels.length > 1) {
+          qualitySelector.style.display = 'block';
+          qualitySelector.innerHTML = '<option value="-1">Auto</option>';
+          
+          levels.forEach((level, index) => {
+            const option = document.createElement('option');
+            option.value = index;
+            option.textContent = `${level.height}p`;
+            qualitySelector.appendChild(option);
+          });
+
+          qualitySelector.addEventListener('change', (e) => {
+            this.hls.currentLevel = parseInt(e.target.value);
+          });
+        }
+      }
+
+      setupEventListeners() {
+        // Video events
+        this.video.addEventListener('timeupdate', () => {
+          this.updateProgress();
+        });
+
+        this.video.addEventListener('loadedmetadata', () => {
+          this.duration = this.video.duration;
+          this.updateTimeDisplay();
+        });
+
+        this.video.addEventListener('play', () => {
+          this.isPlaying = true;
+          this.updatePlayPauseButton();
+        });
+
+        this.video.addEventListener('pause', () => {
+          this.isPlaying = false;
+          this.updatePlayPauseButton();
+        });
+
+        this.video.addEventListener('volumechange', () => {
+          this.updateVolumeDisplay();
+        });
+
+        this.video.addEventListener('ended', () => {
+          this.isPlaying = false;
+          this.updatePlayPauseButton();
+        });
+
+        // Control events
+        document.getElementById('playPauseBtn').addEventListener('click', () => {
+          this.togglePlayPause();
+        });
+
+        document.getElementById('skipBackBtn').addEventListener('click', () => {
+          this.skipTime(-10);
+        });
+
+        document.getElementById('skipForwardBtn').addEventListener('click', () => {
+          this.skipTime(10);
+        });
+
+        document.getElementById('muteBtn').addEventListener('click', () => {
+          this.toggleMute();
+        });
+
+        document.getElementById('fullscreenBtn').addEventListener('click', () => {
+          this.toggleFullscreen();
+        });
+
+        document.getElementById('retryButton').addEventListener('click', () => {
+          this.retry();
+        });
+
+        // Progress bar
+        document.getElementById('progressBar').addEventListener('click', (e) => {
+          this.seekToPosition(e);
+        });
+
+        // Volume slider
+        document.getElementById('volumeSlider').addEventListener('click', (e) => {
+          this.setVolume(e);
+        });
+
+        // Mouse/touch events for controls
+        this.setupControlsToggle();
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+          this.handleKeyboard(e);
+        });
+
+        // Video click to play/pause
+        this.video.addEventListener('click', () => {
+          this.togglePlayPause();
+        });
+      }
+
+      setupControlsToggle() {
+        const overlay = document.getElementById('controlsOverlay');
+        let fadeTimeout;
+
+        const showControls = () => {
+          overlay.classList.add('show');
+          clearTimeout(fadeTimeout);
+          
+          if (this.isPlaying) {
+            fadeTimeout = setTimeout(() => {
+              overlay.classList.remove('show');
+            }, 3000);
+          }
+        };
+
+        const hideControls = () => {
+          if (this.isPlaying) {
+            overlay.classList.remove('show');
+          }
+        };
+
+        // Show controls on mouse move
+        document.addEventListener('mousemove', showControls);
+        document.addEventListener('touchstart', showControls);
+        
+        // Show controls when video is paused
+        this.video.addEventListener('pause', showControls);
+        this.video.addEventListener('play', () => {
+          fadeTimeout = setTimeout(hideControls, 3000);
+        });
+
+        // Initially show controls
+        showControls();
+      }
+
+      togglePlayPause() {
+        if (this.video.paused) {
+          this.video.play().catch(e => {
+            console.error('Play failed:', e);
+            this.handleError('Failed to play video');
+          });
+        } else {
+          this.video.pause();
+        }
+      }
+
+      skipTime(seconds) {
+        this.video.currentTime = Math.max(0, Math.min(this.video.duration, this.video.currentTime + seconds));
+      }
+
+      toggleMute() {
+        this.video.muted = !this.video.muted;
+      }
+
+      toggleFullscreen() {
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen().catch(e => {
+            console.error('Fullscreen failed:', e);
+          });
+        } else {
+          document.exitFullscreen();
+        }
+      }
+
+      seekToPosition(e) {
+        const rect = e.target.getBoundingClientRect();
+        const pos = (e.clientX - rect.left) / rect.width;
+        this.video.currentTime = pos * this.video.duration;
+      }
+
+      setVolume(e) {
+        const rect = e.target.getBoundingClientRect();
+        const pos = (e.clientX - rect.left) / rect.width;
+        this.video.volume = Math.max(0, Math.min(1, pos));
+      }
+
+      updateProgress() {
+        if (this.video.duration) {
+          const progress = (this.video.currentTime / this.video.duration) * 100;
+          document.getElementById('progressFilled').style.width = progress + '%';
+          
+          // Update buffered progress
+          if (this.video.buffered.length > 0) {
+            const buffered = (this.video.buffered.end(0) / this.video.duration) * 100;
+            document.getElementById('progressBuffered').style.width = buffered + '%';
+          }
+        }
+        this.updateTimeDisplay();
+      }
+
+      updateTimeDisplay() {
+        const current = this.formatTime(this.video.currentTime);
+        const duration = this.formatTime(this.video.duration);
+        document.getElementById('timeDisplay').textContent = `${current} / ${duration}`;
+      }
+
+      updatePlayPauseButton() {
+        const btn = document.getElementById('playPauseBtn');
+        btn.textContent = this.isPlaying ? '⏸' : '▶';
+      }
+
+      updateVolumeDisplay() {
+        const volumeFilled = document.getElementById('volumeFilled');
+        const muteBtn = document.getElementById('muteBtn');
+        
+        volumeFilled.style.width = (this.video.volume * 100) + '%';
+        muteBtn.textContent = this.video.muted ? '🔇' : '🔊';
+      }
+
+      formatTime(seconds) {
+        if (isNaN(seconds)) return '0:00';
+        
+        const hours = Math.floor(seconds / 3600);
+        const minutes = Math.floor((seconds % 3600) / 60);
+        const secs = Math.floor(seconds % 60);
+        
+        if (hours > 0) {
+          return `${hours}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        }
+        return `${minutes}:${secs.toString().padStart(2, '0')}`;
+      }
+
+      handleKeyboard(e) {
+        switch(e.code) {
+          case 'Space':
+            e.preventDefault();
+            this.togglePlayPause();
+            break;
+          case 'ArrowLeft':
+            e.preventDefault();
+            this.skipTime(-10);
+            break;
+          case 'ArrowRight':
+            e.preventDefault();
+            this.skipTime(10);
+            break;
+          case 'ArrowUp':
+            e.preventDefault();
+            this.video.volume = Math.min(1, this.video.volume + 0.1);
+            break;
+          case 'ArrowDown':
+            e.preventDefault();
+            this.video.volume = Math.max(0, this.video.volume - 0.1);
+            break;
+          case 'KeyF':
+            e.preventDefault();
+            this.toggleFullscreen();
+            break;
+          case 'KeyM':
+            e.preventDefault();
+            this.toggleMute();
+            break;
+        }
+      }
+
+      handleError(message) {
+        console.error('Player error:', message);
+        document.getElementById('loadingScreen').classList.add('hidden');
+        document.getElementById('errorMessage').textContent = message;
+        document.getElementById('errorScreen').style.display = 'flex';
+      }
+
+      retry() {
+        document.getElementById('errorScreen').style.display = 'none';
+        document.getElementById('loadingScreen').classList.remove('hidden');
+        
+        // Reload the page to restart everything
+        window.location.reload();
+      }
+
+      destroy() {
+        if (this.hls) {
+          this.hls.destroy();
+        }
+      }
+    }
+
+    // Initialize player when page loads
+    document.addEventListener('DOMContentLoaded', () => {
+      const player = new MoviePlayer();
+      
+      // Cleanup on page unload
+      window.addEventListener('beforeunload', () => {
+        player.destroy();
+      });
     });
 
-    // Initialize when page loads
-    window.addEventListener('load', initializePlayer);
-
-    // GitHub Pages compatibility logging
-    console.log('🎬 GitHub Pages Compatible Video Player Ready! 🎬');
-    console.log('Optimized for GitHub Pages hosting with CORS handling');
-    console.log('Available methods: Native HTML5, CORS, Proxy, Iframe');
-    console.log('Note: GitHub Pages has CORS restrictions for external videos');
-    console.log('For best results, use VLC or direct links for external content');
+    // Handle fullscreen changes
+    document.addEventListener('fullscreenchange', () => {
+      const btn = document.getElementById('fullscreenBtn');
+      btn.textContent = document.fullscreenElement ? '⛶' : '⛶';
+    });
   </script>
 </body>
 </html>
