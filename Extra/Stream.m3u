@@ -129,7 +129,7 @@ https://stream.radio.co/s6004eac2f/listen
 https://streams.radio.co/sce558c2e6/listen
 
 #EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/ag01_al_dafrah_tv.png" ,Al Dafrah TV
-https://rtmp-live-ingest-eu-west-3-universe-dacast-com.akamaized.net/transmuxv1/streams/dbb8ac05-a020-784c-3a95-6ed027941532.m3u8
+https://cdn-eu-west-prod-ingest-infra-dacast-com.akamaized.net/23cf2e00-28b0-b7b4-2569-ab7d19233fd7/source/index.m3u8
 
 #EXTINF:-1 group-title="#ExtraPlus" tvg-id="Alarabiya.ae" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al%20Arabiya.png",News: Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
