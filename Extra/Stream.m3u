@@ -182,7 +182,8 @@ https://edge.fastpublish.me/live/index.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/Almasar_TV_Logo.png" ,News: Al Masar TV
 https://starmenajo.com/hls/almasar/index.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://media.licdn.com/dms/image/v2/C4D0BAQEgEIY5qsiLSg/company-logo_200_200/company-logo_200_200/0/1654581705049?e=2147483647&v=beta&t=7yO4ePbd3EFGk8qop8zI8Y5_I36ZPblLIOffxg5y7AA" ,News: Al Mashhad
-https://bcovlive-a.akamaihd.net/20c3ca22be3c4f03b30afbf3c92cfd14/ap-south-1/6313884884001/playlist.m3u8
+https://fastly.live.brightcove.com/6378439181112/ap-south-1/6313884884001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaWR2d3RnLmVncmVzcy5qYXYzemwiLCJhY2NvdW50X2lkIjoiNjMxMzg4NDg4NDAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MzEzODg0ODg0MDAxIl0sImp0aSI6IjYzNzg0MzkxODExMTIifQ.EdlNOMQrd1QZ3Y_9mU1f4eKS3spc8eU5sIlXnWLbgmY/playlist-hls.m3u8
+
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A9.svg" ,News: Al Masirah
 https://live.cdnbridge.tv/Almasirah/Almasirah_all/playlist.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://www.ibb-news.com/wp-content/uploads/2018/11/IMG_20181128_163245_180.jpg" ,News: Al Masirah Mubacher
