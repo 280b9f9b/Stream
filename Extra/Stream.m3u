@@ -161,10 +161,14 @@ https://live-hls-web-aje.getaj.net/alternative/AJE/01.m3u8
 https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c1/AL24_News_Logo.svg" ,News: AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/playlist.m3u8
+
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Alaraby%20TV.png" ,News: Al Araby TV
-https://alarabyta.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/chunklist.m3u8
+https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Alaraby%202%20TV.png" ,News: Al Araby TV 2
-https://alarabyta.cdn.octivid.com/alaraby2n/smil:alaraby2n.stream.smil/chunklist.m3u8
+https://live.kwikmotion.com/alaraby2live/alaraby2.smil/alaraby2publish/alaraby2_720p/chunks.m3u8
+#EXTINF:-1 group-title="#ExtraPlus" tvg-logo="" ,News: Al Araby TV FM
+https://l3.itworkscdn.net/alarabyradiolive/alarabyradio_audio/icecast.audio
+
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al%20Ekhbariya.png" ,News: Al Ekhbariya
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://play-lh.googleusercontent.com/L_977g62i9jvgXeiBzz0itqMsJT30SqwZzQzctpV_RhPSaJe97HmgM3IBZzRhPGbsg" ,News: Al Ghad TV
