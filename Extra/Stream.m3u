@@ -262,12 +262,12 @@ https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8
 https://video.yementdy.tv/hls/yementoday.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="" ,News: NBN
 http://5.9.119.146:8883/nbn/index.m3u8
-#EXTINF:-1 group-title="#ExtraPlus" tvg-logo="" ,Movies: Rotana Aflam+
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/playlist.m3u8
+
+
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="" ,Movies: Ajyal TV
 http://htvmada.mada.ps:8888/ajyal/index.m3u8
-#EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/IPTVList/main/TVChannels/Rotana Cinema.png" ,Movies: Rotana Cinema
-https://bcovlive-a.akamaihd.net/9527a892aeaf43019fd9eeb77ad1516e/eu-central-1/6057955906001/playlist.m3u8
+
+
 
 
 #EXTINF:-1 group-title="Arab: East Region" tvg-logo="https://raw.githubusercontent.com/280b9f9b/IPTVList/refs/heads/main/TVChannels/SaudiaTV.png" ,AlSaudia
