@@ -131,16 +131,26 @@ https://streams.radio.co/sce558c2e6/listen
 #EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/ag01_al_dafrah_tv.png" ,Al Dafrah TV
 https://cdn-eu-west-prod-ingest-infra-dacast-com.akamaized.net/23cf2e00-28b0-b7b4-2569-ab7d19233fd7/source/index.m3u8
 
+
+
 #EXTINF:-1 group-title="#ExtraPlus" tvg-id="Alarabiya.ae" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al%20Arabiya.png",News: Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-id="AlHadath.sa" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al%20Hadath.png",News: Al Arabiya Al Hadath
 https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-id="(no tvg-id)" tvg-name="Al-Arabiya-Business" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al-Arabiya-Business.png" ,Business: AlArabiya Business
 https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="#ExtraPlus" tvg-logo="" ,Business: AlArabiya English
+https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-id="(no tvg-id)" tvg-name="Al-Arabiya-Business" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al-Arabiya-Business.png" ,Programs: AlArabiya Programs
 https://d1j4r34gq3qw9y.cloudfront.net/out/v1/96804f3a14864641a21c25e8ca9afb74/index.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-id="(no tvg-id)" tvg-name="Alarabiya FM" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Alarabiya FM.png" ,Radio: Alarabiya FM
 https://fm.alarabiya.net/fm/myStream/playlist.m3u8
+
+
+
+
+
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al Jazeera Mubasher.png" ,News: Al Jazeera Mubasher
 https://streamer1.qna.org.qa/148133841_live/148133841_296.sdp/chunklist.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al Jazeera Arabic.png" ,News: Al Jazeera
