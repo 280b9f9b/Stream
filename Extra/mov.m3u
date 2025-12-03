@@ -4,3 +4,37 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="The Interview (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQzMTcwMzgyMV5BMl5BanBnXkFtZTgwMzAyMzQ2MzE@._V1_FMjpg_UX1000_.jpg" ,The Interview (2014)
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.mp4/.m3u8
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+https://moctobpltc-i.akamaihd.net/hls/live/571329/eight/playlist.m3u8
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+https://d3rlna7iyyu8wu.cloudfront.net/skip_armstrong/skip_armstrong_stereo_subs.m3u8
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+https://d3rlna7iyyu8wu.cloudfront.net/skip_armstrong/skip_armstrong_multichannel_subs.m3u8
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+https://d3rlna7iyyu8wu.cloudfront.net/skip_armstrong/skip_armstrong_multi_language_subs.m3u8
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+http://amssamples.streaming.mediaservices.windows.net/91492735-c523-432b-ba01-faba6c2206a2/AzureMediaServicesPromo.ism/manifest(format=m3u8-aapl)
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+http://amssamples.streaming.mediaservices.windows.net/69fbaeba-8e92-4740-aedc-ce09ae945073/AzurePromo.ism/manifest(format=m3u8-aapl)
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+http://amssamples.streaming.mediaservices.windows.net/634cd01c-6822-4630-8444-8dd6279f94c6/CaminandesLlamaDrama4K.ism/manifest(format=m3u8-aapl)
