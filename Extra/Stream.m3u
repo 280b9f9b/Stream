@@ -6,7 +6,8 @@ https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_tv/abud
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/emarat_tv/emarat_tv_hls_nd/index.m3u8
 
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv03_baynounah_tv.png",Baynounah TV
-https://vo-live-media.cdb.cdn.orange.com/Content/Channel/baynounah/HLS/index.m3u8
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/baynounah/baynounah_hls_nd/index.m3u8
+
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv04_sky_news_arabia_tv.png",Sky News Arabia
 https://stream.skynewsarabia.com/hls/sna.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv05_national_geographic_abu_dhabi_tv.png",NG Abu Dhabi
