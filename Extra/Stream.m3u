@@ -13,8 +13,13 @@ https://stream.skynewsarabia.com/hls/sna.m3u8
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/NationalGeographicHDChannel/HLS/index.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv06_majid_tv.png",Majid TV
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/MajidChildrenChannel/HLS/index.m3u8
+
+
+
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv07_abu_dhabi_sports_1_tv.png",Abu Dhabi Sports 1
-https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8
+
+
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv08_abu_dhabi_sports_2_tv.png",Abu Dhabi Sports 2
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv09_yas_tv.png",YAS Sports
