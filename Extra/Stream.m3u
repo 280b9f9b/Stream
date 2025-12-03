@@ -48,7 +48,8 @@ https://vo-live-media.cdb.cdn.orange.com/Content/Channel/radio_2/HLS/index.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv16_kadak_fm.png",Kadak FM
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/kadak_fm/HLS/index.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv17_classic_fm.png",Classic FM
-https://vo-live-media.cdb.cdn.orange.com/Content/Channel/classic_fm/HLS/index.m3u8
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/classic_fm/classic_fm_hls_nd/index.m3u8
+
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv18_sky_news_arabia_fm.png",Sky News Arabia Radio
 https://radio.skynewsarabia.com/stream/radio/skynewsarabia
 
