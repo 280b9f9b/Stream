@@ -1,1 +1,6 @@
-mov
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Edge of Tomorrow (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_FMjpg_UX1000_.jpg" ,Edge of Tomorrow (2014)
+http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Edge.of.Tomorrow.2014.1080p.BluRay.x264.YIFY.mp4
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="Kid Cannabis (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQyODM5MDQyOV5BMl5BanBnXkFtZTgwMDQxODc1MTE@._V1_FMjpg_UX1000_.jpg" ,Kid Cannabis (2014)
+http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/Kid.Cannabis.2014.1080p.BluRay.x264.YIFY.mp4
+#EXTINF:-1 group-title="★★ Movies" tvg-id="Movie.Dummy.us" tvg-name="The Interview (2014)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQzMTcwMzgyMV5BMl5BanBnXkFtZTgwMzAyMzQ2MzE@._V1_FMjpg_UX1000_.jpg" ,The Interview (2014)
+http://drewlive24.duckdns.org:9000/DrewLiveVODMovie/The.Interview.2014.1080p.10bit.BluRay.AV1.Opus.5.1-Retr0.mkv
