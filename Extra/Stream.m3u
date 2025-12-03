@@ -4,55 +4,36 @@
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_tv/abudhabi_tv_hls_nd/index.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv02_al_emarat_tv.png",Al Emarat TV
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/emarat_tv/emarat_tv_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv03_baynounah_tv.png",Baynounah TV
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/baynounah/baynounah_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv04_sky_news_arabia_tv.png",Sky News Arabia
 https://stream.skynewsarabia.com/hls/sna.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv05_national_geographic_abu_dhabi_tv.png",NG Abu Dhabi
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv06_majid_tv.png",Majid TV
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/majid/majid_hls_nd/index.m3u8
-
-
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv07_abu_dhabi_sports_1_tv.png",Abu Dhabi Sports 1
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8
-
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv08_abu_dhabi_sports_2_tv.png",Abu Dhabi Sports 2
-https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8
-
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv09_yas_tv.png",YAS Sports
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/yas_1/yas_1_hls_nd/index.m3u8
-
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv10_abu_dhabi_fm.png",Abu Dhabi FM
 https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/abudhabi_fm/abudhabi_fm_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv11_emarat_fm.png",Emarat FM
 https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/emarat_fm/emarat_fm_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv12_quran_kareem_fm.png",Quraan Kareem FM
 https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/quran/quran_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv13_star_fm.png",Star FM
 https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/star_fm/star_fm_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv14_radio.1_fm.png",Radio 1 FM
 https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/radio_1/radio_1_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv15_radio.2_fm.png",Radio 2 FM
 https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/radio_2/radio_2_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv16_kadak_fm.png",Kadak FM
 https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/kadak/kadak_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv17_classic_fm.png",Classic FM
 https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/classic_fm/classic_fm_hls_nd/index.m3u8
-
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv18_sky_news_arabia_fm.png",Sky News Arabia Radio
 https://radio.skynewsarabia.com/stream/radio/skynewsarabia
 
