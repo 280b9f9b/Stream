@@ -22,8 +22,11 @@ https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_
 
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv08_abu_dhabi_sports_2_tv.png",Abu Dhabi Sports 2
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8
+
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv09_yas_tv.png",YAS Sports
-https://vo-live-media.cdb.cdn.orange.com/Content/Channel/YASSportsChannel/HLS/index.m3u8
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/yas_1/yas_1_hls_nd/index.m3u8
+
+
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv10_abu_dhabi_fm.png",Abu Dhabi FM
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/abu_dhabi_fm/HLS/index.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv11_emarat_fm.png",Emarat FM
