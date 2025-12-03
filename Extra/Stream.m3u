@@ -39,7 +39,8 @@ https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/emarat_fm/em
 https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/quran/quran_hls_nd/index.m3u8
 
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv13_star_fm.png",Star FM
-https://vo-live-media.cdb.cdn.orange.com/Content/Channel/star_fm/HLS/index.m3u8
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/star_fm/star_fm_hls_nd/index.m3u8
+
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv14_radio.1_fm.png",Radio 1 FM
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/Radio1/HLS/index.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv15_radio.2_fm.png",Radio 2 FM
