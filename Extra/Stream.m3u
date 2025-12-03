@@ -1,7 +1,8 @@
 #EXTM3U 
 
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv01_abu_dhabi_tv.png",Abu Dhabi TV
-https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiChannel/HLS/index.m3u8
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_tv/abudhabi_tv_hls_nd/index.m3u8
+
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv02_al_emarat_tv.png",Al Emarat TV
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/EmiratesChannel/HLS/index.m3u8
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv03_baynounah_tv.png",Baynounah TV
