@@ -1,30 +1,25 @@
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 01
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 02
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 03
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.mp4/.m3u8
-
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 04
 https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
 
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 05
 https://moctobpltc-i.akamaihd.net/hls/live/571329/eight/playlist.m3u8
-
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 06
 https://d3rlna7iyyu8wu.cloudfront.net/skip_armstrong/skip_armstrong_stereo_subs.m3u8
 
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 07
 https://d3rlna7iyyu8wu.cloudfront.net/skip_armstrong/skip_armstrong_multichannel_subs.m3u8
-
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 08
 https://d3rlna7iyyu8wu.cloudfront.net/skip_armstrong/skip_armstrong_multi_language_subs.m3u8
 
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 09
 http://amssamples.streaming.mediaservices.windows.net/91492735-c523-432b-ba01-faba6c2206a2/AzureMediaServicesPromo.ism/manifest(format=m3u8-aapl)
-
 #EXTINF:-1 group-title="Tv" tvg-id="Tv" tvg-name="Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpulNgmksCn6_3ZW1tV68b5g917L67Yi_LA&s" ,Tv 10
 http://amssamples.streaming.mediaservices.windows.net/69fbaeba-8e92-4740-aedc-ce09ae945073/AzurePromo.ism/manifest(format=m3u8-aapl)
 
