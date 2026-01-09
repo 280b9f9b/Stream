@@ -147,7 +147,7 @@ function mergeM3U(urls) {
 https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec?file=test1.m3u&file=test2.m3u&file=test3.m3u
    ```
 
-➕ Want Auto-Merge All Files?
+
 
 
 
