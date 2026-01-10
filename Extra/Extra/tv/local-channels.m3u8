@@ -1,0 +1,138 @@
+#EXTM3U 
+
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv01_abu_dhabi_tv.png",Abu Dhabi TV
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_tv/abudhabi_tv_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv02_al_emarat_tv.png",Al Emarat TV
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/emarat_tv/emarat_tv_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv03_baynounah_tv.png",Baynounah TV
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/baynounah/baynounah_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv04_sky_news_arabia_tv.png",Sky News Arabia
+https://stream.skynewsarabia.com/hls/sna.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv05_national_geographic_abu_dhabi_tv.png",NG Abu Dhabi
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv06_majid_tv.png",Majid TV
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/majid/majid_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv07_abu_dhabi_sports_1_tv.png",Abu Dhabi Sports 1
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv08_abu_dhabi_sports_2_tv.png",Abu Dhabi Sports 2
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv09_yas_tv.png",YAS Sports
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/yas_1/yas_1_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/ag01_al_dafrah_tv.png" ,Al Dafrah TV
+https://cdn-eu-west-prod-ingest-infra-dacast-com.akamaized.net/23cf2e00-28b0-b7b4-2569-ab7d19233fd7/source/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv10_abu_dhabi_fm.png",Abu Dhabi FM
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/abudhabi_fm/abudhabi_fm_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv11_emarat_fm.png",Emarat FM
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/emarat_fm/emarat_fm_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv12_quran_kareem_fm.png",Quraan Kareem FM
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/quran/quran_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv13_star_fm.png",Star FM
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/star_fm/star_fm_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv14_radio.1_fm.png",Radio 1 FM
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/radio_1/radio_1_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv15_radio.2_fm.png",Radio 2 FM
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/radio_2/radio_2_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv16_kadak_fm.png",Kadak FM
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/kadak/kadak_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv17_classic_fm.png",Classic FM
+https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/classic_fm/classic_fm_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv18_sky_news_arabia_fm.png",Sky News Arabia Radio
+https://radio.skynewsarabia.com/stream/radio/skynewsarabia
+
+
+#EXTINF:-1 group-title="Ajman" tvg-logo="https://tvch.netlify.app/ais01_ajman_tv.png" ,Ajman TV
+https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
+#EXTINF:-1 group-title="Ajman" tvg-logo="https://tvch.netlify.app/ais02_al_rabia_107.8_fm_uae.png" ,Al Rabia 107.8 FM UAE
+https://s2.radio.co/s770fa24b6/listen
+#EXTINF:-1 group-title="Ajman" tvg-logo="https://tvch.netlify.app/ais03_gold_101.3_fm.png" ,Gold 101.3 FM
+https://stream.radio.co/s00240810b/listen
+#EXTINF:-1 group-title="Ajman" tvg-logo="https://tvch.netlify.app/ais04_89.1_radio_4.png" ,89.1 Radio 4
+https://stream.radio.co/s6004eac2f/listen
+#EXTINF:-1 group-title="Ajman" tvg-logo="https://tvch.netlify.app/ais05_channel_4_104.8_fm.png" ,Channel 4 104.8 FM
+https://streams.radio.co/sce558c2e6/listen
+
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi01_dubai_tv.png" ,Dubai TV
+https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/index.m3u8
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi02_sama_dubai.png" ,Sama Dubai
+https://dmieigthvllta.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/index.m3u8
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi11_dubai_zaman.png" ,Dubai Zamaan
+https://dmiffthftl.cdn.mangomolo.com/dubaizaman/smil:dubaizaman.stream.smil/index.m3u8
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi03_dubai_sports.png" ,Dubai Sports 1
+https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/playlist.m3u
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi04_dubai_sports.png" ,Dubai Sports 2
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/playlist.m3u
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi05_dubai_sports.png" ,Dubai Sports 3
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/playlist.m3u
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi08_dubai_racing.png" ,Dubai Racing 1
+https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/index.m3u8
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi09_dubai_racing.png" ,Dubai Racing 2
+https://dmithrvllta.cdn.mgmlcdn.com/dubairacing/smil:dubairacing.smil/index.m3u8
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi10_dubai_racing.png" ,Dubai Racing 3
+https://dmithrvllta.cdn.mgmlcdn.com/dubaimubasher/smil:dubaimubasher.smil/index.m3u8
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi07_dubai_one.png" ,DUBAI ’one
+https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/index.m3u8
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi06_noor_dubai.png" ,Noor Dubai TV
+https://dmiffthftl.cdn.mangomolo.com/noordubaitv/smil:noordubaitv.smil/index.m3u8
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi12_dubai_radio.png" ,Dubai Radio 93
+https://dmithrvllta.cdn.mgmlcdn.com/dubairdo/dubairdo_aac/chunklist.m3u8
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/dmi13_noor_dubai_radio.png" ,Noor Dubai
+https://dmithrvllta.cdn.mgmlcdn.com/noordubairdo/noordubairdo_aac/chunklist.m3u8
+
+
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn01_al_oula_107.4.png" ,Al Oula 107.4
+https://uk6.internet-radio.com/proxy/aloula?mp=/stream;
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn02_al_khaleejiya_100.9.png" ,ARN: Al Khaleejiya 100.9
+https://n0d.radiojar.com/5wpf9e4erxquv
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn03_virgin_104.4.png" ,ARN: Virgin 104.4
+https://n0d.radiojar.com/nhq0vcqwuueuv
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn04_city_101.6.png" ,ARN: City 101.6
+https://n0d.radiojar.com/gmwyu8xdrxquv
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn05_al_arabiya_99.png" ,ARN: Al Arabiya 99
+https://n07.radiojar.com/s1mygd1frxquv
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn06_dubai_92.png" ,ARN: Dubai 92
+https://n0d.radiojar.com/6ty5rrkerxquv
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn07_hit_96.7.png" ,ARN: Hit 96.7
+https://n0d.radiojar.com/3yygc0pwuueuv
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn08_tag_91.1.png" ,ARN: Tag 91.1
+https://n0d.radiojar.com/bpv82qebsxquv
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn10_radio_shoma_93.4.png" ,ARN: Radio Shoma 93.4
+https://n0d.radiojar.com/rzcfw4cbsxquv
+#EXTINF:-1 group-title="Dubai" tvg-logo="https://tvch.netlify.app/arn11_dubai_eye_103.8.png" ,ARN: Dubai Eye 103.8
+https://n0d.radiojar.com/shcthrfbsxquv
+
+
+
+
+
+
+#EXTINF:-1 group-title="Fujairah" tvg-logo="https://tvch.netlify.app/fcma01_fujairah_tv.png" ,Fujairah TV
+https://live.kwikmotion.com/fujairahlive/fujairah.smil/fujairahpublish/fujairah_source/chunks.m3u8
+#EXTINF:-1 group-title="Fujairah" tvg-logo="https://tvch.netlify.app/fcma02_fujairah_fm.png" ,Fujairah FM
+https://live.kwikmotion.com/fujairahradiolive/fujairahradio/chunks.m3u8
+#EXTINF:-1 group-title="Fujairah" tvg-logo="https://tvch.netlify.app/fcma03_vibe_fm.png" ,Vibe FM
+https://live.kwikmotion.com/fujairahviberadiolive/fujairahviberadio/chunks.m3u8
+#EXTINF:-1 group-title="Fujairah" tvg-logo="https://tvch.netlify.app/fcma04_zayed_radio.png" ,Zayed Radio
+https://live.kwikmotion.com/fujairahquranradiolive/fujairahquranradio/chunks.m3u8
+
+
+
+
+
+#EXTINF:-1 group-title="Sharjah" tvg-logo="https://tvch.netlify.app/sba01_sharjah_tv.png" ,Sharjah TV
+https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8
+#EXTINF:-1 group-title="Sharjah" tvg-logo="https://tvch.netlify.app/sba02_sharjah_sports_tv.png" ,Sharjah Sports TV
+https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
+#EXTINF:-1 group-title="Sharjah" tvg-logo="https://tvch.netlify.app/sba03_holy_quran.png" ,Holy Quran
+https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/sharjahtvquranpublish/shqurantv_source/chunks.m3u8
+#EXTINF:-1 group-title="Sharjah" tvg-logo="https://tvch.netlify.app/sba04_al_sharqiya.png" ,Al Sharqiya
+https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8
+#EXTINF:-1 group-title="Sharjah" tvg-logo="https://tvch.netlify.app/sba05_al_wousta_tv.png" ,Al Wousta TV
+https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
+#EXTINF:-1 group-title="Sharjah" tvg-logo="https://tvch.netlify.app/sba06_sharjah_2.png" ,Sharjah 2
+https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8
+#EXTINF:-1 group-title="Sharjah" tvg-logo="https://tvch.netlify.app/sba07_sharjah_fm.png" ,Sharjah FM
+https://l3.itworkscdn.net/smcradiolive/smcradiolive/icecast.audio
+#EXTINF:-1 group-title="Sharjah" tvg-logo="https://tvch.netlify.app/sba08_sharjah_quran.png" ,Sharjah Quran
+https://svs.itworkscdn.net/smcquranlive/quranradiolive/chunks.m3u8
+#EXTINF:-1 group-title="Sharjah" tvg-logo="https://tvch.netlify.app/sba09_watar.png" ,Watar
+https://svs.itworkscdn.net/smcwatarlive/smcwatar/chunks.m3u8
