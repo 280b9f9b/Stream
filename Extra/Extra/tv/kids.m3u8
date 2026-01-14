@@ -1,22 +1,57 @@
-﻿#EXTM3U
-
-
-
 #EXTM3U
-#EXTINF:0 group-title="Adventure" tvg-logo="https://resizing.flixster.com/7L_BPWNG2tZ4geg2k0-dEJT4KKE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2JlNGZjNDFjLTJiMDctNDQ1MS1iNTQ0LWQ0NGI3NTc1OWRjYy5qcGc=" ,In Your Dreams 2025
-http://trigkey666.duckdns.org/vio/In.Your.Dreams.2025.1080p.WEBRip.x265.10bit.AAC5.1-[YTS.LT].mp4
-#EXTINF:0 group-title="Thriller" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg" ,12 Angry Men 1957
-http://trigkey666.duckdns.org/vio/12.Angry.Men.1957.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
-#EXTINF:0 group-title="Sci-fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjU0NDFkMTQtZWY5OS00MmZhLTg3Y2QtZmJhMzMzMWYyYjc2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,2001 A Space Odyssey 1968
-http://trigkey666.duckdns.org/vio/2001.A.Space.Odyssey.1968.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
-#EXTINF:0 group-title="Romance" tvg-logo="https://m.media-amazon.com/images/I/91UBCtiroTL._AC_UF894,1000_QL80_.jpg" ,Casablanca 1942
-http://trigkey666.duckdns.org/vio/Casablanca.1942.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
-#EXTINF:0 group-title="Mystery" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBgx1qWZ7qxPTbNOTeYZ5denX-de1gShYXgA&s" ,Citizen Kane 1941
-http://trigkey666.duckdns.org/vio/Citizen.Kane.1941.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
-#EXTINF:0 group-title="Crime" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjY4NGI5OTUtY2ZlZS00Zjk4LTk5N2MtN2JmYWVjNGNmMGRlXkEyXkFqcGc@._V1_.jpg" ,Cidade de Deus 2002
+#EXTINF:-1 group-title="Action" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjgyMDM1MGQtMjNmMy00ZTExLWJhMmQtNDMxMTVmMzEyZDk0XkEyXkFqcGc@._V1_.jpg" ,Gladiator (2000)
+http://trigkey666.duckdns.org/vio/Gladiator.2000.EXTENDED.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Action" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjliMWExOTMtZDQ3ZS00NWU3LWIyN2EtMjllNzk3ZTNlYzg4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Seven Samurai (1954)
+http://trigkey666.duckdns.org/vio/Seven.Samurai.1954.ENSUBBED.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Action" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg" ,The Dark Knight (2008)
+http://trigkey666.duckdns.org/vio/The.Dark.Knight.2008.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Animation" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_.jpg" ,Spirited Away (2001)
+http://trigkey666.duckdns.org/vio/Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].mp4
+#EXTINF:-1 group-title="Crime" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjY4NGI5OTUtY2ZlZS00Zjk4LTk5N2MtN2JmYWVjNGNmMGRlXkEyXkFqcGc@._V1_.jpg" ,City of God (2002)
 http://trigkey666.duckdns.org/vio/City.Of.God.2002.1080p.BluRay.x264-[YTS.AM].mp4
-#EXTINF:0 group-title="Action" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDNkMzU0MzktNDc0Ny00MDE3LWFlZWEtNTQzYTdiYmFiZWUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Fight Club 1999
+#EXTINF:-1 group-title="Crime" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0ChPtY2Pv9hn-4RCmu-9eQx4hEqeZ8cWjQ&s" ,Goodfellas (1990)
+http://trigkey666.duckdns.org/vio/Goodfellas.1990.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Crime" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_.jpg" ,Pulp Fiction (1994)
+http://trigkey666.duckdns.org/vio/Pulp.Fiction.1994.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Crime" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p6326_p_v13_be.jpg" ,The Godfather (1972)
+http://trigkey666.duckdns.org/vio/The.Godfather.1972.2160p.4K.WEB.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Crime" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p6319_p_v8_bc.jpg" ,The Godfather Part II (1974)
+http://trigkey666.duckdns.org/vio/The.Godfather.Part.II.1974.2160p.4K.WEB.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Drama" tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/20378953b2a3416c9e70e12698b3afc1ec233a6dc50034dacaa0cd7dd165fdf5.jpg" ,12 Angry Men (1957)
+http://trigkey666.duckdns.org/vio/12.Angry.Men.1957.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Fight Club (1999)
 http://trigkey666.duckdns.org/vio/Fight.Club.1999.REPACK.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
+#EXTINF:-1 group-title="Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Forrest Gump (1994)
+http://trigkey666.duckdns.org/vio/Forrest.Gump.1994.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/Vitaebella.jpg" ,Life Is Beautiful (1997)
+http://trigkey666.duckdns.org/vio/Life.Is.Beautiful.1997.1080p.BluRay.x264-[YTS.AM].mp4
+#EXTINF:-1 group-title="Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_.jpg" ,One Flew Over the Cuckoo’s Nest (1975)
+http://trigkey666.duckdns.org/vio/One.Flew.Over.The.Cuckoo's.Nest.1080p.BrRip.x264.YIFY.mp4
+#EXTINF:-1 group-title="Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzVlNzhkNTItYWE5MS00ZjAzLWEzMDAtOTc3YmVhZjUzZTMwXkEyXkFqcGc@._V1_.jpg" ,Schindler’s List (1993)
+http://trigkey666.duckdns.org/vio/Schindlers.List.1993.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Drama" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,The Shawshank Redemption (1994)
+http://trigkey666.duckdns.org/vio/The.Shawshank.Redemption.1994.2160p.4K.BluRay.x265.10bit.HDR.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Fantasy" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/In_Your_Dreams_poster.jpg/250px-In_Your_Dreams_poster.jpg" ,In Your Dreams (2025)
+http://trigkey666.duckdns.org/vio/In.Your.Dreams.2025.1080p.WEBRip.x265.10bit.AAC5.1-[YTS.LT].mp4
+#EXTINF:-1 group-title="Fantasy" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWEyNGVkYWMtZThlNy00ZTY0LWExZWItOWE0YjM0MDU5YWY4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,The Lord of the Rings: The Return of the King (2003)
+http://trigkey666.duckdns.org/vio/The.Lord.Of.The.Rings.The.Return.Of.The.King.2003.EXTENDED.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Mystery" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg" ,Citizen Kane (1941)
+http://trigkey666.duckdns.org/vio/Citizen.Kane.1941.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Romance" tvg-logo="https://m.media-amazon.com/images/I/91UBCtiroTL._AC_UF894,1000_QL80_.jpg" ,Casablanca (1942)
+http://trigkey666.duckdns.org/vio/Casablanca.1942.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Sci-Fi" tvg-logo="https://s30412.pcdn.co/wp-content/uploads/2020/12/2001-ASO.jpg" ,2001: A Space Odyssey (1968)
+http://trigkey666.duckdns.org/vio/2001.A.Space.Odyssey.1968.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTM0MjUzNjkwMl5BMl5BanBnXkFtZTcwNjY0OTk1Mw@@._V1_.jpg" ,Inception (2010)
+http://trigkey666.duckdns.org/vio/Inception.2010.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDU5NTJkMjQtNGYyZC00NjYwLWJlNWMtODk5NDI5MDE3NDJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Interstellar (2014)
+http://trigkey666.duckdns.org/vio/Interstellar.2014.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" ,Star Wars: Episode V – The Empire Strikes Back (1980)
+http://trigkey666.duckdns.org/vio/Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Sci-Fi" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg" ,The Matrix (1999)
+http://trigkey666.duckdns.org/vio/The.Matrix.1999.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv
+#EXTINF:-1 group-title="Thriller" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHqERudQeMKbEpp97lLK_unmW1aJZLdP_-A&s" ,Parasite (2019)
+http://trigkey666.duckdns.org/vio/Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].mkv
+
 
 
 
