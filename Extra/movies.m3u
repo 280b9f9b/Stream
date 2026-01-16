@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="12 Angry Men (1957) 4K" tvg-logo="12.Angry.Men.1957.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",12 Angry Men (1957) 4K
+#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="12 Angry Men (1957) 4K" tvg-logo="https://i.pinimg.com/736x/9f/cc/21/9fcc21a61711dff49e2306819c327064.jpg",12 Angry Men (1957) 4K
 12.Angry.Men.1957.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 
 #EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="2001: A Space Odyssey (1968) 4K" tvg-logo="2001.A.Space.Odyssey.1968.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",2001: A Space Odyssey (1968) 4K
