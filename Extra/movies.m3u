@@ -124,33 +124,34 @@ http://your-server/Top.Gun.Maverick.2022.mp4
 
 
 
-#EXTINF:-1 group-title="ADVENTURE" ,Indiana Jones and the Last Crusade (1989)
-http:// Indiana Jones and the Last Crusade (1989).mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzA5ZDJlYTAtYjA4Ny00Y2Y3LTk1OTAtNTU0ZWE1MzRmNjA2XkEyXkFqcGc@._V1_.jpg",Indiana Jones and the Last Crusade (1989)
+http://your-server/Indiana.Jones.and.the.Last.Crusade.1989.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWQyMi00MzQ5LTkxMzYtMzMyYzNlZGY4MTQxXkEyXkFqcGc@._V1_.jpg",The Lord of the Rings: The Fellowship of the Ring (2001)
+http://your-server/The.Lord.of.the.Rings.The.Fellowship.of.the.Ring.2001.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzNhZGU5NzktZTYyYi00ZWEyLWI4NmYtODg0MTZjYjM0OTJlXkEyXkFqcGc@._V1_.jpg",Jurassic Park (1993)
+http://your-server/Jurassic.Park.1993.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDhlMzEyZTUtM2M1Yi00ZTU0LWE3MjctNjM0YjIzYjUxZWU3XkEyXkFqcGc@._V1_.jpg",Pirates of the Caribbean: The Curse of the Black Pearl (2003)
+http://your-server/Pirates.of.the.Caribbean.The.Curse.of.the.Black.Pearl.2003.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjYwZjYxZTQtOWU3YS00NzE4LTk2ZDEtMTAzZGEzMzQxYzY4XkEyXkFqcGc@._V1_.jpg",King Kong (1933)
+http://your-server/King.Kong.1933.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzM2ZDNmY2UtMTYxYi00ZDE2LWE1YjgtM2I5MTg5ZjE2Y2ExXkEyXkFqcGc@._V1_.jpg",Avatar (2009)
+http://your-server/Avatar.2009.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY3NzE3OTc0OV5BMl5BanBnXkFtZTcwMTEzMDc0OA@@._V1_.jpg",Life of Pi (2012)
+http://your-server/Life.of.Pi.2012.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTk1Njk1OTU1OV5BMl5BanBnXkFtZTgwMDY2MTk4MDE@._V1_.jpg",The Goonies (1985)
+http://your-server/The.Goonies.1985.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYxMjk4ODI0Ml5BMl5BanBnXkFtZTcwNjUxNjY1OA@@._V1_.jpg",The Hobbit: An Unexpected Journey (2012)
+http://your-server/The.Hobbit.An.Unexpected.Journey.2012.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI0NjQ0OTU2NV5BMl5BanBnXkFtZTcwODQ5MzYyMQ@@._V1_.jpg",National Treasure (2004)
+http://your-server/National.Treasure.2004.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3MjA5NjYxNV5BMl5BanBnXkFtZTgwNDk2NjE1MzE@._V1_.jpg",The Revenant (2015)
+http://your-server/The.Revenant.2015.mp4
+#EXTINF:-1 group-title="ADVENTURE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMmI1ZmFiODUtZjkxYi00OTQ2LTg3NTUtYzFiODZhN2ZjOWU2XkEyXkFqcGc@._V1_.jpg",Robinson Crusoe (1954)
+http://your-server/Robinson.Crusoe.1954.mp4
 
 
 
-#EXTINF:-1 group-title="ADVENTURE" ,The Lord of the Rings: The Fellowship of the Ring (2001)
-http:// The Lord of the Rings: The Fellowship of the Ring (2001).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,Jurassic Park (1993)
-http:// Jurassic Park (1993).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,Pirates of the Caribbean: The Curse of the Black Pearl (2003)
-http:// Pirates of the Caribbean: The Curse of the Black Pearl (2003).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,King Kong (1933)
-http:// King Kong (1933).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,Avatar (2009)
-http:// Avatar (2009).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,Life of Pi (2012)
-http:// Life of Pi (2012).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,The Goonies (1985)
-http:// The Goonies (1985).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,The Hobbit: An Unexpected Journey (2012)
-http:// The Hobbit: An Unexpected Journey (2012).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,National Treasure (2004)
-http:// National Treasure (2004).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,The Revenant (2015)
-http:// The Revenant (2015).mp4
-#EXTINF:-1 group-title="ADVENTURE" ,Robinson Crusoe (1954)
-http:// Robinson Crusoe (1954).mp4
+
 #EXTINF:-1 group-title="ANIMATION" ,Spirited Away (2001)
 http:// Spirited Away (2001).mp4
 #EXTINF:-1 group-title="ANIMATION" ,The Lion King (1994)
