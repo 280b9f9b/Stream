@@ -96,32 +96,39 @@ The.Shawshank.Redemption.1994.2160p.4K.BluRay.x265.10bit.HDR.AAC5.1-[YTS.MX].mp4
 
 
 #EXTM3U
-#EXTINF:-1 group-title="ACTION" ,The Dark Knight (2008)
-http:// The Dark Knight (2008).mp4
-#EXTINF:-1 group-title="ACTION" ,Die Hard (1988)
-http:// Die Hard (1988).mp4
-#EXTINF:-1 group-title="ACTION" ,Mad Max: Fury Road (2015)
-http:// Mad Max: Fury Road (2015).mp4
-#EXTINF:-1 group-title="ACTION" ,Gladiator (2000)
-http:// Gladiator (2000).mp4
-#EXTINF:-1 group-title="ACTION" ,Terminator 2: Judgment Day (1991)
-http:// Terminator 2: Judgment Day (1991).mp4
-#EXTINF:-1 group-title="ACTION" ,The Matrix (1999)
-http:// The Matrix (1999).mp4
-#EXTINF:-1 group-title="ACTION" ,Heat (1995)
-http:// Heat (1995).mp4
-#EXTINF:-1 group-title="ACTION" ,John Wick (2014)
-http:// John Wick (2014).mp4
-#EXTINF:-1 group-title="ACTION" ,Raiders of the Lost Ark (1981)
-http:// Raiders of the Lost Ark (1981).mp4
-#EXTINF:-1 group-title="ACTION" ,Lethal Weapon (1987)
-http:// Lethal Weapon (1987).mp4
-#EXTINF:-1 group-title="ACTION" ,Casino Royale (2006)
-http:// Casino Royale (2006).mp4
-#EXTINF:-1 group-title="ACTION" ,Top Gun: Maverick (2022)
-http:// Top Gun: Maverick (2022).mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",The Dark Knight (2008)
+http://your-server/The.Dark.Knight.2008.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGNlY2I0NzYtYjY0YS00ODRjLTk3NzYtYjUxZmY0YjRmODExXkEyXkFqcGc@._V1_.jpg",Die Hard (1988)
+http://your-server/Die.Hard.1988.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzA2ODI3ODc5NF5BMl5BanBnXkFtZTgwNzE5MDQ3NjE@._V1_.jpg",Mad Max: Fury Road (2015)
+http://your-server/Mad.Max.Fury.Road.2015.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjIyOTY2NjQ3MF5BMl5BanBnXkFtZTgwODU4NjE0MzE@._V1_.jpg",Gladiator (2000)
+http://your-server/Gladiator.2000.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGMyMGNkNmEtYzA3ZC00Y2JkLTg5ZTUtODc1YmUwM2ZlYjQxXkEyXkFqcGc@._V1_.jpg",Terminator 2: Judgment Day (1991)
+http://your-server/Terminator.2.Judgment.Day.1991.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZGI5LWI5ZjAtOTU4ZDU4NzY0ZjM3XkEyXkFqcGc@._V1_.jpg",The Matrix (1999)
+http://your-server/The.Matrix.1999.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3OTg2NjM1NV5BMl5BanBnXkFtZTcwNjY5MjI0NA@@._V1_.jpg",Heat (1995)
+http://your-server/Heat.1995.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODc0OV5BMl5BanBnXkFtZTgwNTQzMzM5NjE@._V1_.jpg",John Wick (2014)
+http://your-server/John.Wick.2014.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2U4NGI3MDktOTQ1Yi00MzE1LTkzNTAtM2Y1NjNkMjk1YzVhXkEyXkFqcGc@._V1_.jpg",Raiders of the Lost Ark (1981)
+http://your-server/Raiders.of.the.Lost.Ark.1981.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3MTQ4OTc0NV5BMl5BanBnXkFtZTcwNzQ1NDQ0NA@@._V1_.jpg",Lethal Weapon (1987)
+http://your-server/Lethal.Weapon.1987.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI1NjY2NjA3OF5BMl5BanBnXkFtZTcwNjM0NTY0MQ@@._V1_.jpg",Casino Royale (2006)
+http://your-server/Casino.Royale.2006.mp4
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWI3NzYxZTQtMjZiNy00ZWM2LTg2OTQtN2M1NTE4NzMyYjM0XkEyXkFqcGc@._V1_.jpg",Top Gun: Maverick (2022)
+http://your-server/Top.Gun.Maverick.2022.mp4
+
+
+
+
 #EXTINF:-1 group-title="ADVENTURE" ,Indiana Jones and the Last Crusade (1989)
 http:// Indiana Jones and the Last Crusade (1989).mp4
+
+
+
 #EXTINF:-1 group-title="ADVENTURE" ,The Lord of the Rings: The Fellowship of the Ring (2001)
 http:// The Lord of the Rings: The Fellowship of the Ring (2001).mp4
 #EXTINF:-1 group-title="ADVENTURE" ,Jurassic Park (1993)
