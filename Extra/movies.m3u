@@ -181,30 +181,36 @@ http://your-server/Coco.2017.mp4
 
 
 
-#EXTINF:-1 group-title="BIOGRAPHY" ,Schindler’s List (1993)
-http:// Schindler’s List (1993).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,Gandhi (1982)
-http:// Gandhi (1982).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,The Social Network (2010)
-http:// The Social Network (2010).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,Raging Bull (1980)
-http:// Raging Bull (1980).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,Oppenheimer (2023)
-http:// Oppenheimer (2023).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,A Beautiful Mind (2001)
-http:// A Beautiful Mind (2001).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,Malcolm X (1992)
-http:// Malcolm X (1992).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,The Pianist (2002)
-http:// The Pianist (2002).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,Braveheart (1995)
-http:// Braveheart (1995).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,Lincoln (2012)
-http:// Lincoln (2012).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,Bohemian Rhapsody (2018)
-http:// Bohemian Rhapsody (2018).mp4
-#EXTINF:-1 group-title="BIOGRAPHY" ,Catch Me If You Can (2002)
-http:// Catch Me If You Can (2002).mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTk1YmUtN2Y4ZDY2NmM1YmE3XkEyXkFqcGc@._V1_.jpg",Schindler’s List (1993)
+http://your-server/Schindlers.List.1993.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYwNTk1MzE3NF5BMl5BanBnXkFtZTcwMTY0OTI0NA@@._V1_.jpg",Gandhi (1982)
+http://your-server/Gandhi.1982.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc0NzY2NzAzMl5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",The Social Network (2010)
+http://your-server/The.Social.Network.2010.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTk5NzA0NzY4NF5BMl5BanBnXkFtZTcwODk2NjYyNA@@._V1_.jpg",Raging Bull (1980)
+http://your-server/Raging.Bull.1980.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2U5YTY2YjUtYjY0My00ODRmLWEzOTEtNjMzYTRhN2IzZDY0XkEyXkFqcGc@._V1_.jpg",Oppenheimer (2023)
+http://your-server/Oppenheimer.2023.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzc5MDAzMzM0Ml5BMl5BanBnXkFtZTcwODU0NDUyMQ@@._V1_.jpg",A Beautiful Mind (2001)
+http://your-server/A.Beautiful.Mind.2001.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU0OTY1NjI4NF5BMl5BanBnXkFtZTcwNTk4OTQ0NA@@._V1_.jpg",Malcolm X (1992)
+http://your-server/Malcolm.X.1992.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2U1YTJiOTUtMjQ5Zi00OWE4LTg3YjUtNTY1NjBiNDY0YzRiXkEyXkFqcGc@._V1_.jpg",The Pianist (2002)
+http://your-server/The.Pianist.2002.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzc5NjI2NzU4MF5BMl5BanBnXkFtZTcwOTk2NjYyNA@@._V1_.jpg",Braveheart (1995)
+http://your-server/Braveheart.1995.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ2NzY3ODQ1Ml5BMl5BanBnXkFtZTcwODk4ODcxOQ@@._V1_.jpg",Lincoln (2012)
+http://your-server/Lincoln.2012.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5MTU3OTY0OF5BMl5BanBnXkFtZTgwMDkzMzI2NjM@._V1_.jpg",Bohemian Rhapsody (2018)
+http://your-server/Bohemian.Rhapsody.2018.mp4
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYzOTY1NjU3MF5BMl5BanBnXkFtZTcwNjU5OTQ0NA@@._V1_.jpg",Catch Me If You Can (2002)
+http://your-server/Catch.Me.If.You.Can.2002.mp4
+
+
+
+
+
+
 #EXTINF:-1 group-title="COMEDY" ,Some Like It Hot (1959)
 http:// Some Like It Hot (1959).mp4
 #EXTINF:-1 group-title="COMEDY" ,The Big Lebowski (1998)
