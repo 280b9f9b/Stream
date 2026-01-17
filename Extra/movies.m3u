@@ -102,23 +102,23 @@ http://your-server/The.Dark.Knight.2008.mp4
 http://your-server/Die.Hard.1988.mp4
 #EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTEyZWFjNDktZjQwYy00ZDNhLThhODUtZWZjMmFhNzQ5Zjg1XkEyXkFqcGc@._V1_.jpg",Mad Max: Fury Road (2015)
 http://your-server/Mad.Max.Fury.Road.2015.mp4
-#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjIyOTY2NjQ3MF5BMl5BanBnXkFtZTgwODU4NjE0MzE@._V1_.jpg",Gladiator (2000)
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24674_p_v13_bc.jpg",Gladiator (2000)
 http://your-server/Gladiator.2000.mp4
-#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGMyMGNkNmEtYzA3ZC00Y2JkLTg5ZTUtODc1YmUwM2ZlYjQxXkEyXkFqcGc@._V1_.jpg",Terminator 2: Judgment Day (1991)
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjQ1YzVlZWUtNzFjYi00MjY4LTk0NWItNTRjNzUzMTJjMTA3XkEyXkFqcGc@._V1_.jpg",Terminator 2: Judgment Day (1991)
 http://your-server/Terminator.2.Judgment.Day.1991.mp4
-#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZGI5LWI5ZjAtOTU4ZDU4NzY0ZjM3XkEyXkFqcGc@._V1_.jpg",The Matrix (1999)
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg",The Matrix (1999)
 http://your-server/The.Matrix.1999.mp4
-#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3OTg2NjM1NV5BMl5BanBnXkFtZTcwNjY5MjI0NA@@._V1_.jpg",Heat (1995)
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://static.wikia.nocookie.net/die-hard-scenario/images/4/45/DHS-_Heat_%281995%29_newer_silk_movie_poster.jpg",Heat (1995)
 http://your-server/Heat.1995.mp4
-#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODc0OV5BMl5BanBnXkFtZTgwNTQzMzM5NjE@._V1_.jpg",John Wick (2014)
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg",John Wick (2014)
 http://your-server/John.Wick.2014.mp4
-#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2U4NGI3MDktOTQ1Yi00MzE1LTkzNTAtM2Y1NjNkMjk1YzVhXkEyXkFqcGc@._V1_.jpg",Raiders of the Lost Ark (1981)
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://i.ebayimg.com/00/s/MTUwMFgxMDAw/z/~lsAAOSwu1VW7aFs/$_1.JPG",Raiders of the Lost Ark (1981)
 http://your-server/Raiders.of.the.Lost.Ark.1981.mp4
-#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3MTQ4OTc0NV5BMl5BanBnXkFtZTcwNzQ1NDQ0NA@@._V1_.jpg",Lethal Weapon (1987)
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Lethal_weapon1.jpg/250px-Lethal_weapon1.jpg",Lethal Weapon (1987)
 http://your-server/Lethal.Weapon.1987.mp4
-#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI1NjY2NjA3OF5BMl5BanBnXkFtZTcwNjM0NTY0MQ@@._V1_.jpg",Casino Royale (2006)
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWQ1ZDM4NDktMWY0NC00MjcxLWJlMDMtNmE2MGVhYzRjMWQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Casino Royale (2006)
 http://your-server/Casino.Royale.2006.mp4
-#EXTINF:-1 group-title="ACTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWI3NzYxZTQtMjZiNy00ZWM2LTg2OTQtN2M1NTE4NzMyYjM0XkEyXkFqcGc@._V1_.jpg",Top Gun: Maverick (2022)
+#EXTINF:-1 group-title="ACTION" tvg-logo="https://imusic.b-cdn.net/images/item/original/340/5056453203340.jpg",Top Gun: Maverick (2022)
 http://your-server/Top.Gun.Maverick.2022.mp4
 
 
