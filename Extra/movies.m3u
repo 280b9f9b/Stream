@@ -616,376 +616,531 @@ http://your-server/The.Usual.Suspects.1995.mp4
 
 
 
-#EXTINF:-1 group-title="ROMANCE" ,Titanic (1997)
-http:// Titanic (1997).mp4
-#EXTINF:-1 group-title="ROMANCE" ,Casablanca (1942)
-http:// Casablanca (1942).mp4
-#EXTINF:-1 group-title="ROMANCE" ,Before Sunrise (1995)
-http:// Before Sunrise (1995).mp4
-#EXTINF:-1 group-title="ROMANCE" ,The Notebook (2004)
-http:// The Notebook (2004).mp4
-#EXTINF:-1 group-title="ROMANCE" ,Pride & Prejudice (2005)
-http:// Pride & Prejudice (2005).mp4
-#EXTINF:-1 group-title="ROMANCE" ,Eternal Sunshine of the Spotless Mind (2004)
-http:// Eternal Sunshine of the Spotless Mind (2004).mp4
-#EXTINF:-1 group-title="ROMANCE" ,La La Land (2016)
-http:// La La Land (2016).mp4
-#EXTINF:-1 group-title="ROMANCE" ,Gone with the Wind (1939)
-http:// Gone with the Wind (1939).mp4
-#EXTINF:-1 group-title="ROMANCE" ,A Star Is Born (2018)
-http:// A Star Is Born (2018).mp4
-#EXTINF:-1 group-title="ROMANCE" ,Her (2013)
-http:// Her (2013).mp4
-#EXTINF:-1 group-title="ROMANCE" ,Pretty Woman (1990)
-http:// Pretty Woman (1990).mp4
-#EXTINF:-1 group-title="ROMANCE" ,Romeo + Juliet (1996)
-http:// Romeo + Juliet (1996).mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjIxMjU0NzU2MF5BMl5BanBnXkFtZTcwNzU0NDY2NA@@._V1_.jpg",Titanic (1997)
+http://your-server/Titanic.1997.mp4
 
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE4MzQ2NTQ2MF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Casablanca (1942)
+http://your-server/Casablanca.1942.mp4
 
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU0NzY0NjU2MF5BMl5BanBnXkFtZTcwNjc2NjY2NA@@._V1_.jpg",Before Sunrise (1995)
+http://your-server/Before.Sunrise.1995.mp4
 
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3NzQ2NTQ2MF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",The Notebook (2004)
+http://your-server/The.Notebook.2004.mp4
 
-#EXTINF:-1 group-title="SCI-FI" ,Interstellar (2014)
-http:// Interstellar (2014).mp4
-#EXTINF:-1 group-title="SCI-FI" ,Blade Runner (1982)
-http:// Blade Runner (1982).mp4
-#EXTINF:-1 group-title="SCI-FI" ,The Matrix (1999)
-http:// The Matrix (1999).mp4
-#EXTINF:-1 group-title="SCI-FI" ,Inception (2010)
-http:// Inception (2010).mp4
-#EXTINF:-1 group-title="SCI-FI" ,Arrival (2016)
-http:// Arrival (2016).mp4
-#EXTINF:-1 group-title="SCI-FI" ,Dune: Part Two (2024)
-http:// Dune: Part Two (2024).mp4
-#EXTINF:-1 group-title="SCI-FI" ,Alien (1979)
-http:// Alien (1979).mp4
-#EXTINF:-1 group-title="SCI-FI" ,Back to the Future (1985)
-http:// Back to the Future (1985).mp4
-#EXTINF:-1 group-title="SCI-FI" ,Ex Machina (2014)
-http:// Ex Machina (2014).mp4
-#EXTINF:-1 group-title="SCI-FI" ,Star Wars: A New Hope (1977)
-http:// Star Wars: A New Hope (1977).mp4
-#EXTINF:-1 group-title="SCI-FI" ,Children of Men (2006)
-http:// Children of Men (2006).mp4
-#EXTINF:-1 group-title="SCI-FI" ,District 9 (2009)
-http:// District 9 (2009).mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTUyMzQ2NTQ2MF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Pride & Prejudice (2005)
+http://your-server/Pride.and.Prejudice.2005.mp4
+
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NjQ2NTQ2MF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Eternal Sunshine of the Spotless Mind (2004)
+http://your-server/Eternal.Sunshine.of.the.Spotless.Mind.2004.mp4
+
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI3OTYyNzU1MF5BMl5BanBnXkFtZTgwNjg2NjYyMDE@._V1_.jpg",La La Land (2016)
+http://your-server/La.La.Land.2016.mp4
+
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU1MzQ2NTQ2MF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Gone with the Wind (1939)
+http://your-server/Gone.with.the.Wind.1939.mp4
+
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjIxNzQ2NTQ2MF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",A Star Is Born (2018)
+http://your-server/A.Star.Is.Born.2018.mp4
+
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAyNzQ2NTQ2MF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Her (2013)
+http://your-server/Her.2013.mp4
+
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAxNjQ2NTQ2MF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Pretty Woman (1990)
+http://your-server/Pretty.Woman.1990.mp4
+
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0NzQ2NTQ2MF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Romeo + Juliet (1996)
+http://your-server/Romeo.and.Juliet.1996.mp4
 
 
 
 
 
-#EXTINF:-1 group-title="SCIENCE FICTION" ,2001: A Space Odyssey (1968)
-http:// 2001: A Space Odyssey (1968).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,Solaris (1972)
-http:// Solaris (1972).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,Close Encounters of the Third Kind (1977)
-http:// Close Encounters of the Third Kind (1977).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,The Day the Earth Stood Still (1951)
-http:// The Day the Earth Stood Still (1951).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,Metropolis (1927)
-http:// Metropolis (1927).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,War of the Worlds (1953)
-http:// War of the Worlds (1953).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,Planet of the Apes (1968)
-http:// Planet of the Apes (1968).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,Minority Report (2002)
-http:// Minority Report (2002).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,Gattaca (1997)
-http:// Gattaca (1997).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,Moon (2009)
-http:// Moon (2009).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,The Terminator (1984)
-http:// The Terminator (1984).mp4
-#EXTINF:-1 group-title="SCIENCE FICTION" ,Snowpiercer (2013)
-http:// Snowpiercer (2013).mp4
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjIxMjY0NzYyMF5BMl5BanBnXkFtZTgwODU2NjYyMDE@._V1_.jpg",Interstellar (2014)
+http://your-server/Interstellar.2014.mp4
 
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA4NzY0NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",Blade Runner (1982)
+http://your-server/Blade.Runner.1982.mp4
 
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTMxNTI0NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",The Matrix (1999)
+http://your-server/The.Matrix.1999.mp4
 
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1MjQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",Inception (2010)
+http://your-server/Inception.2010.mp4
 
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA4MjQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",Arrival (2016)
+http://your-server/Arrival.2016.mp4
 
-#EXTINF:-1 group-title="SPORT" ,Rocky (1976)
-http:// Rocky (1976).mp4
-#EXTINF:-1 group-title="SPORT" ,Raging Bull (1980)
-http:// Raging Bull (1980).mp4
-#EXTINF:-1 group-title="SPORT" ,Million Dollar Baby (2004)
-http:// Million Dollar Baby (2004).mp4
-#EXTINF:-1 group-title="SPORT" ,Rush (2013)
-http:// Rush (2013).mp4
-#EXTINF:-1 group-title="SPORT" ,The Fighter (2010)
-http:// The Fighter (2010).mp4
-#EXTINF:-1 group-title="SPORT" ,Cinderella Man (2005)
-http:// Cinderella Man (2005).mp4
-#EXTINF:-1 group-title="SPORT" ,Moneyball (2011)
-http:// Moneyball (2011).mp4
-#EXTINF:-1 group-title="SPORT" ,Warrior (2011)
-http:// Warrior (2011).mp4
-#EXTINF:-1 group-title="SPORT" ,Creed (2015)
-http:// Creed (2015).mp4
-#EXTINF:-1 group-title="SPORT" ,Ford v Ferrari (2019)
-http:// Ford v Ferrari (2019).mp4
-#EXTINF:-1 group-title="SPORT" ,Southpaw (2015)
-http:// Southpaw (2015).mp4
-#EXTINF:-1 group-title="SPORT" ,Field of Dreams (1989)
-http:// Field of Dreams (1989).mp4
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjIyNDY0NzYyMF5BMl5BanBnXkFtZTgwODU2NjYyMDE@._V1_.jpg",Dune: Part Two (2024)
+http://your-server/Dune.Part.Two.2024.mp4
 
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQxMjQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",Alien (1979)
+http://your-server/Alien.1979.mp4
 
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2MTQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",Back to the Future (1985)
+http://your-server/Back.to.the.Future.1985.mp4
 
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAyNDY0NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",Ex Machina (2014)
+http://your-server/Ex.Machina.2014.mp4
 
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAxOTY0NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",Star Wars: A New Hope (1977)
+http://your-server/Star.Wars.A.New.Hope.1977.mp4
 
-#EXTINF:-1 group-title="SPORTS" ,Remember the Titans (2000)
-http:// Remember the Titans (2000).mp4
-#EXTINF:-1 group-title="SPORTS" ,Hoosiers (1986)
-http:// Hoosiers (1986).mp4
-#EXTINF:-1 group-title="SPORTS" ,The Blind Side (2009)
-http:// The Blind Side (2009).mp4
-#EXTINF:-1 group-title="SPORTS" ,Chariots of Fire (1981)
-http:// Chariots of Fire (1981).mp4
-#EXTINF:-1 group-title="SPORTS" ,Any Given Sunday (1999)
-http:// Any Given Sunday (1999).mp4
-#EXTINF:-1 group-title="SPORTS" ,Space Jam (1996)
-http:// Space Jam (1996).mp4
-#EXTINF:-1 group-title="SPORTS" ,The Wrestler (2008)
-http:// The Wrestler (2008).mp4
-#EXTINF:-1 group-title="SPORTS" ,Friday Night Lights (2004)
-http:// Friday Night Lights (2004).mp4
-#EXTINF:-1 group-title="SPORTS" ,Invictus (2009)
-http:// Invictus (2009).mp4
-#EXTINF:-1 group-title="SPORTS" ,A League of Their Own (1992)
-http:// A League of Their Own (1992).mp4
-#EXTINF:-1 group-title="SPORTS" ,Slap Shot (1977)
-http:// Slap Shot (1977).mp4
-#EXTINF:-1 group-title="SPORTS" ,The Karate Kid (1984)
-http:// The Karate Kid (1984).mp4
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAzMjQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",Children of Men (2006)
+http://your-server/Children.of.Men.2006.mp4
+
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NjQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjYyNA@@._V1_.jpg",District 9 (2009)
+http://your-server/District.9.2009.mp4
 
 
 
 
 
 
-#EXTINF:-1 group-title="THRILLER" ,Se7en (1995)
-http:// Se7en (1995).mp4
-#EXTINF:-1 group-title="THRILLER" ,The Silence of the Lambs (1991)
-http:// The Silence of the Lambs (1991).mp4
-#EXTINF:-1 group-title="THRILLER" ,No Country for Old Men (2007)
-http:// No Country for Old Men (2007).mp4
-#EXTINF:-1 group-title="THRILLER" ,Gone Girl (2014)
-http:// Gone Girl (2014).mp4
-#EXTINF:-1 group-title="THRILLER" ,The Girl with the Dragon Tattoo (2011)
-http:// The Girl with the Dragon Tattoo (2011).mp4
-#EXTINF:-1 group-title="THRILLER" ,Prisoners (2013)
-http:// Prisoners (2013).mp4
-#EXTINF:-1 group-title="THRILLER" ,Black Swan (2010)
-http:// Black Swan (2010).mp4
-#EXTINF:-1 group-title="THRILLER" ,Heat (1995)
-http:// Heat (1995).mp4
-#EXTINF:-1 group-title="THRILLER" ,Cape Fear (1991)
-http:// Cape Fear (1991).mp4
-#EXTINF:-1 group-title="THRILLER" ,Fatal Attraction (1987)
-http:// Fatal Attraction (1987).mp4
-#EXTINF:-1 group-title="THRILLER" ,Misery (1990)
-http:// Misery (1990).mp4
-#EXTINF:-1 group-title="THRILLER" ,Oldboy (2003)
-http:// Oldboy (2003).mp4
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAxNjQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",2001 A Space Odyssey (1968)
+http://your-server/2001.A.Space.Odyssey.1968.mp4
 
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0NzQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Solaris (1972)
+http://your-server/Solaris.1972.mp4
 
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NzQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Close Encounters of the Third Kind (1977)
+http://your-server/Close.Encounters.of.the.Third.Kind.1977.mp4
 
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NzQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",The Day the Earth Stood Still (1951)
+http://your-server/The.Day.the.Earth.Stood.Still.1951.mp4
 
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NzQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Metropolis (1927)
+http://your-server/Metropolis.1927.mp4
 
-#EXTINF:-1 group-title="WAR" ,Saving Private Ryan (1998)
-http:// Saving Private Ryan (1998).mp4
-#EXTINF:-1 group-title="WAR" ,Apocalypse Now (1979)
-http:// Apocalypse Now (1979).mp4
-#EXTINF:-1 group-title="WAR" ,Full Metal Jacket (1987)
-http:// Full Metal Jacket (1987).mp4
-#EXTINF:-1 group-title="WAR" ,Schindler’s List (1993)
-http:// Schindler’s List (1993).mp4
-#EXTINF:-1 group-title="WAR" ,1917 (2019)
-http:// 1917 (2019).mp4
-#EXTINF:-1 group-title="WAR" ,Platoon (1986)
-http:// Platoon (1986).mp4
-#EXTINF:-1 group-title="WAR" ,The Thin Red Line (1998)
-http:// The Thin Red Line (1998).mp4
-#EXTINF:-1 group-title="WAR" ,Dunkirk (2017)
-http:// Dunkirk (2017).mp4
-#EXTINF:-1 group-title="WAR" ,Paths of Glory (1957)
-http:// Paths of Glory (1957).mp4
-#EXTINF:-1 group-title="WAR" ,Black Hawk Down (2001)
-http:// Black Hawk Down (2001).mp4
-#EXTINF:-1 group-title="WAR" ,The Bridge on the River Kwai (1957)
-http:// The Bridge on the River Kwai (1957).mp4
-#EXTINF:-1 group-title="WAR" ,Das Boot (1981)
-http:// Das Boot (1981).mp4
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA4NzQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",War of the Worlds (1953)
+http://your-server/War.of.the.Worlds.1953.mp4
 
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NDQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Planet of the Apes (1968)
+http://your-server/Planet.of.the.Apes.1968.mp4
 
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0NjQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Minority Report (2002)
+http://your-server/Minority.Report.2002.mp4
 
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NjQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Gattaca (1997)
+http://your-server/Gattaca.1997.mp4
 
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0NDQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Moon (2009)
+http://your-server/Moon.2009.mp4
 
-#EXTINF:-1 group-title="WESTERN" audio-track="the Bad and the Ugly (1966).mp4" ,The Good
-http:// The Good
-#EXTINF:-1 group-title="WESTERN" ,Once Upon a Time in the West (1968)
-http:// Once Upon a Time in the West (1968).mp4
-#EXTINF:-1 group-title="WESTERN" ,Unforgiven (1992)
-http:// Unforgiven (1992).mp4
-#EXTINF:-1 group-title="WESTERN" ,Django Unchained (2012)
-http:// Django Unchained (2012).mp4
-#EXTINF:-1 group-title="WESTERN" ,True Grit (2010)
-http:// True Grit (2010).mp4
-#EXTINF:-1 group-title="WESTERN" ,The Magnificent Seven (1960)
-http:// The Magnificent Seven (1960).mp4
-#EXTINF:-1 group-title="WESTERN" ,High Noon (1952)
-http:// High Noon (1952).mp4
-#EXTINF:-1 group-title="WESTERN" ,Shane (1953)
-http:// Shane (1953).mp4
-#EXTINF:-1 group-title="WESTERN" ,Tombstone (1993)
-http:// Tombstone (1993).mp4
-#EXTINF:-1 group-title="WESTERN" ,3:10 to Yuma (2007)
-http:// 3:10 to Yuma (2007).mp4
-#EXTINF:-1 group-title="WESTERN" ,The Searchers (1956)
-http:// The Searchers (1956).mp4
-#EXTINF:-1 group-title="WESTERN" ,Butch Cassidy and the Sundance Kid (1969)
-http:// Butch Cassidy and the Sundance Kid (1969).mp4
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NDQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",The Terminator (1984)
+http://your-server/The.Terminator.1984.mp4
 
-
-
-
-#EXTINF:-1 group-title="OTHER" ,The Prestige (2006)
-http:// The Prestige (2006).mp4
-#EXTINF:-1 group-title="OTHER" ,Eternal Sunshine of the Spotless Mind (2004)
-http:// Eternal Sunshine of the Spotless Mind (2004).mp4
-#EXTINF:-1 group-title="OTHER" ,Her (2013)
-http:// Her (2013).mp4
-#EXTINF:-1 group-title="OTHER" ,Birdman (2014)
-http:// Birdman (2014).mp4
-#EXTINF:-1 group-title="OTHER" ,Amélie (2001)
-http:// Amélie (2001).mp4
-#EXTINF:-1 group-title="OTHER" ,The Truman Show (1998)
-http:// The Truman Show (1998).mp4
-#EXTINF:-1 group-title="OTHER" ,Requiem for a Dream (2000)
-http:// Requiem for a Dream (2000).mp4
-#EXTINF:-1 group-title="OTHER" ,Joker (2019)
-http:// Joker (2019).mp4
-#EXTINF:-1 group-title="OTHER" ,Donnie Darko (2001)
-http:// Donnie Darko (2001).mp4
-#EXTINF:-1 group-title="OTHER" ,The Grand Budapest Hotel (2014)
-http:// The Grand Budapest Hotel (2014).mp4
-#EXTINF:-1 group-title="OTHER" ,Moonlight (2016)
-http:// Moonlight (2016).mp4
-#EXTINF:-1 group-title="OTHER" ,Drive (2011)
-http:// Drive (2011).mp4
-
-
-
-
-
-#EXTINF:-1 group-title="KIDS" ,Toy Story (1995)
-http:// Toy Story (1995).mp4
-#EXTINF:-1 group-title="KIDS" ,Finding Nemo (2003)
-http:// Finding Nemo (2003).mp4
-#EXTINF:-1 group-title="KIDS" ,Shrek (2001)
-http:// Shrek (2001).mp4
-#EXTINF:-1 group-title="KIDS" ,The Incredibles (2004)
-http:// The Incredibles (2004).mp4
-#EXTINF:-1 group-title="KIDS" ,Cars (2006)
-http:// Cars (2006).mp4
-#EXTINF:-1 group-title="KIDS" ,Despicable Me (2010)
-http:// Despicable Me (2010).mp4
-#EXTINF:-1 group-title="KIDS" ,Ice Age (2002)
-http:// Ice Age (2002).mp4
-#EXTINF:-1 group-title="KIDS" ,Kung Fu Panda (2008)
-http:// Kung Fu Panda (2008).mp4
-#EXTINF:-1 group-title="KIDS" audio-track="Inc -2001.mp4" ,Monsters
-http:// Monsters
-#EXTINF:-1 group-title="KIDS" ,How to Train Your Dragon (2010)
-http:// How to Train Your Dragon (2010).mp4
-#EXTINF:-1 group-title="KIDS" ,The Lego Movie (2014)
-http:// The Lego Movie (2014).mp4
-#EXTINF:-1 group-title="KIDS" ,Paddington (2014)
-http:// Paddington (2014).mp4
-
-
-
-
-
-#EXTINF:-1 group-title="NEWS" ,All the President’s Men (1976)
-http:// All the President’s Men (1976).mp4
-#EXTINF:-1 group-title="NEWS" ,Spotlight (2015)
-http:// Spotlight (2015).mp4
-#EXTINF:-1 group-title="NEWS" ,Network (1976)
-http:// Network (1976).mp4
-#EXTINF:-1 group-title="NEWS" ,The Post (2017)
-http:// The Post (2017).mp4
-#EXTINF:-1 group-title="NEWS" ,Frost/Nixon (2008)
-http:// Frost/Nixon (2008).mp4
-#EXTINF:-1 group-title="NEWS" audio-track="and Good Luck (2005).mp4" ,Good Night
-http:// Good Night
-#EXTINF:-1 group-title="NEWS" ,Broadcast News (1987)
-http:// Broadcast News (1987).mp4
-#EXTINF:-1 group-title="NEWS" ,Shattered Glass (2003)
-http:// Shattered Glass (2003).mp4
-#EXTINF:-1 group-title="NEWS" ,Nightcrawler (2014)
-http:// Nightcrawler (2014).mp4
-#EXTINF:-1 group-title="NEWS" ,Zodiac (2007)
-http:// Zodiac (2007).mp4
-#EXTINF:-1 group-title="NEWS" ,Wag the Dog (1997)
-http:// Wag the Dog (1997).mp4
-#EXTINF:-1 group-title="NEWS" ,The Insider (1999)
-http:// The Insider (1999).mp4
+#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NzQ2NzYyMF5BMl5BanBnXkFtZTcwNjQ2NjY2NA@@._V1_.jpg",Snowpiercer (2013)
+http://your-server/Snowpiercer.2013.mp4
 
 
 
 
 
 
-#EXTINF:-1 group-title="REALITY" ,Free Solo (2018)
-http:// Free Solo (2018).mp4
-#EXTINF:-1 group-title="REALITY" ,Senna (2010)
-http:// Senna (2010).mp4
-#EXTINF:-1 group-title="REALITY" ,Touching the Void (2003)
-http:// Touching the Void (2003).mp4
-#EXTINF:-1 group-title="REALITY" ,Man on Wire (2008)
-http:// Man on Wire (2008).mp4
-#EXTINF:-1 group-title="REALITY" ,The Last Dance (2020)
-http:// The Last Dance (2020).mp4
-#EXTINF:-1 group-title="REALITY" ,Exit Through the Gift Shop (2010)
-http:// Exit Through the Gift Shop (2010).mp4
-#EXTINF:-1 group-title="REALITY" ,Hoop Dreams (1994)
-http:// Hoop Dreams (1994).mp4
-#EXTINF:-1 group-title="REALITY" ,The Cove (2009)
-http:// The Cove (2009).mp4
-#EXTINF:-1 group-title="REALITY" ,Amy (2015)
-http:// Amy (2015).mp4
-#EXTINF:-1 group-title="REALITY" ,Searching for Sugar Man (2012)
-http:// Searching for Sugar Man (2012).mp4
-#EXTINF:-1 group-title="REALITY" ,Won’t You Be My Neighbor? (2018)
-http:// Won’t You Be My Neighbor? (2018).mp4
-#EXTINF:-1 group-title="REALITY" ,The Act of Killing (2012)
-http:// The Act of Killing (2012).mp4
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NzQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Rocky (1976)
+http://your-server/Rocky.1976.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NzQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Raging Bull (1980)
+http://your-server/Raging.Bull.1980.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NzQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Million Dollar Baby (2004)
+http://your-server/Million.Dollar.Baby.2004.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0NDQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Rush (2013)
+http://your-server/Rush.2013.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NDQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",The Fighter (2010)
+http://your-server/The.Fighter.2010.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NjQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Cinderella Man (2005)
+http://your-server/Cinderella.Man.2005.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NDQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Moneyball (2011)
+http://your-server/Moneyball.2011.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0MjQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Warrior (2011)
+http://your-server/Warrior.2011.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3MjQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Creed (2015)
+http://your-server/Creed.2015.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2MTQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Ford v Ferrari (2019)
+http://your-server/Ford.v.Ferrari.2019.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0MjQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Southpaw (2015)
+http://your-server/Southpaw.2015.mp4
+
+#EXTINF:-1 group-title="SPORT" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NjQ2NzYyMF5BMl5BanBnXkFtZTcwNzU2NjY2NA@@._V1_.jpg",Field of Dreams (1989)
+http://your-server/Field.of.Dreams.1989.mp4
 
 
 
 
 
 
-#EXTINF:-1 group-title="TALK" ,12 Angry Men (1957)
-http:// 12 Angry Men (1957).mp4
-#EXTINF:-1 group-title="TALK" ,My Dinner with Andre (1981)
-http:// My Dinner with Andre (1981).mp4
-#EXTINF:-1 group-title="TALK" ,Before Sunset (2004)
-http:// Before Sunset (2004).mp4
-#EXTINF:-1 group-title="TALK" ,The Social Network (2010)
-http:// The Social Network (2010).mp4
-#EXTINF:-1 group-title="TALK" ,Network (1976)
-http:// Network (1976).mp4
-#EXTINF:-1 group-title="TALK" ,Glengarry Glen Ross (1992)
-http:// Glengarry Glen Ross (1992).mp4
-#EXTINF:-1 group-title="TALK" ,Frost/Nixon (2008)
-http:// Frost/Nixon (2008).mp4
-#EXTINF:-1 group-title="TALK" ,Locke (2013)
-http:// Locke (2013).mp4
-#EXTINF:-1 group-title="TALK" ,The Man from Earth (2007)
-http:// The Man from Earth (2007).mp4
-#EXTINF:-1 group-title="TALK" ,Who’s Afraid of Virginia Woolf? (1966)
-http:// Who’s Afraid of Virginia Woolf? (1966).mp4
-#EXTINF:-1 group-title="TALK" ,Carnage (2011)
-http:// Carnage (2011).mp4
-#EXTINF:-1 group-title="TALK" ,The Breakfast Club (1985)
-http:// The Breakfast Club (1985).mp4
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NzQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",Remember the Titans (2000)
+http://your-server/Remember.the.Titans.2000.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0NjQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",Hoosiers (1986)
+http://your-server/Hoosiers.1986.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NDQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",The Blind Side (2009)
+http://your-server/The.Blind.Side.2009.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NDQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",Chariots of Fire (1981)
+http://your-server/Chariots.of.Fire.1981.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0MjQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",Any Given Sunday (1999)
+http://your-server/Any.Given.Sunday.1999.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NDQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",Space Jam (1996)
+http://your-server/Space.Jam.1996.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2MTQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",The Wrestler (2008)
+http://your-server/The.Wrestler.2008.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1MjQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",Friday Night Lights (2004)
+http://your-server/Friday.Night.Lights.2004.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0MTQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",Invictus (2009)
+http://your-server/Invictus.2009.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NzQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",A League of Their Own (1992)
+http://your-server/A.League.of.Their.Own.1992.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NzQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",Slap Shot (1977)
+http://your-server/Slap.Shot.1977.mp4
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NDQ2NzYyMF5BMl5BanBnXkFtZTcwODU2NjY2NA@@._V1_.jpg",The Karate Kid (1984)
+http://your-server/The.Karate.Kid.1984.mp4
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NzQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",Se7en (1995)
+http://your-server/Se7en.1995.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NzQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",The Silence of the Lambs (1991)
+http://your-server/The.Silence.of.the.Lambs.1991.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0NDQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",No Country for Old Men (2007)
+http://your-server/No.Country.for.Old.Men.2007.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NDQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",Gone Girl (2014)
+http://your-server/Gone.Girl.2014.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1MTQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",The Girl with the Dragon Tattoo (2011)
+http://your-server/The.Girl.with.the.Dragon.Tattoo.2011.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2MTQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",Prisoners (2013)
+http://your-server/Prisoners.2013.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0MjQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",Black Swan (2010)
+http://your-server/Black.Swan.2010.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NDQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",Heat (1995)
+http://your-server/Heat.1995.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NzQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",Cape Fear (1991)
+http://your-server/Cape.Fear.1991.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0MTQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",Fatal Attraction (1987)
+http://your-server/Fatal.Attraction.1987.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA2NDQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",Misery (1990)
+http://your-server/Misery.1990.mp4
+
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3MTQ2NzYyMF5BMl5BanBnXkFtZTcwODQ2NjY2NA@@._V1_.jpg",Oldboy (2003)
+http://your-server/Oldboy.2003.mp4
+
+
+
+
+
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTM0NTU0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Saving Private Ryan (1998)
+http://your-server/Saving.Private.Ryan.1998.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc0MzQ0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Apocalypse Now (1979)
+http://your-server/Apocalypse.Now.1979.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI0NDQ0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Full Metal Jacket (1987)
+http://your-server/Full.Metal.Jacket.1987.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI1NTU0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Schindler’s List (1993)
+http://your-server/Schindlers.List.1993.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI3NDQ0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",1917 (2019)
+http://your-server/1917.2019.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ0NTU0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Platoon (1986)
+http://your-server/Platoon.1986.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI2NDQ0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",The Thin Red Line (1998)
+http://your-server/The.Thin.Red.Line.1998.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI0NDQ0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Dunkirk (2017)
+http://your-server/Dunkirk.2017.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTM1NDQ0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Paths of Glory (1957)
+http://your-server/Paths.of.Glory.1957.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI2NDQ0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Black Hawk Down (2001)
+http://your-server/Black.Hawk.Down.2001.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI3NDQ0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",The Bridge on the River Kwai (1957)
+http://your-server/The.Bridge.on.the.River.Kwai.1957.mp4
+
+#EXTINF:-1 group-title="WAR" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI0NDQ0MjI5NF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Das Boot (1981)
+http://your-server/Das.Boot.1981.mp4
+
+
+
+
+
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI3NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",The Good, the Bad and the Ugly (1966)
+http://your-server/The.Good.the.Bad.and.the.Ugly.1966.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI1NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Once Upon a Time in the West (1968)
+http://your-server/Once.Upon.a.Time.in.the.West.1968.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI2NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Unforgiven (1992)
+http://your-server/Unforgiven.1992.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI0NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Django Unchained (2012)
+http://your-server/Django.Unchained.2012.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI3NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",True Grit (2010)
+http://your-server/True.Grit.2010.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",The Magnificent Seven (1960)
+http://your-server/The.Magnificent.Seven.1960.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI2NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",High Noon (1952)
+http://your-server/High.Noon.1952.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Shane (1953)
+http://your-server/Shane.1953.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI1NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Tombstone (1993)
+http://your-server/Tombstone.1993.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA0NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",3:10 to Yuma (2007)
+http://your-server/3.10.to.Yuma.2007.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI2NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",The Searchers (1956)
+http://your-server/The.Searchers.1956.mp4
+
+#EXTINF:-1 group-title="WESTERN" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI3NDQ0MjI5MF5BMl5BanBnXkFtZTcwNTk4MTYyMw@@._V1_.jpg",Butch Cassidy and the Sundance Kid (1969)
+http://your-server/Butch.Cassidy.and.the.Sundance.Kid.1969.mp4
+
+
+
+
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk1NzQwNjI1MV5BMl5BanBnXkFtZTcwNTM5ODQzMw@@._V1_.jpg",The Prestige (2006)
+http://your-server/The.Prestige.2006.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI5NTU1NzM2NV5BMl5BanBnXkFtZTcwNzU2NjEzMw@@._V1_.jpg",Eternal Sunshine of the Spotless Mind (2004)
+http://your-server/Eternal.Sunshine.of.the.Spotless.Mind.2004.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI0NDA0NDQxN15BMl5BanBnXkFtZTgwODU0MzA1MDE@._V1_.jpg",Her (2013)
+http://your-server/Her.2013.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI1NDE3MzE4Nl5BMl5BanBnXkFtZTgwMTY1MTk3MDE@._V1_.jpg",Birdman (2014)
+http://your-server/Birdman.2014.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYwNzQxMjAxNF5BMl5BanBnXkFtZTcwNTc1MzM1MQ@@._V1_.jpg",Amélie (2001)
+http://your-server/Amelie.2001.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ3NzY4ODk1NF5BMl5BanBnXkFtZTgwNzEyNTE0MDE@._V1_.jpg",The Truman Show (1998)
+http://your-server/The.Truman.Show.1998.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAwNzU1OTY2NF5BMl5BanBnXkFtZTcwNTE0NzYxMw@@._V1_.jpg",Requiem for a Dream (2000)
+http://your-server/Requiem.for.a.Dream.2000.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3MjkzNTQxN15BMl5BanBnXkFtZTgwNjY2NjQzMDE@._V1_.jpg",Joker (2019)
+http://your-server/Joker.2019.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc4NjM4MDk2Nl5BMl5BanBnXkFtZTcwOTg3Njg1Mw@@._V1_.jpg",Donnie Darko (2001)
+http://your-server/Donnie.Darko.2001.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAxMDA5NDA0N15BMl5BanBnXkFtZTgwNzA0NTI1MTE@._V1_.jpg",The Grand Budapest Hotel (2014)
+http://your-server/The.Grand.Budapest.Hotel.2014.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA5ODU0NTkxNV5BMl5BanBnXkFtZTgwNjk0NDY0ODE@._V1_.jpg",Moonlight (2016)
+http://your-server/Moonlight.2016.mp4
+
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAwMDAwMDAwMF5BMl5BanBnXkFtZTgwNjg0OTk5MDE@._V1_.jpg",Drive (2011)
+http://your-server/Drive.2011.mp4
+
+
+
+
+
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDk2NjYzNjQtNDZjZi00ZjQxLWEyNjEtNDI3YmY0Njk1OTU5XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",Toy Story (1995)
+http://your-server/Toy.Story.1995.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAwMDYyMzQwMV5BMl5BanBnXkFtZTcwNjM5MDk3Mw@@._V1_.jpg",Finding Nemo (2003)
+http://your-server/Finding.Nemo.2003.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTkzOTc1OTU1Nl5BMl5BanBnXkFtZTgwNDE3ODAwMDE@._V1_.jpg",Shrek (2001)
+http://your-server/Shrek.2001.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYwNzU1NzQ3NF5BMl5BanBnXkFtZTcwOTY3MjU2Mw@@._V1_.jpg",The Incredibles (2004)
+http://your-server/The.Incredibles.2004.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU2MjEzOTQ0Nl5BMl5BanBnXkFtZTcwNDk4NTc3Mw@@._V1_.jpg",Cars (2006)
+http://your-server/Cars.2006.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ4MTYyNTY5OV5BMl5BanBnXkFtZTcwMTA0MzI0Mw@@._V1_.jpg",Despicable Me (2010)
+http://your-server/Despicable.Me.2010.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI1NTc5NjQ2NF5BMl5BanBnXkFtZTcwNzU5ODU0MQ@@._V1_.jpg",Ice Age (2002)
+http://your-server/Ice.Age.2002.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5NzE0MzEyNV5BMl5BanBnXkFtZTcwMzQyODUwMw@@._V1_.jpg",Kung Fu Panda (2008)
+http://your-server/Kung.Fu.Panda.2008.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU5MzY2NDA1NV5BMl5BanBnXkFtZTcwMTI2MTc0Mw@@._V1_.jpg",Monsters, Inc. (2001)
+http://your-server/Monsters.Inc.2001.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE5NTI1OTY1N15BMl5BanBnXkFtZTcwODcwMzcyMw@@._V1_.jpg",How to Train Your Dragon (2010)
+http://your-server/How.to.Train.Your.Dragon.2010.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ4NjI4MzE5Ml5BMl5BanBnXkFtZTgwNzI2NTM5MDE@._V1_.jpg",The Lego Movie (2014)
+http://your-server/The.Lego.Movie.2014.mp4
+
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYxMjUyMDk4M15BMl5BanBnXkFtZTgwOTM2MzcyMDE@._V1_.jpg",Paddington (2014)
+http://your-server/Paddington.2014.mp4
+
+
+
+
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ1NTU5ODcwNl5BMl5BanBnXkFtZTcwODI3MjcwNA@@._V1_.jpg",All the President’s Men (1976)
+http://your-server/All.the.Presidents.Men.1976.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE3NTg2NzM1OF5BMl5BanBnXkFtZTgwNTUzMDE0NzE@._V1_.jpg",Spotlight (2015)
+http://your-server/Spotlight.2015.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYxNTM2MzY2OF5BMl5BanBnXkFtZTcwODQxODI5Mw@@._V1_.jpg",Network (1976)
+http://your-server/Network.1976.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI2MjU5OTQ0MV5BMl5BanBnXkFtZTgwMzQxNzE3MTI@._V1_.jpg",The Post (2017)
+http://your-server/The.Post.2017.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3NTQ3NjU5Ml5BMl5BanBnXkFtZTcwNzMxMDcwMw@@._V1_.jpg",Frost/Nixon (2008)
+http://your-server/Frost.Nixon.2008.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ2MTkxNzg0MF5BMl5BanBnXkFtZTcwNTk0Mjc0NA@@._V1_.jpg",Good Night, and Good Luck (2005)
+http://your-server/Good.Night.and.Good.Luck.2005.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQwMDk5MDYxNl5BMl5BanBnXkFtZTcwOTYxNjQxNA@@._V1_.jpg",Broadcast News (1987)
+http://your-server/Broadcast.News.1987.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTUyNjk2NzQ3NF5BMl5BanBnXkFtZTcwMDU3ODQ1OA@@._V1_.jpg",Shattered Glass (2003)
+http://your-server/Shattered.Glass.2003.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ1Njg0NDY2OV5BMl5BanBnXkFtZTgwNzY4MTY4MDE@._V1_.jpg",Nightcrawler (2014)
+http://your-server/Nightcrawler.2014.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI2NjQ5MjYxNl5BMl5BanBnXkFtZTcwNjM5MDc2MQ@@._V1_.jpg",Zodiac (2007)
+http://your-server/Zodiac.2007.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU1OTk4NTA2MV5BMl5BanBnXkFtZTcwNjY3NzY0Mw@@._V1_.jpg",Wag the Dog (1997)
+http://your-server/Wag.the.Dog.1997.mp4
+
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc0NjEyNDA1Nl5BMl5BanBnXkFtZTcwNzY4MzU0Mw@@._V1_.jpg",The Insider (1999)
+http://your-server/The.Insider.1999.mp4
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI0MjY2MzM3NF5BMl5BanBnXkFtZTgwMzA4MzM3NzM@._V1_.jpg",Free Solo (2018)
+http://your-server/Free.Solo.2018.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg2MjE3NTQ4OF5BMl5BanBnXkFtZTcwNzM2NDQyMw@@._V1_.jpg",Senna (2010)
+http://your-server/Senna.2010.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY3OTQ5Njc3MV5BMl5BanBnXkFtZTcwNTc2NjQyMw@@._V1_.jpg",Touching the Void (2003)
+http://your-server/Touching.the.Void.2003.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjM2NTQyMjAxMF5BMl5BanBnXkFtZTcwOTQ5NjQyMw@@._V1_.jpg",Man on Wire (2008)
+http://your-server/Man.on.Wire.2008.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk4NzQ4Mjc0OV5BMl5BanBnXkFtZTgwNDM0NjYxNzM@._V1_.jpg",The Last Dance (2020)
+http://your-server/The.Last.Dance.2020.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NjM1NzQ4Nl5BMl5BanBnXkFtZTgwNzU2MjYxNzM@._V1_.jpg",Exit Through the Gift Shop (2010)
+http://your-server/Exit.Through.the.Gift.Shop.2010.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI2NzY1NjE2MV5BMl5BanBnXkFtZTcwNzQ2NDYxMw@@._V1_.jpg",Hoop Dreams (1994)
+http://your-server/Hoop.Dreams.1994.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU4ODU0NzQ0MV5BMl5BanBnXkFtZTcwODQ2NzgxNA@@._V1_.jpg",The Cove (2009)
+http://your-server/The.Cove.2009.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NzYxMzQ3Nl5BMl5BanBnXkFtZTgwMjY3MzM3NzM@._V1_.jpg",Amy (2015)
+http://your-server/Amy.2015.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ2NzMzOTQxNl5BMl5BanBnXkFtZTgwNTY0MTYxNzM@._V1_.jpg",Searching for Sugar Man (2012)
+http://your-server/Searching.for.Sugar.Man.2012.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjM1NzU0NDQ3OF5BMl5BanBnXkFtZTgwNzY0MzM3NzM@._V1_.jpg",Won’t You Be My Neighbor? (2018)
+http://your-server/Wont.You.Be.My.Neighbor.2018.mp4
+
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjM3NzA3MzQ1MF5BMl5BanBnXkFtZTgwODk2NjQxNzM@._V1_.jpg",The Act of Killing (2012)
+http://your-server/The.Act.of.Killing.2012.mp4
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY5ODk4OTQxNV5BMl5BanBnXkFtZTgwOTk2NjQxNzM@._V1_.jpg",12 Angry Men (1957)
+http://your-server/12.Angry.Men.1957.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc4OTM2Nzc5NF5BMl5BanBnXkFtZTcwNzg2NjQxNzM@._V1_.jpg",My Dinner with Andre (1981)
+http://your-server/My.Dinner.with.Andre.1981.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAwNjQ0MTU3Nl5BMl5BanBnXkFtZTcwNzU2MzM3NzM@._V1_.jpg",Before Sunset (2004)
+http://your-server/Before.Sunset.2004.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTM4NzA0NzQ5OF5BMl5BanBnXkFtZTcwNzQ2NDYxMw@@._V1_.jpg",The Social Network (2010)
+http://your-server/The.Social.Network.2010.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU3NzQyOTI5NF5BMl5BanBnXkFtZTcwNzY0NjQxNzM@._V1_.jpg",Network (1976)
+http://your-server/Network.1976.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI3NzY5NDQxNl5BMl5BanBnXkFtZTcwNzA2MzM3NzM@._V1_.jpg",Glengarry Glen Ross (1992)
+http://your-server/Glengarry.Glen.Ross.1992.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NjQ2NzYxNl5BMl5BanBnXkFtZTcwNzQ2NjQxNzM@._V1_.jpg",Frost/Nixon (2008)
+http://your-server/Frost.Nixon.2008.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk0NzY0MTc0NF5BMl5BanBnXkFtZTgwNzY0MTYxNzM@._V1_.jpg",Locke (2013)
+http://your-server/Locke.2013.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI3OTY1NDQxMV5BMl5BanBnXkFtZTcwNzQ2NzgxNA@@._V1_.jpg",The Man from Earth (2007)
+http://your-server/The.Man.from.Earth.2007.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTM2Njg0OTQ5MF5BMl5BanBnXkFtZTcwNzQ2NDYxNzM@._V1_.jpg",Who’s Afraid of Virginia Woolf? (1966)
+http://your-server/Whos.Afraid.of.Virginia.Woolf.1966.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1NzU0NzQ4MF5BMl5BanBnXkFtZTgwNzY0NjQxNzM@._V1_.jpg",Carnage (2011)
+http://your-server/Carnage.2011.mp4
+
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA3NjQ0NzQ5NF5BMl5BanBnXkFtZTgwNzY0NjQxNzM@._V1_.jpg",The Breakfast Club (1985)
+http://your-server/The.Breakfast.Club.1985.mp4
+
