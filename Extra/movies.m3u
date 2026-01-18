@@ -182,42 +182,52 @@ http://your-server/The.Last.Dance.2020.mp4
 #EXTINF:-1 group-title="DOCUMENTARY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAyODU1NzM0NF5BMl5BanBnXkFtZTcwNjI1MjYyMQ@@._V1_FMjpg_UX1000_.jpg",Fahrenheit 9/11 (2004)
 http://your-server/Fahrenheit.9.11.2004.mp4
 
-
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="12 Angry Men (1957) 4K" tvg-logo="https://i.pinimg.com/736x/9f/cc/21/9fcc21a61711dff49e2306819c327064.jpg",12 Angry Men (1957) 4K
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Shawshank Redemption (1994)
+The.Shawshank.Redemption.1994.2160p.4K.BluRay.x265.10bit.HDR.AAC5.1-[YTS.MX].mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Forrest Gump (1994)
+Forrest.Gump.1994.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDNkMzU0MzktNDc0Ny00MDE3LWFlZWEtNTQzYTdiYmFiZWUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Fight Club (1999)
+Fight.Club.1999.REPACK.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",One Flew Over the Cuckoo's Nest (1975)
+http://your-server/One.Flew.Over.the.Cuckoos.Nest.1975.mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTk2MDJkMTAtNTI4Ni00ODJiLWEwYjgtZDk4OGY3ZWZmMmQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",There Will Be Blood (2007)
+http://your-server/There.Will.Be.Blood.2007.mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/I/5121gH6mJlL._AC_UF1000,1000_QL80_.jpg",Titanic (1997)
+http://your-server/Titanic.1997.mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDM0ZWRmMzctM2M5ZS00ZjU0LWIxN2MtNWNlNGY1ZDhjMDVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",A Separation (2011)
+http://your-server/A.Separation.2011.mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_.jpg",The Green Mile (1999)
+http://your-server/The.Green.Mile.1999.mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_FMjpg_UX1000_.jpg",No Country for Old Men (2007)
+http://your-server/No.Country.for.Old.Men.2007.mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30193_p_v13_aa.jpg",The Pianist (2002)
+http://your-server/The.Pianist.2002.mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHqERudQeMKbEpp97lLK_unmW1aJZLdP_-A&s",Parasite (2019)
+http://your-server/Parasite.2019.mp4
+#EXTINF:-1 group-title="DRAMA" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10488558_p_v12_ai.jpg",Whiplash (2014)
+http://your-server/Whiplash.2014.mp4
+#EXTINF:-1 group-title="DRAMA" tvg-id="Movie.Dummy.us" tvg-name="12 Angry Men (1957) 4K" tvg-logo="https://i.pinimg.com/736x/9f/cc/21/9fcc21a61711dff49e2306819c327064.jpg",12 Angry Men (1957) 4K
 12.Angry.Men.1957.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+#EXTINF:-1 group-title="DRAMA" tvg-id="Movie.Dummy.us" tvg-name="Citizen Kane (1941) 4K" tvg-logo="Citizen.Kane.1941.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Citizen Kane (1941) 4K
+Citizen.Kane.1941.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+#EXTINF:-1 group-title="DRAMA" tvg-id="Movie.Dummy.us" tvg-name="Life Is Beautiful (1997) 1080p" tvg-logo="Life.Is.Beautiful.1997.1080p.BluRay.x264-[YTS.AM].jpg",Life Is Beautiful (1997) 1080p
+Life.Is.Beautiful.1997.1080p.BluRay.x264-[YTS.AM].mp4
+#EXTINF:-1 group-title="DRAMA" tvg-id="Movie.Dummy.us" tvg-name="Schindler's List (1993) 4K" tvg-logo="Schindlers.List.1993.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Schindler's List (1993) 4K
+Schindlers.List.1993.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+
+
+
+
+
+
+
+
 
 #EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="2001: A Space Odyssey (1968) 4K" tvg-logo="2001.A.Space.Odyssey.1968.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",2001: A Space Odyssey (1968) 4K
 2001.A.Space.Odyssey.1968.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 
 #EXTINF:-1 group-title="Romance" tvg-id="Movie.Dummy.us" tvg-name="Casablanca (1942) 4K" tvg-logo="Casablanca.1942.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Casablanca (1942) 4K
 Casablanca.1942.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
-
-#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="Citizen Kane (1941) 4K" tvg-logo="Citizen.Kane.1941.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Citizen Kane (1941) 4K
-Citizen.Kane.1941.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
-
-
-
-#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="Fight Club (1999) 1080p" tvg-logo="Fight.Club.1999.REPACK.1080p.BluRay.x264.AAC5.1-[YTS.MX].jpg",Fight Club (1999) 1080p
-Fight.Club.1999.REPACK.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
-
-#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="Forrest Gump (1994) 4K" tvg-logo="Forrest.Gump.1994.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Forrest Gump (1994) 4K
-Forrest.Gump.1994.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
-
-
-
-
-
 
 
 #EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="Inception (2010) 4K" tvg-logo="Inception.2010.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Inception (2010) 4K
@@ -226,8 +236,7 @@ Inception.2010.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 #EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="Interstellar (2014) 4K" tvg-logo="Interstellar.2014.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Interstellar (2014) 4K
 Interstellar.2014.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 
-#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="Life Is Beautiful (1997) 1080p" tvg-logo="Life.Is.Beautiful.1997.1080p.BluRay.x264-[YTS.AM].jpg",Life Is Beautiful (1997) 1080p
-Life.Is.Beautiful.1997.1080p.BluRay.x264-[YTS.AM].mp4
+
 
 #EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="One Flew Over the Cuckoo's Nest (1975) 1080p" tvg-logo="One.Flew.Over.The.Cuckoo's.Nest.1080p.BrRip.x264.YIFY.jpg",One Flew Over the Cuckoo's Nest (1975) 1080p
 One.Flew.Over.The.Cuckoo's.Nest.1080p.BrRip.x264.YIFY.mp4
@@ -237,8 +246,7 @@ Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].mp4
 
 
 
-#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="Schindler's List (1993) 4K" tvg-logo="Schindlers.List.1993.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Schindler's List (1993) 4K
-Schindlers.List.1993.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+
 
 
 
@@ -256,8 +264,6 @@ The.Lord.Of.The.Rings.The.Return.Of.The.King.2003.EXTENDED.2160p.4K.BluRay.x265.
 
 
 
-#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="The Shawshank Redemption (1994) 4K HDR" tvg-logo="The.Shawshank.Redemption.1994.2160p.4K.BluRay.x265.10bit.HDR.AAC5.1-[YTS.MX].jpg",The Shawshank Redemption (1994) 4K HDR
-The.Shawshank.Redemption.1994.2160p.4K.BluRay.x265.10bit.HDR.AAC5.1-[YTS.MX].mp4
 
 
 
@@ -317,41 +323,8 @@ The.Shawshank.Redemption.1994.2160p.4K.BluRay.x265.10bit.HDR.AAC5.1-[YTS.MX].mp4
 
 
 
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Shawshank Redemption (1994)
-http://your-server/The.Shawshank.Redemption.1994.mp4
 
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Forrest Gump (1994)
-http://your-server/Forrest.Gump.1994.mp4
 
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDNkMzU0MzktNDc0Ny00MDE3LWFlZWEtNTQzYTdiYmFiZWUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Fight Club (1999)
-http://your-server/Fight.Club.1999.mp4
-
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",One Flew Over the Cuckoo's Nest (1975)
-http://your-server/One.Flew.Over.the.Cuckoos.Nest.1975.mp4
-
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTk2MDJkMTAtNTI4Ni00ODJiLWEwYjgtZDk4OGY3ZWZmMmQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",There Will Be Blood (2007)
-http://your-server/There.Will.Be.Blood.2007.mp4
-
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/I/5121gH6mJlL._AC_UF1000",Titanic (1997)
-http://your-server/Titanic.1997.mp4
-
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDM0ZWRmMzctM2M5ZS00ZjU0LWIxN2MtNWNlNGY1ZDhjMDVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",A Separation (2011)
-http://your-server/A.Separation.2011.mp4
-
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_.jpg",The Green Mile (1999)
-http://your-server/The.Green.Mile.1999.mp4
-
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_FMjpg_UX1000_.jpg",No Country for Old Men (2007)
-http://your-server/No.Country.for.Old.Men.2007.mp4
-
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30193_p_v13_aa.jpg",The Pianist (2002)
-http://your-server/The.Pianist.2002.mp4
-
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHqERudQeMKbEpp97lLK_unmW1aJZLdP_-A&s",Parasite (2019)
-http://your-server/Parasite.2019.mp4
-
-#EXTINF:-1 group-title="DRAMA" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10488558_p_v12_ai.jpg",Whiplash (2014)
-http://your-server/Whiplash.2014.mp4
 
 
 
