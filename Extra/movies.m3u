@@ -130,7 +130,30 @@ http://your-server/Mrs.Doubtfire.1993.mp4
 #EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_.jpg",Borat (2006)
 http://your-server/Borat.2006.mp4
 
-
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_.jpg",The Godfather (1972)
+http://your-server/The.Godfather.1972.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDIxMzBlZDktZjMxNy00ZGI4LTgxNDEtYWRlNzRjMjJmOGQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Godfather Part II (1974)
+http://your-server/The.Godfather.Part.II.1974.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_.jpg",Goodfellas (1990)
+http://your-server/Goodfellas.1990.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://images.contentstack.io/v3/assets/blt13adb7e2033fcee5/blt13d2cbdb9b37e53b/690e8e5f5f4e8fcae3d8aa07/Scarface_GoldEd_Poster.jpg?width=2560",Scarface (1983)
+http://your-server/Scarface.1983.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://images.moviesanywhere.com/84626dbd87e96ac264a3a495ddf4edbc/c5ab4d0d-ffcb-40c2-b5e3-a3df121ef2ec.jpg",The Departed (2006)
+http://your-server/The.Departed.2006.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDRhZjgyMzMtNDRhNy00Yjg2LTlkZWMtODQ3NzJkZjVkNjUyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Pulp Fiction (1994)
+http://your-server/Pulp.Fiction.1994.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTkxYjU1OTMtYWViZC00ZjAzLWI3MDktZGQ2N2VmMjVjNDRlXkEyXkFqcGc@._V1_.jpg",Heat (1995)
+http://your-server/Heat.1995.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTJiZDNmMDgtZDg3MS00NjA3LThjY2UtNjA5MTQ4ZTU1ZTJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Casino (1995)
+http://your-server/Casino.1995.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19088_p_v10_ay.jpg",Donnie Brasco (1997)
+http://your-server/Donnie.Brasco.1997.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjMxOTgzNzMtZmZlNC00YTMyLThhZDEtZjc2MTY4ZDgxNjcwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Carlito's Way (1993)
+http://your-server/Carlitos.Way.1993.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAzNTk4ODcxM15BMl5BanBnXkFtZTcwNzg5MjQ4MQ@@._V1_.jpg",American Gangster (2007)
+http://your-server/American.Gangster.2007.mp4
+#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjBjMDc5M2QtOGNiNC00YTU3LWJmZjktZDIwMzlhYjFhMWI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Reservoir Dogs (1992)
+http://your-server/Reservoir.Dogs.1992.mp4
 
 
 
@@ -266,41 +289,7 @@ The.Shawshank.Redemption.1994.2160p.4K.BluRay.x265.10bit.HDR.AAC5.1-[YTS.MX].mp4
 
 
 
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_.jpg",The Godfather (1972)
-http://your-server/The.Godfather.1972.mp4
 
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDIxMzBlZDktZjMxNy00ZGI4LTgxNDEtYWRlNzRjMjJmOGQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Godfather Part II (1974)
-http://your-server/The.Godfather.Part.II.1974.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_.jpg",Goodfellas (1990)
-http://your-server/Goodfellas.1990.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://images.contentstack.io/v3/assets/blt13adb7e2033fcee5/blt13d2cbdb9b37e53b/690e8e5f5f4e8fcae3d8aa07/Scarface_GoldEd_Poster.jpg?width=2560",Scarface (1983)
-http://your-server/Scarface.1983.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://images.moviesanywhere.com/84626dbd87e96ac264a3a495ddf4edbc/c5ab4d0d-ffcb-40c2-b5e3-a3df121ef2ec.jpg",The Departed (2006)
-http://your-server/The.Departed.2006.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDRhZjgyMzMtNDRhNy00Yjg2LTlkZWMtODQ3NzJkZjVkNjUyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Pulp Fiction (1994)
-http://your-server/Pulp.Fiction.1994.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTkxYjU1OTMtYWViZC00ZjAzLWI3MDktZGQ2N2VmMjVjNDRlXkEyXkFqcGc@._V1_.jpg",Heat (1995)
-http://your-server/Heat.1995.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTJiZDNmMDgtZDg3MS00NjA3LThjY2UtNjA5MTQ4ZTU1ZTJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Casino (1995)
-http://your-server/Casino.1995.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19088_p_v10_ay.jpg",Donnie Brasco (1997)
-http://your-server/Donnie.Brasco.1997.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjMxOTgzNzMtZmZlNC00YTMyLThhZDEtZjc2MTY4ZDgxNjcwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Carlito's Way (1993)
-http://your-server/Carlitos.Way.1993.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAzNTk4ODcxM15BMl5BanBnXkFtZTcwNzg5MjQ4MQ@@._V1_.jpg",American Gangster (2007)
-http://your-server/American.Gangster.2007.mp4
-
-#EXTINF:-1 group-title="CRIME" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjBjMDc5M2QtOGNiNC00YTU3LWJmZjktZDIwMzlhYjFhMWI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Reservoir Dogs (1992)
-http://your-server/Reservoir.Dogs.1992.mp4
 
 
 
