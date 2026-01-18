@@ -151,7 +151,7 @@ In.Your.Dreams.2025.1080p.WEBRip.x265.10bit.AAC5.1-[YTS.LT].mp4
 
 
 #EXTINF:-1 group-title="ANIMATION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_.jpg",Spirited Away (2001)
-http://your-server/Spirited.Away.2001.mp4
+Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].mp4
 #EXTINF:-1 group-title="ANIMATION" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",The Lion King (1994)
 http://your-server/The.Lion.King.1994.mp4
 #EXTINF:-1 group-title="ANIMATION" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcQynHU-gg6k1cKzMrJljSsUoFx_uvuA_C_A&s",Toy Story (1995)
@@ -174,8 +174,8 @@ http://your-server/Shrek.2001.mp4
 http://your-server/Akira.1988.mp4
 #EXTINF:-1 group-title="ANIMATION" tvg-logo="https://elenasquareeyes.com/wp-content/uploads/2018/01/coco-movie-poster.jpg",Coco (2017)
 http://your-server/Coco.2017.mp4
-#EXTINF:-1 group-title="ANIMATION" tvg-id="Movie.Dummy.us" tvg-name="Spirited Away (2001) 1080p" tvg-logo="Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].jpg",Spirited Away (2001) 1080p
-Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].mp4
+
+
 
 
 
