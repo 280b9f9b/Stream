@@ -51,8 +51,7 @@ Schindlers.List.1993.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 
 
 
-#EXTINF:-1 group-title="Animation" tvg-id="Movie.Dummy.us" tvg-name="Spirited Away (2001) 1080p" tvg-logo="Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].jpg",Spirited Away (2001) 1080p
-Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].mp4
+
 
 #EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="Star Wars: Episode V - The Empire Strikes Back (1980) 4K" tvg-logo="Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Star Wars: Episode V - The Empire Strikes Back (1980) 4K
 Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
@@ -175,7 +174,8 @@ http://your-server/Shrek.2001.mp4
 http://your-server/Akira.1988.mp4
 #EXTINF:-1 group-title="ANIMATION" tvg-logo="https://elenasquareeyes.com/wp-content/uploads/2018/01/coco-movie-poster.jpg",Coco (2017)
 http://your-server/Coco.2017.mp4
-
+#EXTINF:-1 group-title="ANIMATION" tvg-id="Movie.Dummy.us" tvg-name="Spirited Away (2001) 1080p" tvg-logo="Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].jpg",Spirited Away (2001) 1080p
+Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].mp4
 
 
 
