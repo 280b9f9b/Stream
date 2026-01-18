@@ -215,6 +215,38 @@ Life.Is.Beautiful.1997.1080p.BluRay.x264-[YTS.AM].mp4
 #EXTINF:-1 group-title="DRAMA" tvg-id="Movie.Dummy.us" tvg-name="Schindler's List (1993) 4K" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzVlNzhkNTItYWE5MS00ZjAzLWEzMDAtOTc3YmVhZjUzZTMwXkEyXkFqcGc@._V1_.jpg",Schindler's List (1993) 4K
 Schindlers.List.1993.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",The Lion King (1994)
+http://your-server/The.Lion.King.1994.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTNhNmY0YWMtMTczYi00MTA0LThhMmUtMTIxYzE0Y2QwMzRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",E.T. the Extra-Terrestrial (1982)
+http://your-server/ET.the.Extra-Terrestrial.1982.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSJsgBdlrAGPwX7QIma121siq1IaXx36nhXA&s",Mary Poppins (1964)
+http://your-server/Mary.Poppins.1964.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTk1YzlhMTUtZmU5MC00NmRmLTlkZjItYzQ0NTY4Y2NiNzc4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Paddington 2 (2017)
+http://your-server/Paddington.2.2017.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/76/Home_alone_poster.jpg",Home Alone (1990)
+http://your-server/Home.Alone.1990.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://images.fandango.com/ImageRenderer/0/0/redesign/static/img/default_poster--dark-mode.png/0/images/masterrepository/Fandango/1931/p5620_v_v8_as.jpg",The Sound of Music (1965)
+http://your-server/The.Sound.of.Music.1965.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_.jpg",Toy Story 3 (2010)
+http://your-server/Toy.Story.3.2010.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5NjExNTA5OV5BMl5BanBnXkFtZTYwMTQ0ODY2._V1_FMjpg_UX1000_.jpg",Finding Nemo (2003)
+http://your-server/Finding.Nemo.2003.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://images.moviesanywhere.com/78a3fa699d12193d0e239395e09f3097/1a37b5ca-4272-4626-9339-fc5a84ede7f6.jpg",Matilda (1996)
+http://your-server/Matilda.1996.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_.jpg",The Incredibles (2004)
+http://your-server/The.Incredibles.2004.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWY0NzY1NTgtODRhMC00MWM5LTk1OGMtNGNlNTBhY2RhOTg3XkEyXkFqcGc@._V1_.jpg",Babe (1995)
+http://your-server/Babe.1995.mp4
+#EXTINF:-1 group-title="FAMILY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/69/Wizard_of_oz_movie_poster.jpg",The Wizard of Oz (1939)
+http://your-server/The.Wizard.of.Oz.1939.mp4
+
+
+
+
+
+
+
+
 
 
 
@@ -329,41 +361,7 @@ The.Lord.Of.The.Rings.The.Return.Of.The.King.2003.EXTENDED.2160p.4K.BluRay.x265.
 
 
 
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",The Lion King (1994)
-http://your-server/The.Lion.King.1994.mp4
 
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTNhNmY0YWMtMTczYi00MTA0LThhMmUtMTIxYzE0Y2QwMzRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",E.T. the Extra-Terrestrial (1982)
-http://your-server/ET.the.Extra-Terrestrial.1982.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSJsgBdlrAGPwX7QIma121siq1IaXx36nhXA&s",Mary Poppins (1964)
-http://your-server/Mary.Poppins.1964.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTk1YzlhMTUtZmU5MC00NmRmLTlkZjItYzQ0NTY4Y2NiNzc4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Paddington 2 (2017)
-http://your-server/Paddington.2.2017.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/76/Home_alone_poster.jpg",Home Alone (1990)
-http://your-server/Home.Alone.1990.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://images.fandango.com/ImageRenderer/0/0/redesign/static/img/default_poster--dark-mode.png/0/images/masterrepository/Fandango/1931/p5620_v_v8_as.jpg",The Sound of Music (1965)
-http://your-server/The.Sound.of.Music.1965.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_.jpg",Toy Story 3 (2010)
-http://your-server/Toy.Story.3.2010.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5NjExNTA5OV5BMl5BanBnXkFtZTYwMTQ0ODY2._V1_FMjpg_UX1000_.jpg",Finding Nemo (2003)
-http://your-server/Finding.Nemo.2003.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://images.moviesanywhere.com/78a3fa699d12193d0e239395e09f3097/1a37b5ca-4272-4626-9339-fc5a84ede7f6.jpg",Matilda (1996)
-http://your-server/Matilda.1996.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_.jpg",The Incredibles (2004)
-http://your-server/The.Incredibles.2004.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWY0NzY1NTgtODRhMC00MWM5LTk1OGMtNGNlNTBhY2RhOTg3XkEyXkFqcGc@._V1_.jpg",Babe (1995)
-http://your-server/Babe.1995.mp4
-
-#EXTINF:-1 group-title="FAMILY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/69/Wizard_of_oz_movie_poster.jpg",The Wizard of Oz (1939)
-http://your-server/The.Wizard.of.Oz.1939.mp4
 
 
 
