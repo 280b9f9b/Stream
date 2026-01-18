@@ -105,7 +105,30 @@ http://your-server/Bohemian.Rhapsody.2018.mp4
 #EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_FMjpg_UX1000_.jpg",Catch Me If You Can (2002)
 http://your-server/Catch.Me.If.You.Can.2002.mp4
 
-
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2023/01/30093650/hVIKyTK13AvOGv7ICmJjK44DTzp-scaled.jpg",Some Like It Hot (1959)
+http://your-server/Some.Like.It.Hot.1959.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqhiIrXb1uRK149K0NGqxYkJ2_CD-ccVSs8Q&s",The Big Lebowski (1998)
+http://your-server/The.Big.Lebowski.1998.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BZmQwZWNhYjktNDMzMi00MmNkLWJiMjUtNGI0ZjZlNTk1NzllXkEyXkFqcGc@._V1_.jpg",Monty Python and the Holy Grail (1975)
+http://your-server/Monty.Python.and.the.Holy.Grail.1975.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWE3MjQ3ZDAtNDQ2MC00YjBjLTk0ZWYtNjQ0YzQ4YWE3YTEyXkEyXkFqcGc@._V1_.jpg",Groundhog Day (1993)
+http://your-server/Groundhog.Day.1993.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDI2NzMwYzAtNjYwYS00OTA5LTlmNDEtNWM1ODEyNDVhMDE0XkEyXkFqcGc@._V1_.jpg",Dr. Strangelove (1964)
+http://your-server/Dr.Strangelove.1964.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjk0MzdlZGEtNTRkOC00ZDRiLWJkYjAtMzUzYTRiNzk1YTViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Superbad (2007)
+http://your-server/Superbad.2007.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYxMzA0MzAyMF5BMl5BanBnXkFtZTgwMjMyNjcwMjE@._V1_.jpg",Dumb and Dumber (1994)
+http://your-server/Dumb.and.Dumber.1994.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTdhM2JiMDItN2EwNi00YzIzLWE0ZGYtNjk1YzhlY2QxZTNlXkEyXkFqcGc@._V1_.jpg",Airplane! (1980)
+http://your-server/Airplane.1980.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://sidewalkfest.com/wp-content/uploads/2025/03/ugmakEL5y294I5bXgiBqApuZpwc.jpg",City Lights (1931)
+http://your-server/City.Lights.1931.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://media-cache.cinematerial.com/p/500x/eo6nsvzv/home-alone-dvd-movie-cover.jpg?v=1456481837",Home Alone (1990)
+http://your-server/Home.Alone.1990.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BM2ExNGJjOTQtZDFiMy00ZmUwLWJhYTctMmIxY2I2Njg0MDRlXkEyXkFqcGc@._V1_.jpg",Mrs. Doubtfire (1993)
+http://your-server/Mrs.Doubtfire.1993.mp4
+#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_.jpg",Borat (2006)
+http://your-server/Borat.2006.mp4
 
 
 
@@ -237,41 +260,7 @@ The.Shawshank.Redemption.1994.2160p.4K.BluRay.x265.10bit.HDR.AAC5.1-[YTS.MX].mp4
 
 
 
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2023/01/30093650/hVIKyTK13AvOGv7ICmJjK44DTzp-scaled.jpg",Some Like It Hot (1959)
-http://your-server/Some.Like.It.Hot.1959.mp4
 
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqhiIrXb1uRK149K0NGqxYkJ2_CD-ccVSs8Q&s",The Big Lebowski (1998)
-http://your-server/The.Big.Lebowski.1998.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BZmQwZWNhYjktNDMzMi00MmNkLWJiMjUtNGI0ZjZlNTk1NzllXkEyXkFqcGc@._V1_.jpg",Monty Python and the Holy Grail (1975)
-http://your-server/Monty.Python.and.the.Holy.Grail.1975.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWE3MjQ3ZDAtNDQ2MC00YjBjLTk0ZWYtNjQ0YzQ4YWE3YTEyXkEyXkFqcGc@._V1_.jpg",Groundhog Day (1993)
-http://your-server/Groundhog.Day.1993.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDI2NzMwYzAtNjYwYS00OTA5LTlmNDEtNWM1ODEyNDVhMDE0XkEyXkFqcGc@._V1_.jpg",Dr. Strangelove (1964)
-http://your-server/Dr.Strangelove.1964.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjk0MzdlZGEtNTRkOC00ZDRiLWJkYjAtMzUzYTRiNzk1YTViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Superbad (2007)
-http://your-server/Superbad.2007.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYxMzA0MzAyMF5BMl5BanBnXkFtZTgwMjMyNjcwMjE@._V1_.jpg",Dumb and Dumber (1994)
-http://your-server/Dumb.and.Dumber.1994.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTdhM2JiMDItN2EwNi00YzIzLWE0ZGYtNjk1YzhlY2QxZTNlXkEyXkFqcGc@._V1_.jpg",Airplane! (1980)
-http://your-server/Airplane.1980.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://sidewalkfest.com/wp-content/uploads/2025/03/ugmakEL5y294I5bXgiBqApuZpwc.jpg",City Lights (1931)
-http://your-server/City.Lights.1931.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://media-cache.cinematerial.com/p/500x/eo6nsvzv/home-alone-dvd-movie-cover.jpg?v=1456481837",Home Alone (1990)
-http://your-server/Home.Alone.1990.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BM2ExNGJjOTQtZDFiMy00ZmUwLWJhYTctMmIxY2I2Njg0MDRlXkEyXkFqcGc@._V1_.jpg",Mrs. Doubtfire (1993)
-http://your-server/Mrs.Doubtfire.1993.mp4
-
-#EXTINF:-1 group-title="COMEDY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_.jpg",Borat (2006)
-http://your-server/Borat.2006.mp4
 
 
 
