@@ -180,29 +180,29 @@ http://your-server/Coco.2017.mp4
 
 
 
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTk1YmUtN2Y4ZDY2NmM1YmE3XkEyXkFqcGc@._V1_.jpg",Schindler's List (1993)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzVlNzhkNTItYWE5MS00ZjAzLWEzMDAtOTc3YmVhZjUzZTMwXkEyXkFqcGc@._V1_.jpg",Schindler's List (1993)
 http://your-server/Schindlers.List.1993.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYwNTk1MzE3NF5BMl5BanBnXkFtZTcwMTY0OTI0NA@@._V1_.jpg",Gandhi (1982)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BY2FjOTZmOTktN2JmMS00N2EwLWJhYzItZjUxNDdmZDhiNDFhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Gandhi (1982)
 http://your-server/Gandhi.1982.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc0NzY2NzAzMl5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",The Social Network (2010)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Social Network (2010)
 http://your-server/The.Social.Network.2010.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTk5NzA0NjQyNF5BMl5BanBnXkFtZTcwODk2NjYyNA@@._V1_.jpg",Raging Bull (1980)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjlkYmYyZWQtNTZkOS00ZjA0LWEwNWUtNzE2ZGNiYjg0MjA2XkEyXkFqcGc@._V1_.jpg",Raging Bull (1980)
 http://your-server/Raging.Bull.1980.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2U5YTY2YjUtYjY0My00ODRmLWEzOTEtNjMzYTRhN2IzZDY0XkEyXkFqcGc@._V1_.jpg",Oppenheimer (2023)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg",Oppenheimer (2023)
 http://your-server/Oppenheimer.2023.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzc5MDAzMzM0Ml5BMl5BanBnXkFtZTcwODU0NDUyMQ@@._V1_.jpg",A Beautiful Mind (2001)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://www.rogerebert.com/wp-content/uploads/2024/03/A-Beautiful-Mind.jpg",A Beautiful Mind (2001)
 http://your-server/A.Beautiful.Mind.2001.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU0OTY1NjI4NF5BMl5BanBnXkFtZTcwNTk4OTQ0NA@@._V1_.jpg",Malcolm X (1992)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDFlNzcwZGMtYzhiMi00NWViLWIzODMtMDJiZThhZDA2MDNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Malcolm X (1992)
 http://your-server/Malcolm.X.1992.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2U1YTJiOTUtMjQ5Zi00OWE4LTg3YjUtNTY1NjBiNDY0YzRiXkEyXkFqcGc@._V1_.jpg",The Pianist (2002)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30193_p_v13_aa.jpg",The Pianist (2002)
 http://your-server/The.Pianist.2002.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzc5NjI2NzU4MF5BMl5BanBnXkFtZTcwOTk2NjYyNA@@._V1_.jpg",Braveheart (1995)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGMxZDBhNGQtYTZlNi00N2UzLWI4NDEtNmUzNWM2NTdmZDA0XkEyXkFqcGc@._V1_.jpg",Braveheart (1995)
 http://your-server/Braveheart.1995.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ2NzY3ODQ1Ml5BMl5BanBnXkFtZTcwODk4ODcxOQ@@._V1_.jpg",Lincoln (2012)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjJkYzE1NTQtMDMxNC00MTRhLWJlN2YtNDQwOWU0YTA3OTExXkEyXkFqcGc@._V1_.jpg",Lincoln (2012)
 http://your-server/Lincoln.2012.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5MTU3OTY0OF5BMl5BanBnXkFtZTgwMDkzMzI2NjM@._V1_.jpg",Bohemian Rhapsody (2018)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTA2NDc3Njg5NDVeQTJeQWpwZ15BbWU4MDc1NDcxNTUz._V1_FMjpg_UX1000_.jpg",Bohemian Rhapsody (2018)
 http://your-server/Bohemian.Rhapsody.2018.mp4
-#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYzOTY1NjU3MF5BMl5BanBnXkFtZTcwNjU5OTQ0NA@@._V1_.jpg",Catch Me If You Can (2002)
+#EXTINF:-1 group-title="BIOGRAPHY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_FMjpg_UX1000_.jpg",Catch Me If You Can (2002)
 http://your-server/Catch.Me.If.You.Can.2002.mp4
 
 
