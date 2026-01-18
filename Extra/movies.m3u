@@ -189,7 +189,7 @@ Forrest.Gump.1994.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 #EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDNkMzU0MzktNDc0Ny00MDE3LWFlZWEtNTQzYTdiYmFiZWUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Fight Club (1999)
 Fight.Club.1999.REPACK.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
 #EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",One Flew Over the Cuckoo's Nest (1975)
-http://your-server/One.Flew.Over.the.Cuckoos.Nest.1975.mp4
+One.Flew.Over.The.Cuckoo's.Nest.1080p.BrRip.x264.YIFY.mp4
 #EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTk2MDJkMTAtNTI4Ni00ODJiLWEwYjgtZDk4OGY3ZWZmMmQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",There Will Be Blood (2007)
 http://your-server/There.Will.Be.Blood.2007.mp4
 #EXTINF:-1 group-title="DRAMA" tvg-logo="https://m.media-amazon.com/images/I/5121gH6mJlL._AC_UF1000,1000_QL80_.jpg",Titanic (1997)
@@ -238,8 +238,7 @@ Interstellar.2014.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 
 
 
-#EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="One Flew Over the Cuckoo's Nest (1975) 1080p" tvg-logo="One.Flew.Over.The.Cuckoo's.Nest.1080p.BrRip.x264.YIFY.jpg",One Flew Over the Cuckoo's Nest (1975) 1080p
-One.Flew.Over.The.Cuckoo's.Nest.1080p.BrRip.x264.YIFY.mp4
+
 
 #EXTINF:-1 group-title="Thriller" tvg-id="Movie.Dummy.us" tvg-name="Parasite (2019) 4K" tvg-logo="Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].jpg",Parasite (2019) 4K
 Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].mp4
