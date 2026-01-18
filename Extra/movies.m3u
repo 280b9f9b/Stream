@@ -50,8 +50,7 @@ Pulp.Fiction.1994.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 #EXTINF:-1 group-title="Drama" tvg-id="Movie.Dummy.us" tvg-name="Schindler's List (1993) 4K" tvg-logo="Schindlers.List.1993.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Schindler's List (1993) 4K
 Schindlers.List.1993.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 
-#EXTINF:-1 group-title="Action" tvg-id="Movie.Dummy.us" tvg-name="Seven Samurai (1954) 4K" tvg-logo="Seven.Samurai.1954.ENSUBBED.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Seven Samurai (1954) 4K
-Seven.Samurai.1954.ENSUBBED.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+
 
 #EXTINF:-1 group-title="Animation" tvg-id="Movie.Dummy.us" tvg-name="Spirited Away (2001) 1080p" tvg-logo="Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].jpg",Spirited Away (2001) 1080p
 Spirited.Away.2001.1080p.BluRay.x264-[YTS.AM].mp4
@@ -107,7 +106,8 @@ The.Dark.Knight.2008.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 The.Matrix.1999.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 #EXTINF:-1 group-title="ACTION" tvg-logo="https://imusic.b-cdn.net/images/item/original/340/5056453203340.jpg",Top Gun: Maverick (2022)
 Top.Gun.Maverick.2022.IMAX.2160p.4K.WEB.x265.10bit.AAC5.1-[YTS.MX].mp4
-
+#EXTINF:-1 group-title="ACTION" tvg-id="Movie.Dummy.us" tvg-name="Seven Samurai (1954) 4K" tvg-logo="Seven.Samurai.1954.ENSUBBED.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Seven Samurai (1954) 4K
+Seven.Samurai.1954.ENSUBBED.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 
 
 
