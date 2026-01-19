@@ -340,6 +340,31 @@ http://your-server/The.Lego.Movie.2014.mp4
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10569889_p_v11_aa.jpg",Paddington (2014)
 http://your-server/Paddington.2014.mp4
 
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://media-cache.cinematerial.com/p/500x/kb97ynfc/the-sound-of-music-dvd-movie-cover.jpg?v=1456388533",The Sound of Music (1965)
+http://your-server/The.Sound.of.Music.1965.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/Singin%27_in_the_Rain_%281952_poster%29.jpg",Singin' in the Rain (1952)
+http://your-server/Singin.in.the.Rain.1952.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg",La La Land (2016)
+http://your-server/La.La.Land.2016.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/img_2717_93.jpeg",West Side Story (1961)
+http://your-server/West.Side.Story.1961.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BNmJmZDEyNTctOTM1MS00NWEwLWFkMjctMjhhODEzMjU1MjA0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Chicago (2002)
+http://your-server/Chicago.2002.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://images.moviesanywhere.com/9fa9783696f8353a3741038e012f1b2d/27d4ce4f-76fd-454e-a1c6-ca7ff3d0417b.jpg",Les Miserables (2012)
+http://your-server/Les.Miserables.2012.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjyITcYLZmna7IQcRbP_ReYLflW7k8doNzHQ&s",The Greatest Showman (2017)
+http://your-server/The.Greatest.Showman.2017.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGY0NzE0ZTctN2YzNC00M2IwLWI0OWYtMTAwZWU2NjZhMTQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Grease (1978)
+http://your-server/Grease.1978.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://media-cache.cinematerial.com/p/500x/gahygupx/moulin-rouge-dvd-movie-cover.jpg?v=1470063199",Moulin Rouge! (2001)
+http://your-server/Moulin.Rouge.2001.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGVmMGJiNjYtODc0NC00NjE0LWFiM2UtYzgyNGM1MDRlODg0XkEyXkFqcGc@._V1_.jpg",Cabaret (1972)
+http://your-server/Cabaret.1972.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BNmMxZmFjZmQtMDRiOC00MDQxLTlhNDktZTkxMmRiYWM1ZDUzXkEyXkFqcGc@._V1_.jpg",My Fair Lady (1964)
+http://your-server/My.Fair.Lady.1964.mp4
+#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7wES31inXW58hi61cxjBBkd2vMOaCJRpfkg&s",Fiddler on the Roof (1971)
+http://your-server/Fiddler.on.the.Roof.1971.mp4
+
 
 
 
@@ -491,41 +516,7 @@ Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AA
 
 
 
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjUyNTYzMDk2Nl5BMl5BanBnXkFtZTgwNTY1MzY1MDE@._V1_.jpg",The Sound of Music (1965)
-http://your-server/The.Sound.of.Music.1965.mp4
 
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDRjNGViMjQtOThlMi00MTA3LThkYzQtNzJkYjBkMGE0YzE1XkEyXkFqcGc@._V1_.jpg",Singin' in the Rain (1952)
-http://your-server/Singin.in.the.Rain.1952.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg",La La Land (2016)
-http://your-server/La.La.Land.2016.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTM2NDg5OTM5MV5BMl5BanBnXkFtZTcwOTMwNTI3OA@@._V1_.jpg",West Side Story (1961)
-http://your-server/West.Side.Story.1961.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjczZjk4OWQtZTU4OC00YjFiLTk4MzctNWQ2YzI1MWY5MDczXkEyXkFqcGc@._V1_.jpg",Chicago (2002)
-http://your-server/Chicago.2002.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ4NDI3NDg4M15BMl5BanBnXkFtZTcwMjY5OTI1OA@@._V1_.jpg",Les Miserables (2012)
-http://your-server/Les.Miserables.2012.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI1NDYzNzY2Ml5BMl5BanBnXkFtZTgwODQwODczNTM@._V1_.jpg",The Greatest Showman (2017)
-http://your-server/The.Greatest.Showman.2017.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BZmUyNjU5ZTktN2UzNS00Zjk4LTljYzctMjRmZWMwNTFiZDY1XkEyXkFqcGc@._V1_.jpg",Grease (1978)
-http://your-server/Grease.1978.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE1NjcxNDg4MF5BMl5BanBnXkFtZTcwOTA5NTU5MQ@@._V1_.jpg",Moulin Rouge! (2001)
-http://your-server/Moulin.Rouge.2001.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI4MzYyODU2NF5BMl5BanBnXkFtZTcwMDYzMTY2NA@@._V1_.jpg",Cabaret (1972)
-http://your-server/Cabaret.1972.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTMzZWM1YWUtMjkzZi00OTQzLWI3NDAtYTA0MTg2NTQ5NTY0XkEyXkFqcGc@._V1_.jpg",My Fair Lady (1964)
-http://your-server/My.Fair.Lady.1964.mp4
-
-#EXTINF:-1 group-title="MUSICAL" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDM4MmVhZmYtNWE0Mi00YzFmLTk4ZjgtZWRhMDU5MWZmZTc4XkEyXkFqcGc@._V1_.jpg",Fiddler on the Roof (1971)
-http://your-server/Fiddler.on.the.Roof.1971.mp4
 
 
 
