@@ -561,8 +561,7 @@ Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AA
 
 
 
-#EXTINF:-1 group-title="Thriller" tvg-id="Movie.Dummy.us" tvg-name="Parasite (2019) 4K" tvg-logo="Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].jpg",Parasite (2019) 4K
-Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].mp4
+
 
 
 
@@ -771,16 +770,16 @@ http://your-server/The.Karate.Kid.1984.mp4
 #EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_.jpg",Se7en (1995)
 http://your-server/Se7en.1995.mp4
 
-#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGc@._V1_.jpg",The Silence of the Lambs (1991)
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_.jpg",The Silence of the Lambs (1991)
 http://your-server/The.Silence.of.the.Lambs.1991.mp4
 
-#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk2MDI1MjI3NF5BMl5BanBnXkFtZTcwODI0NzM0Mw@@._V1_.jpg",No Country for Old Men (2007)
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_FMjpg_UX1000_.jpg",No Country for Old Men (2007)
 http://your-server/No.Country.for.Old.Men.2007.mp4
 
 #EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_.jpg",Gone Girl (2014)
 http://your-server/Gone.Girl.2014.mp4
 
-#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTIxMjc0ODgxMl5BMl5BanBnXkFtZTcwMjg2MzE1Ng@@._V1_.jpg",The Girl with the Dragon Tattoo (2011)
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw@@._V1_FMjpg_UX1000_.jpg",The Girl with the Dragon Tattoo (2011)
 http://your-server/The.Girl.with.the.Dragon.Tattoo.2011.mp4
 
 #EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_.jpg",Prisoners (2013)
@@ -789,21 +788,22 @@ http://your-server/Prisoners.2013.mp4
 #EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_.jpg",Black Swan (2010)
 http://your-server/Black.Swan.2010.mp4
 
-#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3OTg2NjM1NV5BMl5BanBnXkFtZTcwNjY5MjI0NA@@._V1_.jpg",Heat (1995)
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTkxYjU1OTMtYWViZC00ZjAzLWI3MDktZGQ2N2VmMjVjNDRlXkEyXkFqcGc@._V1_.jpg",Heat (1995)
 http://your-server/Heat.1995.mp4
 
-#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMmVhYjU1NzktODg5MC00NTk3LTkwYTctMjU0YmE4OGM5ZDg2XkEyXkFqcGc@._V1_.jpg",Cape Fear (1991)
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaN_ewBIvU6LQb-fGvQTb11OKkzprn8N-r7A&s",Cape Fear (1991)
 http://your-server/Cape.Fear.1991.mp4
 
-#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BYzE3MDg0OGEtZGU3Yy00MjY0LWFhZDItOTYzY2E2ODVlYTdhXkEyXkFqcGc@._V1_.jpg",Fatal Attraction (1987)
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10303_p_v13_bb.jpg",Fatal Attraction (1987)
 http://your-server/Fatal.Attraction.1987.mp4
 
-#EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BM2MyNTAwMzctODRmYy00NDcxLWJjMWItYTU5Zjc2NmNjZDc0XkEyXkFqcGc@._V1_.jpg",Misery (1990)
+#EXTINF:-1 group-title="THRILLER" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbeJExB5oBOPOKUEr9C_ZgwihFre1eVM4HkQ&s",Misery (1990)
 http://your-server/Misery.1990.mp4
 
 #EXTINF:-1 group-title="THRILLER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_.jpg",Oldboy (2003)
 http://your-server/Oldboy.2003.mp4
-
+#EXTINF:-1 group-title="THRILLER" tvg-id="Movie.Dummy.us" tvg-name="Parasite (2019) 4K" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHqERudQeMKbEpp97lLK_unmW1aJZLdP_-A&s",Parasite (2019) 4K
+Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].mp4
 
 
 
