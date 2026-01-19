@@ -415,7 +415,30 @@ http://your-server/Wag.the.Dog.1997.mp4
 #EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGY3ZjEyODAtNjAwMC00ZTEwLTg3NDctYzMzYTZkMjBmZDQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Insider (1999)
 http://your-server/The.Insider.1999.mp4
 
-
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_.jpg",The Prestige (2006)
+http://your-server/The.Prestige.2006.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_.jpg",Eternal Sunshine of the Spotless Mind (2004)
+http://your-server/Eternal.Sunshine.of.the.Spotless.Mind.2004.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_.jpg",Her (2013)
+http://your-server/Her.2013.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_.jpg",Birdman (2014)
+http://your-server/Birdman.2014.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTNmYzY0MWQtZGZmNy00Y2Y4LWFmMDQtMTZjYTdiYzEwZGQ2XkEyXkFqcGc@._V1_.jpg",Amelie (2001)
+http://your-server/Amelie.2001.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDRkYjM5NmItZTYwYS00ZjY0LWI0ZDUtMTE3YWZhODczNmUyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Truman Show (1998)
+http://your-server/The.Truman.Show.1998.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2ZlMjIzZjctYzA2My00ZWYyLWI4ZjctMGI2NWYyNzFiZjAwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Requiem for a Dream (2000)
+http://your-server/Requiem.for.a.Dream.2000.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/I/81YdUDaMiWL._AC_UF894,1000_QL80_.jpg",Joker (2019)
+http://your-server/Joker.2019.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWE3NTYzZmEtM2U5MS00MDZhLTk2ZTQtZTgzNjg0ZGQ5ZjM0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Donnie Darko (2001)
+http://your-server/Donnie.Darko.2001.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_.jpg",The Grand Budapest Hotel (2014)
+http://your-server/The.Grand.Budapest.Hotel.2014.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_.jpg",Moonlight (2016)
+http://your-server/Moonlight.2016.mp4
+#EXTINF:-1 group-title="OTHER" tvg-logo="https://resizing.flixster.com/3fdfZluLLRSURw2fbYgsfqKaWtw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzE0ZWFjM2Y1LTYzNTYtNGIwNS1iNGU2LTk0NTA2MGQ3NjY3NC53ZWJw",Drive (2011)
+http://your-server/Drive.2011.mp4
 
 
 
@@ -902,41 +925,7 @@ http://your-server/Butch.Cassidy.and.the.Sundance.Kid.1969.mp4
 
 
 
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_.jpg",The Prestige (2006)
-http://your-server/The.Prestige.2006.mp4
 
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_.jpg",Eternal Sunshine of the Spotless Mind (2004)
-http://your-server/Eternal.Sunshine.of.the.Spotless.Mind.2004.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_.jpg",Her (2013)
-http://your-server/Her.2013.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_.jpg",Birdman (2014)
-http://your-server/Birdman.2014.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmMtNGY1Y2E1ZjQ3MjEyXkEyXkFqcGc@._V1_.jpg",Amelie (2001)
-http://your-server/Amelie.2001.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGc@._V1_.jpg",The Truman Show (1998)
-http://your-server/The.Truman.Show.1998.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGc@._V1_.jpg",Requiem for a Dream (2000)
-http://your-server/Requiem.for.a.Dream.2000.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGc@._V1_.jpg",Joker (2019)
-http://your-server/Joker.2019.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjZlZDlkYTktMmU1My00ZDBiLWFlNjEtYTBhNjVhOTM4ZjJjXkEyXkFqcGc@._V1_.jpg",Donnie Darko (2001)
-http://your-server/Donnie.Darko.2001.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_.jpg",The Grand Budapest Hotel (2014)
-http://your-server/The.Grand.Budapest.Hotel.2014.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_.jpg",Moonlight (2016)
-http://your-server/Moonlight.2016.mp4
-
-#EXTINF:-1 group-title="OTHER" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjY5ZjQyMjMtMmEwOC00Nzc2LTllYTItMmU2MzJjNTg1NjY0XkEyXkFqcGc@._V1_.jpg",Drive (2011)
-http://your-server/Drive.2011.mp4
 
 
 
