@@ -490,152 +490,6 @@ http://your-server/Pretty.Woman.1990.mp4
 #EXTINF:-1 group-title="ROMANCE" tvg-logo="https://play-lh.googleusercontent.com/FqshKbSW3gI8GZeDdC2l2VpoG24eXENx7o84UVhshI1nPj5ot3nKeXxdKHWfxLwNJOy7VQ=w240-h480-rw",Romeo + Juliet (1996)
 http://your-server/Romeo.and.Juliet.1996.mp4
 
-
-
-
-
-
-
-
-
-#EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="2001: A Space Odyssey (1968) 4K" tvg-logo="2001.A.Space.Odyssey.1968.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",2001: A Space Odyssey (1968) 4K
-2001.A.Space.Odyssey.1968.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
-
-#EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="Inception (2010) 4K" tvg-logo="Inception.2010.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Inception (2010) 4K
-Inception.2010.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
-
-#EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="Interstellar (2014) 4K" tvg-logo="Interstellar.2014.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Interstellar (2014) 4K
-Interstellar.2014.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
-
-
-#EXTINF:-1 group-title="Thriller" tvg-id="Movie.Dummy.us" tvg-name="Parasite (2019) 4K" tvg-logo="Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].jpg",Parasite (2019) 4K
-Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].mp4
-
-
-#EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="Star Wars: Episode V - The Empire Strikes Back (1980) 4K" tvg-logo="Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Star Wars: Episode V - The Empire Strikes Back (1980) 4K
-Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg",Interstellar (2014)
 http://your-server/Interstellar.2014.mp4
 #EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg",Blade Runner (1982)
@@ -661,46 +515,176 @@ http://your-server/Children.of.Men.2006.mp4
 #EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTM4OTI1OTM5NF5BMl5BanBnXkFtZTcwMzk5MTU1Mg@@._V1_.jpg",District 9 (2009)
 http://your-server/District.9.2009.mp4
 
-
-
-
-
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://s30412.pcdn.co/wp-content/uploads/2020/12/2001-ASO.jpg",2001: A Space Odyssey (1968)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://s30412.pcdn.co/wp-content/uploads/2020/12/2001-ASO.jpg",2001: A Space Odyssey (1968)
 http://your-server/2001.A.Space.Odyssey.1968.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://posters-uk.s3.eu-west-2.amazonaws.com/PRILON/619824.jpg",Solaris (1972)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://posters-uk.s3.eu-west-2.amazonaws.com/PRILON/619824.jpg",Solaris (1972)
 http://your-server/Solaris.1972.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2024/05/28223359/4zfedS25uMAhgm6YQhc9bhKHbLl.jpg",Close Encounters of the Third Kind (1977)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2024/05/28223359/4zfedS25uMAhgm6YQhc9bhKHbLl.jpg",Close Encounters of the Third Kind (1977)
 http://your-server/Close.Encounters.of.the.Third.Kind.1977.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://www.filmsite.org/photos/dayearth-poster.jpg",The Day the Earth Stood Still (1951)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://www.filmsite.org/photos/dayearth-poster.jpg",The Day the Earth Stood Still (1951)
 http://your-server/The.Day.the.Earth.Stood.Still.1951.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjYyODExMDctZjgzZi00MDQ3LWJkZGItMTIyYjc1NWU0OTFiXkEyXkFqcGc@._V1_.jpg",Metropolis (1927)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjhjMGYyMjAtMzJkYy00NzhlLWIwY2MtMWQ2ODIxZDUyOGYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Metropolis (1927)
 http://your-server/Metropolis.1927.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDg2NmQwZTMtNTc0Yy00ZjVjLWJjZjItNGZjYTkzYjI4MzAyXkEyXkFqcGc@._V1_.jpg",War of the Worlds (1953)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://onderhond.com/img/posters/war-worlds-1953.jpg",War of the Worlds (1953)
 http://your-server/War.of.the.Worlds.1953.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg0NTM1MTI2Nl5BMl5BanBnXkFtZTgwNjUzODg5MDE@._V1_.jpg",Planet of the Apes (1968)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXTzQWTAHKlMZn7AWT2y6KirXI3DKCA-aEdQ&s",Planet of the Apes (1968)
 http://your-server/Planet.of.the.Apes.1968.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTI3YzZkZjMtMjFkYi00N2Y0LWExM2MtMWI2OTdmMjFlMzcyXkEyXkFqcGc@._V1_.jpg",Minority Report (2002)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTdmNzM3YzItZTRkYS00MTY5LTg4ZmItNjFmNTk2N2Q2NmNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Minority Report (2002)
 http://your-server/Minority.Report.2002.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDQxOTc0MzMtZmRlMy00ZWE5LWExN2YtZWIwNmVjMzI4NWEyXkEyXkFqcGc@._V1_.jpg",Gattaca (1997)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2M3Y2Y4ZmMtNzViNy00MDdhLThjZjQtYjNjNGE0MDBjMTI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Gattaca (1997)
 http://your-server/Gattaca.1997.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTUxNzE1NTEtODhlYS00MjUwLWFkNjItNWJiNWI5ZWJmNGJkXkEyXkFqcGc@._V1_.jpg",Moon (2009)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p195466_p_v13_af.jpg",Moon (2009)
 http://your-server/Moon.2009.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWM4YmNkOGUtOGZkMy00ZWE3LWExNWItMzY3ZjAzNmRhN2JjXkEyXkFqcGc@._V1_.jpg",The Terminator (1984)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://media-cache.cinematerial.com/p/500x/ytpsrheo/the-terminator-poster.jpg?v=1724841251",The Terminator (1984)
 http://your-server/The.Terminator.1984.mp4
-
-#EXTINF:-1 group-title="SCIENCE FICTION" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_.jpg",Snowpiercer (2013)
+#EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_.jpg",Snowpiercer (2013)
 http://your-server/Snowpiercer.2013.mp4
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="2001: A Space Odyssey (1968) 4K" tvg-logo="2001.A.Space.Odyssey.1968.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",2001: A Space Odyssey (1968) 4K
+2001.A.Space.Odyssey.1968.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+
+#EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="Inception (2010) 4K" tvg-logo="Inception.2010.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Inception (2010) 4K
+Inception.2010.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+
+#EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="Interstellar (2014) 4K" tvg-logo="Interstellar.2014.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Interstellar (2014) 4K
+Interstellar.2014.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+
+
+
+
+
+#EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="Star Wars: Episode V - The Empire Strikes Back (1980) 4K" tvg-logo="Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].jpg",Star Wars: Episode V - The Empire Strikes Back (1980) 4K
+Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
+
+
+
+
+
+
+#EXTINF:-1 group-title="Thriller" tvg-id="Movie.Dummy.us" tvg-name="Parasite (2019) 4K" tvg-logo="Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].jpg",Parasite (2019) 4K
+Parasite.2019.REPACK.2160p.4K.BluRay.x265.10bit.AAC7.1-[YTS.MX].mp4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
