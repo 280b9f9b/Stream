@@ -919,40 +919,40 @@ http://your-server/Butch.Cassidy.and.the.Sundance.Kid.1969.mp4
 
 
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjE4NzdmOTYtYjc5Yi00YzBiLWEzNDEtNTgxNTY1NGE3MjkxXkEyXkFqcGc@._V1_.jpg",12 Angry Men (1957)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://media-cache.cinematerial.com/p/500x/i0p9ombg/12-angry-men-movie-cover.jpg?v=1545576826",12 Angry Men (1957)
 http://your-server/12.Angry.Men.1957.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDA1NzIxYTQtNmU1Yy00OGI5LTk4NmMtZjFjN2EwNWZlODA1XkEyXkFqcGc@._V1_.jpg",My Dinner with Andre (1981)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://media-cache.cinematerial.com/p/500x/wufslzxu/my-dinner-with-andre-french-dvd-movie-cover.jpg?v=1456497888",My Dinner with Andre (1981)
 http://your-server/My.Dinner.with.Andre.1981.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWMwNWI2YWMtMjEzZC00ZjhlLWJlMTItOTlhZjJjMzdmYzljXkEyXkFqcGc@._V1_.jpg",Before Sunset (2004)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpqUqBslCVvLsgCltkOTm-dah2RXE6SueM6A&s",Before Sunset (2004)
 http://your-server/Before.Sunset.2004.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc0NzY2NzAzMl5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",The Social Network (2010)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Social Network (2010)
 http://your-server/The.Social.Network.2010.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTM5OTY1NjMtYjk4MS00YzMyLTg0NzAtNTU3YWQ0ZWE3NmI5XkEyXkFqcGc@._V1_.jpg",Network (1976)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16_p_v10_ad.jpg",Network (1976)
 http://your-server/Network.1976.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMmRlOGExYmUtM2E2OC00ZWZlLThkNzItY2IxYjdmNTBmNjQ4XkEyXkFqcGc@._V1_.jpg",Glengarry Glen Ross (1992)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzJhNWQ0NmItNTJkMi00MjMyLTk3YWEtZmZkNGVjOTlmZTRhXkEyXkFqcGc@._V1_.jpg",Glengarry Glen Ross (1992)
 http://your-server/Glengarry.Glen.Ross.1992.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI3ODA5MjY0M15BMl5BanBnXkFtZTcwNTE3MzU1MQ@@._V1_.jpg",Frost/Nixon (2008)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzAwODcxMzEtM2NjYS00OGIyLTk4ZWEtMjMzN2M1Yjk0OWRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Frost/Nixon (2008)
 http://your-server/Frost.Nixon.2008.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI5NzM0MjQyOV5BMl5BanBnXkFtZTgwODc3NDI4MTE@._V1_.jpg",Locke (2013)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ1MjE5MzU2M15BMl5BanBnXkFtZTgwNzE4OTMzMTE@._V1_.jpg",Locke (2013)
 http://your-server/Locke.2013.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWNhNjMxYTgtNzAyMS00YWQwLWE1ZjAtY2ZkZjlmYjk2MzQ0XkEyXkFqcGc@._V1_.jpg",The Man from Earth (2007)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTE1NGYxNjgtYmVlMS00ODEwLTg2NjAtMTdjODMzY2I1ZjZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Man from Earth (2007)
 http://your-server/The.Man.from.Earth.2007.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY1MzEzODY5OV5BMl5BanBnXkFtZTgwNjcxNjgxMTE@._V1_.jpg",Who's Afraid of Virginia Woolf? (1966)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://media-cache.cinematerial.com/p/500x/yfyclroe/whos-afraid-of-virginia-woolf-dvd-movie-cover.jpg?v=1456527363",Who's Afraid of Virginia Woolf? (1966)
 http://your-server/Whos.Afraid.of.Virginia.Woolf.1966.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDM1MDA5MjA0MF5BMl5BanBnXkFtZTcwNzc5NzE5Ng@@._V1_.jpg",Carnage (2011)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc4MjAyMDUwNl5BMl5BanBnXkFtZTcwOTQwMDMwNw@@._V1_FMjpg_UX1000_.jpg",Carnage (2011)
 http://your-server/Carnage.2011.mp4
 
-#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzc5NTUzNTgzMF5BMl5BanBnXkFtZTgwOTc2NjQ1MDE@._V1_.jpg",The Breakfast Club (1985)
+#EXTINF:-1 group-title="TALK" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTZiMGU1MWMtNjk0Yi00ZjNjLTljMDEtMDhkNGE2OWY3YzZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Breakfast Club (1985)
 http://your-server/The.Breakfast.Club.1985.mp4
 
 
