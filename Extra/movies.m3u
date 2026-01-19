@@ -440,7 +440,30 @@ http://your-server/Moonlight.2016.mp4
 #EXTINF:-1 group-title="OTHER" tvg-logo="https://resizing.flixster.com/3fdfZluLLRSURw2fbYgsfqKaWtw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzE0ZWFjM2Y1LTYzNTYtNGIwNS1iNGU2LTk0NTA2MGQ3NjY3NC53ZWJw",Drive (2011)
 http://your-server/Drive.2011.mp4
 
-
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://resizing.flixster.com/djiNSWhDgU8JqgXEQ5FU7Fpezj0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzg3YTk5ZDFkLTg4MjktNGIyMy1hYjVjLThhYzVjYWU2ZWQzYy53ZWJw",Free Solo (2018)
+http://your-server/Free.Solo.2018.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5MTUzOTAxMl5BMl5BanBnXkFtZTcwODQzMjg3NA@@._V1_.jpg",Senna (2010)
+http://your-server/Senna.2010.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://media-cache.cinematerial.com/p/500x/r6u7cmbq/touching-the-void-german-movie-poster.jpg?v=1456173128",Touching the Void (2003)
+http://your-server/Touching.the.Void.2003.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTMxNTk3NDY1NV5BMl5BanBnXkFtZTcwNDk0ODg3MQ@@._V1_FMjpg_UX1000_.jpg",Man on Wire (2008)
+http://your-server/Man.on.Wire.2008.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://images.flickdirect.com/movies/the-last-dance/the-last-dance-box-art.jpg",The Last Dance (2020)
+http://your-server/The.Last.Dance.2020.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE2NTg1NDM4Ml5BMl5BanBnXkFtZTcwMzMxOTkyMw@@._V1_.jpg",Exit Through the Gift Shop (2010)
+http://your-server/Exit.Through.the.Gift.Shop.2010.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTMwNTkwMDk1N15BMl5BanBnXkFtZTcwMDA3NzU4Mg@@._V1_.jpg",Hoop Dreams (1994)
+http://your-server/Hoop.Dreams.1994.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3489397_p_v8_ab.jpg",The Cove (2009)
+http://your-server/The.Cove.2009.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11780062_p_v13_af.jpg",Amy (2015)
+http://your-server/Amy.2015.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://www.svenskfilmdatabas.se/wp-content/uploads/image-archive/large/070058_04_001.jpg",Searching for Sugar Man (2012)
+http://your-server/Searching.for.Sugar.Man.2012.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk2YzRmYjUtNmQ1NC00NGU4LTgxOTgtMDY3NDI5NTBjYjRmXkEyXkFqcGc@._V1_.jpg",Won't You Be My Neighbor? (2018)
+http://your-server/Wont.You.Be.My.Neighbor.2018.mp4
+#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDg1NDMwMGQtMmFkZS00NTQwLTkxYjktMTlhNjI2NzNlYTQ1XkEyXkFqcGc@._V1_.jpg",The Act of Killing (2012)
+http://your-server/The.Act.of.Killing.2012.mp4
 
 
 
@@ -946,41 +969,7 @@ http://your-server/Butch.Cassidy.and.the.Sundance.Kid.1969.mp4
 
 
 
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI1MzY5NzY5Ml5BMl5BanBnXkFtZTgwNjQ5ODk0NTM@._V1_.jpg",Free Solo (2018)
-http://your-server/Free.Solo.2018.mp4
 
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjAyNjc4MTY4OF5BMl5BanBnXkFtZTgwOTI2NzM5MDE@._V1_.jpg",Senna (2010)
-http://your-server/Senna.2010.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjQ0NzQ3NzAzN15BMl5BanBnXkFtZTYwMTEyNDY5._V1_.jpg",Touching the Void (2003)
-http://your-server/Touching.the.Void.2003.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTU1NzE3MTg3OF5BMl5BanBnXkFtZTcwNzQxODAzMQ@@._V1_.jpg",Man on Wire (2008)
-http://your-server/Man.on.Wire.2008.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjMzNDQ5Mjk4NF5BMl5BanBnXkFtZTgwMjUzOTI2NzM@._V1_.jpg",The Last Dance (2020)
-http://your-server/The.Last.Dance.2020.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWIwZWZhMjgtZjcyNS00ZDIxLTliZjAtMmVhYjlhY2Q1NDE3XkEyXkFqcGc@._V1_.jpg",Exit Through the Gift Shop (2010)
-http://your-server/Exit.Through.the.Gift.Shop.2010.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI1NTc2NzA4Nl5BMl5BanBnXkFtZTcwMjY5MjAzMQ@@._V1_.jpg",Hoop Dreams (1994)
-http://your-server/Hoop.Dreams.1994.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3NDIzNDc4NV5BMl5BanBnXkFtZTcwMDA5ODQyMw@@._V1_.jpg",The Cove (2009)
-http://your-server/The.Cove.2009.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDQ4MDEyNDk5M15BMl5BanBnXkFtZTgwNjg4MDg4NjE@._V1_.jpg",Amy (2015)
-http://your-server/Amy.2015.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTczNzM3NjQwOV5BMl5BanBnXkFtZTcwMDc1MTI4OA@@._V1_.jpg",Searching for Sugar Man (2012)
-http://your-server/Searching.for.Sugar.Man.2012.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk5MDY4NTU4OF5BMl5BanBnXkFtZTgwMjY3NzM2NTM@._V1_.jpg",Won't You Be My Neighbor? (2018)
-http://your-server/Wont.You.Be.My.Neighbor.2018.mp4
-
-#EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY0Njc0Njk5MF5BMl5BanBnXkFtZTcwOTg2NjYyMQ@@._V1_.jpg",The Act of Killing (2012)
-http://your-server/The.Act.of.Killing.2012.mp4
 
 
 
