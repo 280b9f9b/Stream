@@ -539,7 +539,7 @@ http://your-server/Moon.2009.mp4
 http://your-server/The.Terminator.1984.mp4
 #EXTINF:-1 group-title="SCI-FI" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_.jpg",Snowpiercer (2013)
 http://your-server/Snowpiercer.2013.mp4
-#EXTINF:-1 group-title="Sci-Fi" tvg-id="Movie.Dummy.us" tvg-name="https://preview.redd.it/brn7y2yjk1051.jpg?width=640&crop=smart&auto=webp&s=0b52cf0b1b148a0e93ca62fb6c4c3ab14825aac5",Star Wars: Episode V - The Empire Strikes Back (1980) 4K
+#EXTINF:-1 group-title="SCI-FI" tvg-id="Movie.Dummy.us" tvg-name="https://preview.redd.it/brn7y2yjk1051.jpg?width=640&crop=smart&auto=webp&s=0b52cf0b1b148a0e93ca62fb6c4c3ab14825aac5",Star Wars: Episode V - The Empire Strikes Back (1980) 4K
 Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mp4
 
 
