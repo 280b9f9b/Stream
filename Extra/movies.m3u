@@ -315,6 +315,38 @@ http://your-server/The.Ring.2002.mp4
 #EXTINF:-1 group-title="HORROR" tvg-logo="https://m.media-amazon.com/images/M/MV5BOGMzMjFiMDUtZWQ5Ny00MTUyLWEyYzItMzcwNzJjNzBmMjI4XkEyXkFqcGc@._V1_.jpg",Get Out (2017)
 http://your-server/Get.Out.2017.mp4
 
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcQynHU-gg6k1cKzMrJljSsUoFx_uvuA_C_A&s",Toy Story (1995)
+http://your-server/Toy.Story.1995.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ5CYTlSTFQLsi5oIEvRePjc0tETjq2qEtuw&s",Finding Nemo (2003)
+http://your-server/Finding.Nemo.2003.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://cdn.kinocheck.com/i/zg2y16aeic.jpg",Shrek (2001)
+http://your-server/Shrek.2001.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_.jpg",The Incredibles (2004)
+http://your-server/The.Incredibles.2004.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGI5OTgxMDktNDYzYS00MGRhLWE2MTQtMzRiMTU2Yzk3YWFjXkEyXkFqcGc@._V1_.jpg",Cars (2006)
+http://your-server/Cars.2006.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c0/Despicable_Me_%282010_animated_feature_film%29.jpg",Despicable Me (2010)
+http://your-server/Despicable.Me.2010.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Ice_Age_%282002_film%29_poster.jpg/250px-Ice_Age_%282002_film%29_poster.jpg",Ice Age (2002)
+http://your-server/Ice.Age.2002.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://image.tmdb.org/t/p/w500/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",Kung Fu Panda (2008)
+http://your-server/Kung.Fu.Panda.2008.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg",Monsters, Inc. (2001)
+http://your-server/Monsters.Inc.2001.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_FMjpg_UX1000_.jpg",How to Train Your Dragon (2010)
+http://your-server/How.to.Train.Your.Dragon.2010.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg4MDk1ODExN15BMl5BanBnXkFtZTgwNzIyNjg3MDE@._V1_.jpg",The Lego Movie (2014)
+http://your-server/The.Lego.Movie.2014.mp4
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10569889_p_v11_aa.jpg",Paddington (2014)
+http://your-server/Paddington.2014.mp4
+
+
+
+
+
+
+
+
 
 
 
@@ -908,41 +940,7 @@ http://your-server/Drive.2011.mp4
 
 
 
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ODk5LWI2MjAtNmY2ODQ1YjA1NmY0XkEyXkFqcGc@._V1_.jpg",Toy Story (1995)
-http://your-server/Toy.Story.1995.mp4
 
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY0NjM3ODk4NV5BMl5BanBnXkFtZTcwMjU5MDQ0Mw@@._V1_.jpg",Finding Nemo (2003)
-http://your-server/Finding.Nemo.2003.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQwNzM4Njc0NF5BMl5BanBnXkFtZTcwNTY4Njk2Mw@@._V1_.jpg",Shrek (2001)
-http://your-server/Shrek.2001.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTYxNzU4MTM2OV5BMl5BanBnXkFtZTcwOTU3NjYyNA@@._V1_.jpg",The Incredibles (2004)
-http://your-server/The.Incredibles.2004.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg5NTc2OTc0NF5BMl5BanBnXkFtZTcwMzU1OTc0Mw@@._V1_.jpg",Cars (2006)
-http://your-server/Cars.2006.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMTE1NjY5Mw@@._V1_.jpg",Despicable Me (2010)
-http://your-server/Despicable.Me.2010.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTM1MTc3OTI2MF5BMl5BanBnXkFtZTcwOTI1NTc0Mw@@._V1_.jpg",Ice Age (2002)
-http://your-server/Ice.Age.2002.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BODIyMDdhNTgtNDlmOC00MjUxLWE2NWUtNGE4NzgwMjkwNjc2XkEyXkFqcGc@._V1_.jpg",Kung Fu Panda (2008)
-http://your-server/Kung.Fu.Panda.2008.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY1NzY5NjMwMl5BMl5BanBnXkFtZTgwMzA0MzY3MjE@._V1_.jpg",Monsters, Inc. (2001)
-http://your-server/Monsters.Inc.2001.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_.jpg",How to Train Your Dragon (2010)
-http://your-server/How.to.Train.Your.Dragon.2010.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg4MDk1ODExN15BMl5BanBnXkFtZTgwNzIyNjg3MDE@._V1_.jpg",The Lego Movie (2014)
-http://your-server/The.Lego.Movie.2014.mp4
-
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTk3ZjUwMDYtNWY1OC00NDI4LWI5NTUtYjc4YzhjNmYxMjZkXkEyXkFqcGc@._V1_.jpg",Paddington (2014)
-http://your-server/Paddington.2014.mp4
 
 
 
