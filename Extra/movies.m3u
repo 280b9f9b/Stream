@@ -465,7 +465,30 @@ http://your-server/Wont.You.Be.My.Neighbor.2018.mp4
 #EXTINF:-1 group-title="REALITY" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDg1NDMwMGQtMmFkZS00NTQwLTkxYjktMTlhNjI2NzNlYTQ1XkEyXkFqcGc@._V1_.jpg",The Act of Killing (2012)
 http://your-server/The.Act.of.Killing.2012.mp4
 
-
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://themagnificent60s.com/wp-content/uploads/2023/02/titanic-1.jpg?w=1082",Titanic (1997)
+http://your-server/Titanic.1997.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/I/91UBCtiroTL._AC_UF894,1000_QL80_.jpg",Casablanca (1942)
+http://your-server/Casablanca.1942.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDZhZmI1ZTUtYWI3NC00NTMwLTk3NWMtNDc0OGNjM2I0ZjlmXkEyXkFqcGc@._V1_.jpg",Before Sunrise (1995)
+http://your-server/Before.Sunrise.1995.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg",The Notebook (2004)
+http://your-server/The.Notebook.2004.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg",Pride & Prejudice (2005)
+http://your-server/Pride.and.Prejudice.2005.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_.jpg",Eternal Sunshine of the Spotless Mind (2004)
+http://your-server/Eternal.Sunshine.of.the.Spotless.Mind.2004.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg",La La Land (2016)
+http://your-server/La.La.Land.2016.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://pagesofjulia.com/wp-content/uploads/2011/12/gwtwmovie.jpg",Gone with the Wind (1939)
+http://your-server/Gone.with.the.Wind.1939.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGUxZTc0NTAtNzQwMy00MmM2LTgzMGYtZWIyY2E1MGFjYmM5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",A Star Is Born (2018)
+http://your-server/A.Star.Is.Born.2018.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_.jpg",Her (2013)
+http://your-server/Her.2013.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://cdn.kinocheck.com/i/ilxlzpk3y3.jpg",Pretty Woman (1990)
+http://your-server/Pretty.Woman.1990.mp4
+#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://play-lh.googleusercontent.com/FqshKbSW3gI8GZeDdC2l2VpoG24eXENx7o84UVhshI1nPj5ot3nKeXxdKHWfxLwNJOy7VQ=w240-h480-rw",Romeo + Juliet (1996)
+http://your-server/Romeo.and.Juliet.1996.mp4
 
 
 
@@ -621,41 +644,7 @@ Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AA
 
 
 
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3NzY1MzY4OV5BMl5BanBnXkFtZTcwMDg0NzQ3NA@@._V1_.jpg",Titanic (1997)
-http://your-server/Titanic.1997.mp4
 
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGZlYWNjNzUtYmJiMC00NGUzLThlYTktY2VlNDU5Zjc1NWZkXkEyXkFqcGc@._V1_.jpg",Casablanca (1942)
-http://your-server/Casablanca.1942.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDdiZTAwYzAtMDI3Ni00OTRjLTkzN2UtMGE3MDMyZmU4NTU4XkEyXkFqcGc@._V1_.jpg",Before Sunrise (1995)
-http://your-server/Before.Sunrise.1995.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg",The Notebook (2004)
-http://your-server/The.Notebook.2004.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWM2NDYzNjUtZmMzOC00ZTM0LTk0ZTgtOWY3ZGE5OTM5N2RlXkEyXkFqcGc@._V1_.jpg",Pride & Prejudice (2005)
-http://your-server/Pride.and.Prejudice.2005.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_.jpg",Eternal Sunshine of the Spotless Mind (2004)
-http://your-server/Eternal.Sunshine.of.the.Spotless.Mind.2004.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg",La La Land (2016)
-http://your-server/La.La.Land.2016.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjUyMjc1ODg0MF5BMl5BanBnXkFtZTcwODk2NTM2NQ@@._V1_.jpg",Gone with the Wind (1939)
-http://your-server/Gone.with.the.Wind.1939.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGc@._V1_.jpg",A Star Is Born (2018)
-http://your-server/A.Star.Is.Born.2018.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_.jpg",Her (2013)
-http://your-server/Her.2013.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjk2ODQzNDYxNV5BMl5BanBnXkFtZTgwNjU2NTEwMDE@._V1_.jpg",Pretty Woman (1990)
-http://your-server/Pretty.Woman.1990.mp4
-
-#EXTINF:-1 group-title="ROMANCE" tvg-logo="https://m.media-amazon.com/images/M/MV5BOGYwYWNjMzgtNGU4ZC00NWQ2LWEwZjUtMjE1NzUyOTI0YjNmXkEyXkFqcGc@._V1_.jpg",Romeo + Juliet (1996)
-http://your-server/Romeo.and.Juliet.1996.mp4
 
 
 
