@@ -390,7 +390,30 @@ http://your-server/Memento.2000.mp4
 #EXTINF:-1 group-title="MYSTERY" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16422_p_v8_ag.jpg",The Usual Suspects (1995)
 http://your-server/The.Usual.Suspects.1995.mp4
 
-
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/249/2024/07/16182102/cPtSHR7D2WGsDBfnC5DxV927hKn.jpg",All the President's Men (1976)
+http://your-server/All.the.Presidents.Men.1976.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_.jpg",Spotlight (2015)
+http://your-server/Spotlight.2015.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16_p_v10_ad.jpg",Network (1976)
+http://your-server/Network.1976.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-dwWYwws_2F8YOiNjnsoEDkWQggiJes_G-Q&s",The Post (2017)
+http://your-server/The.Post.2017.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLVzLPgroIJ44991owjqGrDPgpgW3ufu26RA&s",Frost/Nixon (2008)
+http://your-server/Frost.Nixon.2008.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjIyZjMwYjktNzZmZC00YWY0LWIxODctM2JhNzA3NWRmNmNiXkEyXkFqcGc@._V1_.jpg",Good Night, and Good Luck (2005)
+http://your-server/Good.Night.and.Good.Luck.2005.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGVhZjNiYmUtMTAwYS00ZjQ0LWIyNGItNTU1OWNjYjA4ZDE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Broadcast News (1987)
+http://your-server/Broadcast.News.1987.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2M5ZDY2N2EtMzEzOS00ZTJhLTg5YzAtNTczM2YwNzQxZTU3XkEyXkFqcGc@._V1_.jpg",Shattered Glass (2003)
+http://your-server/Shattered.Glass.2003.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjMwMmI5MWQtOTU4OS00OTAyLTg0OTYtNmQ5YzExZTQ3ZWJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Nightcrawler (2014)
+http://your-server/Nightcrawler.2014.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDFkMTRkZmQtM2I0NC00NjJjLWJlMDctNTNiZWYxYzhjZDZiXkEyXkFqcGc@._V1_.jpg",Zodiac (2007)
+http://your-server/Zodiac.2007.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://media-cache.cinematerial.com/p/500x/erwdxlmw/wag-the-dog-movie-poster.jpg?v=1456153576",Wag the Dog (1997)
+http://your-server/Wag.the.Dog.1997.mp4
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGY3ZjEyODAtNjAwMC00ZTEwLTg3NDctYzMzYTZkMjBmZDQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Insider (1999)
+http://your-server/The.Insider.1999.mp4
 
 
 
@@ -926,41 +949,7 @@ http://your-server/Drive.2011.mp4
 
 
 
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQyODk4OTc1NV5BMl5BanBnXkFtZTcwNjg2NjgxMQ@@._V1_.jpg",All the President's Men (1976)
-http://your-server/All.the.Presidents.Men.1976.mp4
 
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_.jpg",Spotlight (2015)
-http://your-server/Spotlight.2015.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTM5OTY1NjMtYjk4MS00YzMyLTg0NzAtNTU3YWQ0ZWE3NmI5XkEyXkFqcGc@._V1_.jpg",Network (1976)
-http://your-server/Network.1976.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE0MTI5MTA0Nl5BMl5BanBnXkFtZTgwNzg1OTM3NDE@._V1_.jpg",The Post (2017)
-http://your-server/The.Post.2017.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI3ODA5MjY0M15BMl5BanBnXkFtZTcwNTE3MzU1MQ@@._V1_.jpg",Frost/Nixon (2008)
-http://your-server/Frost.Nixon.2008.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTI0NjA1NjM4OF5BMl5BanBnXkFtZTcwNTA0MjI0MQ@@._V1_.jpg",Good Night, and Good Luck (2005)
-http://your-server/Good.Night.and.Good.Luck.2005.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5ODUwOTA5Nl5BMl5BanBnXkFtZTcwMDI5Njg3OA@@._V1_.jpg",Broadcast News (1987)
-http://your-server/Broadcast.News.1987.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTkxOTg3MzI5Nl5BMl5BanBnXkFtZTcwMzk0NDE5Ng@@._V1_.jpg",Shattered Glass (2003)
-http://your-server/Shattered.Glass.2003.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjFjODI3ZTUtNGFjYi00ZDVkLTgxNjYtODU2YjlhMTY0M2RmXkEyXkFqcGc@._V1_.jpg",Nightcrawler (2014)
-http://your-server/Nightcrawler.2014.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTgwNTIxNjUzM15BMl5BanBnXkFtZTcwODI0Mjg1NA@@._V1_.jpg",Zodiac (2007)
-http://your-server/Zodiac.2007.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTA0MjQzNjkwN15BMl5BanBnXkFtZTcwMTA3NjE1NA@@._V1_.jpg",Wag the Dog (1997)
-http://your-server/Wag.the.Dog.1997.mp4
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWRmNWEzMmEtOWFlNi00YzRhLWI5ZTctNGU2MTczN2EyODU4XkEyXkFqcGc@._V1_.jpg",The Insider (1999)
-http://your-server/The.Insider.1999.mp4
 
 
 
