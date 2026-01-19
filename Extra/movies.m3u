@@ -365,7 +365,30 @@ http://your-server/My.Fair.Lady.1964.mp4
 #EXTINF:-1 group-title="MUSICAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7wES31inXW58hi61cxjBBkd2vMOaCJRpfkg&s",Fiddler on the Roof (1971)
 http://your-server/Fiddler.on.the.Roof.1971.mp4
 
-
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_.jpg",Se7en (1995)
+http://your-server/Se7en.1995.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_.jpg",The Silence of the Lambs (1991)
+http://your-server/The.Silence.of.the.Lambs.1991.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/I/91gYQOSys6L._AC_UF894,1000_QL80_.jpg",Zodiac (2007)
+http://your-server/Zodiac.2007.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_.jpg",Gone Girl (2014)
+http://your-server/Gone.Girl.2014.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BZWQ2OTY0M2UtMTQxNC00MmIzLTllNDQtNDQ0MTQyYzI2M2ZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",The Sixth Sense (1999)
+http://your-server/The.Sixth.Sense.1999.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDU5ZTRkYmItZjg0Mi00ZTQwLThjMWItNWM3MTMxMzVjZmVjXkEyXkFqcGc@._V1_.jpg",Knives Out (2019)
+http://your-server/Knives.Out.2019.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_.jpg",Shutter Island (2010)
+http://your-server/Shutter.Island.2010.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_.jpg",Prisoners (2013)
+http://your-server/Prisoners.2013.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://cinephiliabeyond.org/wp-content/uploads/2015/02/acd4ffc905cdd6f7cefdba0778b3d90c-1-scaled.jpeg?x55109",Chinatown (1974)
+http://your-server/Chinatown.1974.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_.jpg",The Prestige (2006)
+http://your-server/The.Prestige.2006.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGQ3Y2Q4NjktN2E4Ny00Y2Q2LTliZDUtZTNiNjRhY2I0NGIyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Memento (2000)
+http://your-server/Memento.2000.mp4
+#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16422_p_v8_ag.jpg",The Usual Suspects (1995)
+http://your-server/The.Usual.Suspects.1995.mp4
 
 
 
@@ -522,41 +545,7 @@ Star.Wars.Episode.V.-.The.Empire.Strikes.Back.1980.2160p.4K.BluRay.x265.10bit.AA
 
 
 
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_.jpg",Se7en (1995)
-http://your-server/Se7en.1995.mp4
 
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGc@._V1_.jpg",The Silence of the Lambs (1991)
-http://your-server/The.Silence.of.the.Lambs.1991.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTgwNTIxNjUzM15BMl5BanBnXkFtZTcwODI0Mjg1NA@@._V1_.jpg",Zodiac (2007)
-http://your-server/Zodiac.2007.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_.jpg",Gone Girl (2014)
-http://your-server/Gone.Girl.2014.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWM4NTFhYjctNzUyNi00NGMwLTk3NTYtMDIyNTZmMzRlYmQyXkEyXkFqcGc@._V1_.jpg",The Sixth Sense (1999)
-http://your-server/The.Sixth.Sense.1999.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGc@._V1_.jpg",Knives Out (2019)
-http://your-server/Knives.Out.2019.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",Shutter Island (2010)
-http://your-server/Shutter.Island.2010.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_.jpg",Prisoners (2013)
-http://your-server/Prisoners.2013.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BYzE3ZjNmYjktZTRiOS00YWU0LTg4YTUtYTc0YTRiMTMyOTM1XkEyXkFqcGc@._V1_.jpg",Chinatown (1974)
-http://your-server/Chinatown.1974.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_.jpg",The Prestige (2006)
-http://your-server/The.Prestige.2006.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGc@._V1_.jpg",Memento (2000)
-http://your-server/Memento.2000.mp4
-
-#EXTINF:-1 group-title="MYSTERY" tvg-logo="https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGc@._V1_.jpg",The Usual Suspects (1995)
-http://your-server/The.Usual.Suspects.1995.mp4
 
 
 
