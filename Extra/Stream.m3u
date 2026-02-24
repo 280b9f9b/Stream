@@ -37,32 +37,7 @@ https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/classic_fm/c
 #EXTINF:-1 group-title="#Abu Dhabi" tvg-logo="https://tvch.netlify.app/adtv18_sky_news_arabia_fm.png",Sky News Arabia Radio
 https://radio.skynewsarabia.com/stream/radio/skynewsarabia
 
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi01_dubai_tv.png" ,Dubai TV
-https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/index.m3u8
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi02_sama_dubai.png" ,Sama Dubai
-https://dmieigthvllta.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/index.m3u8
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi11_dubai_zaman.png" ,Dubai Zamaan
-https://dmiffthftl.cdn.mangomolo.com/dubaizaman/smil:dubaizaman.stream.smil/index.m3u8
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi03_dubai_sports.png" ,Dubai Sports 1
-https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/playlist.m3u
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi04_dubai_sports.png" ,Dubai Sports 2
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/playlist.m3u
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi05_dubai_sports.png" ,Dubai Sports 3
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/playlist.m3u
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi08_dubai_racing.png" ,Dubai Racing 1
-https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/index.m3u8
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi09_dubai_racing.png" ,Dubai Racing 2
-https://dmithrvllta.cdn.mgmlcdn.com/dubairacing/smil:dubairacing.smil/index.m3u8
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi10_dubai_racing.png" ,Dubai Racing 3
-https://dmithrvllta.cdn.mgmlcdn.com/dubaimubasher/smil:dubaimubasher.smil/index.m3u8
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi07_dubai_one.png" ,DUBAI ’one
-https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/index.m3u8
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi06_noor_dubai.png" ,Noor Dubai TV
-https://dmiffthftl.cdn.mangomolo.com/noordubaitv/smil:noordubaitv.smil/index.m3u8
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi12_dubai_radio.png" ,Dubai Radio 93
-https://dmithrvllta.cdn.mgmlcdn.com/dubairdo/dubairdo_aac/chunklist.m3u8
-#EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/dmi13_noor_dubai_radio.png" ,Noor Dubai
-https://dmithrvllta.cdn.mgmlcdn.com/noordubairdo/noordubairdo_aac/chunklist.m3u8
+
 
 
 #EXTINF:-1 group-title="#Dubai" tvg-logo="https://tvch.netlify.app/arn01_al_oula_107.4.png" ,Al Oula 107.4
