@@ -52,10 +52,7 @@ https://n0d.radiojar.com/shcthrfbsxquv
 
 
 
-#EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/sba01_sharjah_tv.png" ,Sharjah TV
-https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8
-#EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/sba02_sharjah_sports_tv.png" ,Sharjah Sports TV
-https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
+
 #EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/sba03_holy_quran.png" ,Holy Quran
 https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/sharjahtvquranpublish/shqurantv_source/chunks.m3u8
 #EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/sba04_al_sharqiya.png" ,Al Sharqiya
@@ -71,14 +68,7 @@ https://svs.itworkscdn.net/smcquranlive/quranradiolive/chunks.m3u8
 #EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/sba09_watar.png" ,Watar
 https://svs.itworkscdn.net/smcwatarlive/smcwatar/chunks.m3u8
 
-#EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/fcma01_fujairah_tv.png" ,Fujairah TV
-https://live.kwikmotion.com/fujairahlive/fujairah.smil/fujairahpublish/fujairah_source/chunks.m3u8
-#EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/fcma02_fujairah_fm.png" ,Fujairah FM
-https://live.kwikmotion.com/fujairahradiolive/fujairahradio/chunks.m3u8
-#EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/fcma03_vibe_fm.png" ,Vibe FM
-https://live.kwikmotion.com/fujairahviberadiolive/fujairahviberadio/chunks.m3u8
-#EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/fcma04_zayed_radio.png" ,Zayed Radio
-https://live.kwikmotion.com/fujairahquranradiolive/fujairahquranradio/chunks.m3u8
+
 
 #EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/ais01_ajman_tv.png" ,Ajman TV
 https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
@@ -91,35 +81,17 @@ https://stream.radio.co/s6004eac2f/listen
 #EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/ais05_channel_4_104.8_fm.png" ,Channel 4 104.8 FM
 https://streams.radio.co/sce558c2e6/listen
 
-#EXTINF:-1 group-title="#Emarat" tvg-logo="https://tvch.netlify.app/ag01_al_dafrah_tv.png" ,Al Dafrah TV
-https://cdn-eu-west-prod-ingest-infra-dacast-com.akamaized.net/23cf2e00-28b0-b7b4-2569-ab7d19233fd7/source/index.m3u8
-
-
-
-#EXTINF:-1 group-title="#ExtraPlus" tvg-id="Alarabiya.ae" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al%20Arabiya.png",News: Al Arabiya
-https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
-#EXTINF:-1 group-title="#ExtraPlus" tvg-id="AlHadath.sa" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al%20Hadath.png",News: Al Arabiya Al Hadath
-https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
-#EXTINF:-1 group-title="#ExtraPlus" tvg-id="(no tvg-id)" tvg-name="Al-Arabiya-Business" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al-Arabiya-Business.png" ,Business: AlArabiya Business
-https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="#ExtraPlus" tvg-logo="" ,Business: AlArabiya English
-https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8
-#EXTINF:-1 group-title="#ExtraPlus" tvg-id="(no tvg-id)" tvg-name="Al-Arabiya-Business" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al-Arabiya-Business.png" ,Programs: AlArabiya Programs
-https://d1j4r34gq3qw9y.cloudfront.net/out/v1/96804f3a14864641a21c25e8ca9afb74/index.m3u8
-#EXTINF:-1 group-title="#ExtraPlus" tvg-id="(no tvg-id)" tvg-name="Alarabiya FM" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Alarabiya FM.png" ,Radio: Alarabiya FM
-https://fm.alarabiya.net/fm/myStream/playlist.m3u8
 
 
 
 
 
-#EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al Jazeera Mubasher.png" ,News: Al Jazeera Mubasher
-https://streamer1.qna.org.qa/148133841_live/148133841_296.sdp/chunklist.m3u8
-#EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al Jazeera Arabic.png" ,News: Al Jazeera
-https://streamer1.qna.org.qa/148133697_live/148133697_63.sdp/chunklist.m3u8
-#EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al Jazeera English.png" ,News: Al Jazeera English
-https://live-hls-web-aje.getaj.net/alternative/AJE/01.m3u8
+
+
+
+
+
+
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://raw.githubusercontent.com/280b9f9b/Stream/refs/heads/main/Extra/tvg-logo/Al Jazeera Documentary.png" ,Documentary: Al Jazeera Documentary
 https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
 #EXTINF:-1 group-title="#ExtraPlus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c1/AL24_News_Logo.svg" ,News: AL24 News
